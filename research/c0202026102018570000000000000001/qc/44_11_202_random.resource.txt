@@ -1,0 +1,19 @@
+QC random seed 202 steps 2730179 d 16 A_d 66
+       20.01 real         4.59 user         0.10 sys
+             1605632  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                 259  page reclaims
+                   2  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+               15259  involuntary context switches
+         33581188703  instructions retired
+          9837532949  cycles elapsed
+             1130784  peak memory footprint

@@ -1,0 +1,7 @@
+.plot-venv/
+search
+search_cpu
+test_search
+qc_search
+coset_search
+__pycache__/

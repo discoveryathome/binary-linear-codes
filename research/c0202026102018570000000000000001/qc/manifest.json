@@ -1,0 +1,290 @@
+{
+  "phase": "qc",
+  "started_at": "2026-10-20T19:23:56.859436+00:00",
+  "seconds_per_run": 20.0,
+  "source_sha256": "e62b691f6b4b3977855b272c938d274fc503ab753bbc3013f03e996734e7122c",
+  "jobs": [
+    [
+      44,
+      11,
+      201,
+      "anneal"
+    ],
+    [
+      44,
+      11,
+      202,
+      "anneal"
+    ],
+    [
+      44,
+      11,
+      201,
+      "hill"
+    ],
+    [
+      44,
+      11,
+      203,
+      "hill"
+    ],
+    [
+      44,
+      11,
+      202,
+      "random"
+    ],
+    [
+      44,
+      11,
+      201,
+      "random"
+    ],
+    [
+      44,
+      11,
+      202,
+      "hill"
+    ],
+    [
+      44,
+      11,
+      203,
+      "random"
+    ],
+    [
+      44,
+      11,
+      203,
+      "anneal"
+    ]
+  ],
+  "rows": [
+    {
+      "n": 44,
+      "k": 11,
+      "seed": 201,
+      "method": "anneal",
+      "initial_d": 12,
+      "final_d": 16,
+      "minimum_words": 66,
+      "steps": 3683573,
+      "seconds": 20.009282833,
+      "cpu_seconds": 7.678593,
+      "object": "research/c0202026102018570000000000000001/qc/44_11_201_anneal.certificate.json",
+      "sha256": "4c454731da8a86520b2f944e9e6da3227cfa042280a5b4fba3e7bcb5328faf66",
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/qc_search",
+        "201",
+        "20.0",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/qc/44_11_201_anneal.jsonl",
+        "anneal"
+      ],
+      "resource": "research/c0202026102018570000000000000001/qc/44_11_201_anneal.resource.txt",
+      "extended_d": 16,
+      "extended_object": "research/c0202026102018570000000000000001/qc/44_11_201_anneal.extended.json"
+    },
+    {
+      "n": 44,
+      "k": 11,
+      "seed": 202,
+      "method": "anneal",
+      "initial_d": 14,
+      "final_d": 16,
+      "minimum_words": 66,
+      "steps": 4843293,
+      "seconds": 20.0000045,
+      "cpu_seconds": 10.040741,
+      "object": "research/c0202026102018570000000000000001/qc/44_11_202_anneal.certificate.json",
+      "sha256": "91aed5366b2a6c8be21c92ea30b0436dfa8d9acd7d290db5d204114d6a6be5a5",
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/qc_search",
+        "202",
+        "20.0",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/qc/44_11_202_anneal.jsonl",
+        "anneal"
+      ],
+      "resource": "research/c0202026102018570000000000000001/qc/44_11_202_anneal.resource.txt",
+      "extended_d": 16,
+      "extended_object": "research/c0202026102018570000000000000001/qc/44_11_202_anneal.extended.json"
+    },
+    {
+      "n": 44,
+      "k": 11,
+      "seed": 201,
+      "method": "hill",
+      "initial_d": 12,
+      "final_d": 16,
+      "minimum_words": 66,
+      "steps": 3891240,
+      "seconds": 20.00319425,
+      "cpu_seconds": 6.375482,
+      "object": "research/c0202026102018570000000000000001/qc/44_11_201_hill.certificate.json",
+      "sha256": "08c27a15a4be5506a88a64ecc78ab03527fd3e695582dabfeee9c9294d67b0a4",
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/qc_search",
+        "201",
+        "20.0",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/qc/44_11_201_hill.jsonl",
+        "hill"
+      ],
+      "resource": "research/c0202026102018570000000000000001/qc/44_11_201_hill.resource.txt",
+      "extended_d": 16,
+      "extended_object": "research/c0202026102018570000000000000001/qc/44_11_201_hill.extended.json"
+    },
+    {
+      "n": 44,
+      "k": 11,
+      "seed": 203,
+      "method": "hill",
+      "initial_d": 14,
+      "final_d": 16,
+      "minimum_words": 66,
+      "steps": 3540165,
+      "seconds": 20.018665,
+      "cpu_seconds": 5.838596,
+      "object": "research/c0202026102018570000000000000001/qc/44_11_203_hill.certificate.json",
+      "sha256": "7cd5539944590b4e530890b61f2eeb0aaf712899065dbede1d963a190ceb6345",
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/qc_search",
+        "203",
+        "20.0",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/qc/44_11_203_hill.jsonl",
+        "hill"
+      ],
+      "resource": "research/c0202026102018570000000000000001/qc/44_11_203_hill.resource.txt",
+      "extended_d": 16,
+      "extended_object": "research/c0202026102018570000000000000001/qc/44_11_203_hill.extended.json"
+    },
+    {
+      "n": 44,
+      "k": 11,
+      "seed": 202,
+      "method": "random",
+      "initial_d": 14,
+      "final_d": 16,
+      "minimum_words": 66,
+      "steps": 2730179,
+      "seconds": 20.000004625,
+      "cpu_seconds": 4.699222,
+      "object": "research/c0202026102018570000000000000001/qc/44_11_202_random.certificate.json",
+      "sha256": "fe4ae9230ed07266ae22001d8f681b3e2e104ea4d1bab5eeedb65315f1813b00",
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/qc_search",
+        "202",
+        "20.0",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/qc/44_11_202_random.jsonl",
+        "random"
+      ],
+      "resource": "research/c0202026102018570000000000000001/qc/44_11_202_random.resource.txt",
+      "extended_d": 16,
+      "extended_object": "research/c0202026102018570000000000000001/qc/44_11_202_random.extended.json"
+    },
+    {
+      "n": 44,
+      "k": 11,
+      "seed": 201,
+      "method": "random",
+      "initial_d": 12,
+      "final_d": 16,
+      "minimum_words": 66,
+      "steps": 2101705,
+      "seconds": 20.003235041,
+      "cpu_seconds": 3.632068,
+      "object": "research/c0202026102018570000000000000001/qc/44_11_201_random.certificate.json",
+      "sha256": "25e4e0a0469c2d94c86847141fcabcb5bfce012bdfe55ff1531feb90037c96bd",
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/qc_search",
+        "201",
+        "20.0",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/qc/44_11_201_random.jsonl",
+        "random"
+      ],
+      "resource": "research/c0202026102018570000000000000001/qc/44_11_201_random.resource.txt",
+      "extended_d": 16,
+      "extended_object": "research/c0202026102018570000000000000001/qc/44_11_201_random.extended.json"
+    },
+    {
+      "n": 44,
+      "k": 11,
+      "seed": 202,
+      "method": "hill",
+      "initial_d": 14,
+      "final_d": 16,
+      "minimum_words": 66,
+      "steps": 2590300,
+      "seconds": 20.000006291,
+      "cpu_seconds": 4.262162,
+      "object": "research/c0202026102018570000000000000001/qc/44_11_202_hill.certificate.json",
+      "sha256": "5adee89864cea37557138064922ea56b91d437c62c28617fbb346d4f2f52c631",
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/qc_search",
+        "202",
+        "20.0",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/qc/44_11_202_hill.jsonl",
+        "hill"
+      ],
+      "resource": "research/c0202026102018570000000000000001/qc/44_11_202_hill.resource.txt",
+      "extended_d": 16,
+      "extended_object": "research/c0202026102018570000000000000001/qc/44_11_202_hill.extended.json"
+    },
+    {
+      "n": 44,
+      "k": 11,
+      "seed": 203,
+      "method": "random",
+      "initial_d": 14,
+      "final_d": 16,
+      "minimum_words": 66,
+      "steps": 3985592,
+      "seconds": 20.000004875,
+      "cpu_seconds": 7.275407,
+      "object": "research/c0202026102018570000000000000001/qc/44_11_203_random.certificate.json",
+      "sha256": "0b0cc85a2017d9be3f1b8b3350c7f1afc036946af2765e688bd0e95ee64d1c1f",
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/qc_search",
+        "203",
+        "20.0",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/qc/44_11_203_random.jsonl",
+        "random"
+      ],
+      "resource": "research/c0202026102018570000000000000001/qc/44_11_203_random.resource.txt",
+      "extended_d": 16,
+      "extended_object": "research/c0202026102018570000000000000001/qc/44_11_203_random.extended.json"
+    },
+    {
+      "n": 44,
+      "k": 11,
+      "seed": 203,
+      "method": "anneal",
+      "initial_d": 14,
+      "final_d": 16,
+      "minimum_words": 66,
+      "steps": 2082602,
+      "seconds": 20.000502917,
+      "cpu_seconds": 4.418329,
+      "object": "research/c0202026102018570000000000000001/qc/44_11_203_anneal.certificate.json",
+      "sha256": "d449934e1d5fa5d4fb8ac2f0d70fa68db66a49e93519bb430388ddf19e2a7a98",
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/qc_search",
+        "203",
+        "20.0",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/qc/44_11_203_anneal.jsonl",
+        "anneal"
+      ],
+      "resource": "research/c0202026102018570000000000000001/qc/44_11_203_anneal.resource.txt",
+      "extended_d": 16,
+      "extended_object": "research/c0202026102018570000000000000001/qc/44_11_203_anneal.extended.json"
+    }
+  ],
+  "finished_at": "2026-10-20T19:26:57.377855+00:00"
+}

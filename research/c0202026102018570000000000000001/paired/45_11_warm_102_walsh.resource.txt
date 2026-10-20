@@ -1,0 +1,19 @@
+walsh warm 45,11 steps=133864 best=16 minwords=21 last_progress=119724 wall=15.013
+       15.02 real         5.87 user         0.08 sys
+             1572864  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                 260  page reclaims
+                   1  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+               12320  involuntary context switches
+         32425161334  instructions retired
+         11702555759  cycles elapsed
+             1114424  peak memory footprint

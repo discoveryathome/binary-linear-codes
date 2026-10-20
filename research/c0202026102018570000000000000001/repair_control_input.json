@@ -1,0 +1,15 @@
+{
+  "format": "binary-generator-v1",
+  "q": 2,
+  "n": 7,
+  "k": 3,
+  "d": 2,
+  "rows": [
+    "0000101",
+    "0000011",
+    "0001111"
+  ],
+  "provenance": {
+    "kind": "damaged-simplex-positive-control"
+  }
+}

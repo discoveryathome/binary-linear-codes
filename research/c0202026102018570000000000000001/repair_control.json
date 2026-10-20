@@ -1,0 +1,32 @@
+{
+  "parent": "research/c0202026102018570000000000000001/repair_control_input.json",
+  "n": 7,
+  "k": 3,
+  "initial_d": 2,
+  "goal": 3,
+  "seed": 301,
+  "triples_total": 35,
+  "visited": 5,
+  "cover_rejects": 0,
+  "affine_rejects": 1,
+  "pair_attempts": 40,
+  "pair_cover_rejects": 32,
+  "third_affine_rejects": 7,
+  "completed_triples": 4,
+  "found": true,
+  "complete": false,
+  "object": "research/c0202026102018570000000000000001/repair_control.certificate.json",
+  "d": 3,
+  "coordinates": [
+    0,
+    1,
+    4
+  ],
+  "columns": [
+    1,
+    2,
+    5
+  ],
+  "seconds": 0.005243416992016137,
+  "claim": "Exact constraints explored; negative search is not independently proof-certified."
+}

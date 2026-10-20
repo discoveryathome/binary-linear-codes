@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "runs": [
+    {
+      "phase": "paired",
+      "object": "research/c0202026102018570000000000000001/paired/62_11_cold_101_blind.certificate.json",
+      "steps": 799575
+    },
+    {
+      "phase": "paired",
+      "object": "research/c0202026102018570000000000000001/paired/62_11_cold_101_walsh.certificate.json",
+      "steps": 120145
+    },
+    {
+      "phase": "heldout",
+      "object": "research/c0202026102018570000000000000001/heldout/62_11_cold_901_blind.certificate.json",
+      "steps": 494039
+    },
+    {
+      "phase": "heldout",
+      "object": "research/c0202026102018570000000000000001/heldout/62_11_cold_901_walsh.certificate.json",
+      "steps": 106013
+    },
+    {
+      "phase": "coset",
+      "object": "research/c0202026102018570000000000000001/coset/42_12_403_hill.certificate.json",
+      "steps": 1681757
+    },
+    {
+      "phase": "qc",
+      "object": "research/c0202026102018570000000000000001/qc/44_11_201_anneal.certificate.json",
+      "steps": 3683573
+    }
+  ]
+}

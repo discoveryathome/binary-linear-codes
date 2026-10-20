@@ -1,0 +1,551 @@
+{
+  "phase": "coset",
+  "started_at": "2026-10-20T19:19:25.408666+00:00",
+  "seconds_per_run": 15.0,
+  "source_sha256": "41fe96eece774fb3b7a3f51dcc144832b58a1cd07fb61e3ea959aeea013c9223",
+  "jobs": [
+    [
+      42,
+      12,
+      403,
+      "hill"
+    ],
+    [
+      42,
+      12,
+      402,
+      "hill"
+    ],
+    [
+      52,
+      10,
+      402,
+      "hill"
+    ],
+    [
+      62,
+      11,
+      403,
+      "hill"
+    ],
+    [
+      42,
+      12,
+      401,
+      "anneal"
+    ],
+    [
+      62,
+      11,
+      402,
+      "anneal"
+    ],
+    [
+      52,
+      10,
+      402,
+      "anneal"
+    ],
+    [
+      62,
+      11,
+      401,
+      "anneal"
+    ],
+    [
+      52,
+      10,
+      401,
+      "anneal"
+    ],
+    [
+      42,
+      12,
+      402,
+      "anneal"
+    ],
+    [
+      52,
+      10,
+      403,
+      "anneal"
+    ],
+    [
+      52,
+      10,
+      403,
+      "hill"
+    ],
+    [
+      42,
+      12,
+      403,
+      "anneal"
+    ],
+    [
+      62,
+      11,
+      402,
+      "hill"
+    ],
+    [
+      52,
+      10,
+      401,
+      "hill"
+    ],
+    [
+      42,
+      12,
+      401,
+      "hill"
+    ],
+    [
+      62,
+      11,
+      401,
+      "hill"
+    ],
+    [
+      62,
+      11,
+      403,
+      "anneal"
+    ]
+  ],
+  "rows": [
+    {
+      "n": 42,
+      "k": 12,
+      "seed": 403,
+      "method": "hill",
+      "initial_d": 15,
+      "final_d": 15,
+      "minimum_words": 210,
+      "steps": 1681757,
+      "seconds": 15.000009125,
+      "cpu_seconds": 7.261566,
+      "object": "research/c0202026102018570000000000000001/coset/42_12_403_hill.certificate.json",
+      "sha256": "f10e0b0fd277ce394bb7abca41fd44fea5ca7a7b8d4c847210582f328d01fb2b",
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset_search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/42_12.txt",
+        "403",
+        "15.0",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset/42_12_403_hill.jsonl",
+        "hill"
+      ],
+      "resource": "research/c0202026102018570000000000000001/coset/42_12_403_hill.resource.txt"
+    },
+    {
+      "n": 42,
+      "k": 12,
+      "seed": 402,
+      "method": "hill",
+      "initial_d": 15,
+      "final_d": 15,
+      "minimum_words": 212,
+      "steps": 2578086,
+      "seconds": 15.000009917,
+      "cpu_seconds": 11.078869,
+      "object": "research/c0202026102018570000000000000001/coset/42_12_402_hill.certificate.json",
+      "sha256": "7d908d9393751e443a6fefac9cdaa791e12e27b92c906660ecafc286835976c9",
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset_search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/42_12.txt",
+        "402",
+        "15.0",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset/42_12_402_hill.jsonl",
+        "hill"
+      ],
+      "resource": "research/c0202026102018570000000000000001/coset/42_12_402_hill.resource.txt"
+    },
+    {
+      "n": 52,
+      "k": 10,
+      "seed": 402,
+      "method": "hill",
+      "initial_d": 21,
+      "final_d": 21,
+      "minimum_words": 77,
+      "steps": 6045375,
+      "seconds": 15.000005542,
+      "cpu_seconds": 6.793446,
+      "object": "research/c0202026102018570000000000000001/coset/52_10_402_hill.certificate.json",
+      "sha256": "24dbbddf29604ea3e50f0ed6322f66d74e45c8a29895c752ac6f15d1eb5355ce",
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset_search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/52_10.txt",
+        "402",
+        "15.0",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset/52_10_402_hill.jsonl",
+        "hill"
+      ],
+      "resource": "research/c0202026102018570000000000000001/coset/52_10_402_hill.resource.txt"
+    },
+    {
+      "n": 62,
+      "k": 11,
+      "seed": 403,
+      "method": "hill",
+      "initial_d": 25,
+      "final_d": 25,
+      "minimum_words": 156,
+      "steps": 3774009,
+      "seconds": 15.004294167,
+      "cpu_seconds": 7.799143,
+      "object": "research/c0202026102018570000000000000001/coset/62_11_403_hill.certificate.json",
+      "sha256": "ecd25cfd3b7eb34c90d5c57038ac6ef3020907ace213810ca6c3f96bddfeebea",
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset_search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/62_11.txt",
+        "403",
+        "15.0",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset/62_11_403_hill.jsonl",
+        "hill"
+      ],
+      "resource": "research/c0202026102018570000000000000001/coset/62_11_403_hill.resource.txt"
+    },
+    {
+      "n": 42,
+      "k": 12,
+      "seed": 401,
+      "method": "anneal",
+      "initial_d": 15,
+      "final_d": 15,
+      "minimum_words": 210,
+      "steps": 1298856,
+      "seconds": 15.000007625,
+      "cpu_seconds": 6.143243,
+      "object": "research/c0202026102018570000000000000001/coset/42_12_401_anneal.certificate.json",
+      "sha256": "b3cb4d25ac917dadd4fb3c3eb19e1e05e15b2ddf45d31f09ce706593eddb00ba",
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset_search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/42_12.txt",
+        "401",
+        "15.0",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset/42_12_401_anneal.jsonl",
+        "anneal"
+      ],
+      "resource": "research/c0202026102018570000000000000001/coset/42_12_401_anneal.resource.txt"
+    },
+    {
+      "n": 62,
+      "k": 11,
+      "seed": 402,
+      "method": "anneal",
+      "initial_d": 25,
+      "final_d": 25,
+      "minimum_words": 156,
+      "steps": 1933876,
+      "seconds": 15.000021792,
+      "cpu_seconds": 5.314821,
+      "object": "research/c0202026102018570000000000000001/coset/62_11_402_anneal.certificate.json",
+      "sha256": "e172b5164f8a65c4cc618077168f191eb64f9931e29b0aa450eb1f15ee44f31c",
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset_search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/62_11.txt",
+        "402",
+        "15.0",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset/62_11_402_anneal.jsonl",
+        "anneal"
+      ],
+      "resource": "research/c0202026102018570000000000000001/coset/62_11_402_anneal.resource.txt"
+    },
+    {
+      "n": 52,
+      "k": 10,
+      "seed": 402,
+      "method": "anneal",
+      "initial_d": 21,
+      "final_d": 21,
+      "minimum_words": 77,
+      "steps": 2136171,
+      "seconds": 15.001138167,
+      "cpu_seconds": 3.604167,
+      "object": "research/c0202026102018570000000000000001/coset/52_10_402_anneal.certificate.json",
+      "sha256": "a822cfeaaa6246100a623d4eabef64c1a239e84445003a19561ac9d30068ca79",
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset_search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/52_10.txt",
+        "402",
+        "15.0",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset/52_10_402_anneal.jsonl",
+        "anneal"
+      ],
+      "resource": "research/c0202026102018570000000000000001/coset/52_10_402_anneal.resource.txt"
+    },
+    {
+      "n": 62,
+      "k": 11,
+      "seed": 401,
+      "method": "anneal",
+      "initial_d": 25,
+      "final_d": 25,
+      "minimum_words": 156,
+      "steps": 1520923,
+      "seconds": 15.00159775,
+      "cpu_seconds": 4.170914,
+      "object": "research/c0202026102018570000000000000001/coset/62_11_401_anneal.certificate.json",
+      "sha256": "d54420525e3bae052956f19716b4c008e8ce52292f5856c78cf96761fc0e1ccd",
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset_search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/62_11.txt",
+        "401",
+        "15.0",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset/62_11_401_anneal.jsonl",
+        "anneal"
+      ],
+      "resource": "research/c0202026102018570000000000000001/coset/62_11_401_anneal.resource.txt"
+    },
+    {
+      "n": 52,
+      "k": 10,
+      "seed": 401,
+      "method": "anneal",
+      "initial_d": 21,
+      "final_d": 21,
+      "minimum_words": 77,
+      "steps": 2868027,
+      "seconds": 15.000005709,
+      "cpu_seconds": 4.812169,
+      "object": "research/c0202026102018570000000000000001/coset/52_10_401_anneal.certificate.json",
+      "sha256": "15032131ef1b4a74cd6cb66caa2583cc40844dd3b2fd61f12e2d5c4f20fde374",
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset_search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/52_10.txt",
+        "401",
+        "15.0",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset/52_10_401_anneal.jsonl",
+        "anneal"
+      ],
+      "resource": "research/c0202026102018570000000000000001/coset/52_10_401_anneal.resource.txt"
+    },
+    {
+      "n": 42,
+      "k": 12,
+      "seed": 402,
+      "method": "anneal",
+      "initial_d": 15,
+      "final_d": 15,
+      "minimum_words": 210,
+      "steps": 1170767,
+      "seconds": 15.000006709,
+      "cpu_seconds": 5.521492,
+      "object": "research/c0202026102018570000000000000001/coset/42_12_402_anneal.certificate.json",
+      "sha256": "8a6f705d5dec97ce466d681b941b4f97f6099e4779e6338e96784a26738307a0",
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset_search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/42_12.txt",
+        "402",
+        "15.0",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset/42_12_402_anneal.jsonl",
+        "anneal"
+      ],
+      "resource": "research/c0202026102018570000000000000001/coset/42_12_402_anneal.resource.txt"
+    },
+    {
+      "n": 52,
+      "k": 10,
+      "seed": 403,
+      "method": "anneal",
+      "initial_d": 21,
+      "final_d": 21,
+      "minimum_words": 77,
+      "steps": 5206140,
+      "seconds": 15.000145959,
+      "cpu_seconds": 8.567838,
+      "object": "research/c0202026102018570000000000000001/coset/52_10_403_anneal.certificate.json",
+      "sha256": "985cbdb8144883be445825467ab4642d7e52c5f7e6727f03c8af3be6789a761a",
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset_search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/52_10.txt",
+        "403",
+        "15.0",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset/52_10_403_anneal.jsonl",
+        "anneal"
+      ],
+      "resource": "research/c0202026102018570000000000000001/coset/52_10_403_anneal.resource.txt"
+    },
+    {
+      "n": 52,
+      "k": 10,
+      "seed": 403,
+      "method": "hill",
+      "initial_d": 21,
+      "final_d": 21,
+      "minimum_words": 77,
+      "steps": 9345448,
+      "seconds": 15.000006084,
+      "cpu_seconds": 10.460353,
+      "object": "research/c0202026102018570000000000000001/coset/52_10_403_hill.certificate.json",
+      "sha256": "0a5e277abcfb9af757cb5ede31d3022598f6b1f8ade1e01da7a169e18367f927",
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset_search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/52_10.txt",
+        "403",
+        "15.0",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset/52_10_403_hill.jsonl",
+        "hill"
+      ],
+      "resource": "research/c0202026102018570000000000000001/coset/52_10_403_hill.resource.txt"
+    },
+    {
+      "n": 42,
+      "k": 12,
+      "seed": 403,
+      "method": "anneal",
+      "initial_d": 15,
+      "final_d": 15,
+      "minimum_words": 210,
+      "steps": 1873122,
+      "seconds": 15.002565041,
+      "cpu_seconds": 8.83096,
+      "object": "research/c0202026102018570000000000000001/coset/42_12_403_anneal.certificate.json",
+      "sha256": "662b35c168619822272ce36bd86a3101f70872c330778eab395c5be26933f119",
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset_search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/42_12.txt",
+        "403",
+        "15.0",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset/42_12_403_anneal.jsonl",
+        "anneal"
+      ],
+      "resource": "research/c0202026102018570000000000000001/coset/42_12_403_anneal.resource.txt"
+    },
+    {
+      "n": 62,
+      "k": 11,
+      "seed": 402,
+      "method": "hill",
+      "initial_d": 25,
+      "final_d": 25,
+      "minimum_words": 156,
+      "steps": 3335139,
+      "seconds": 15.001094458,
+      "cpu_seconds": 6.947231,
+      "object": "research/c0202026102018570000000000000001/coset/62_11_402_hill.certificate.json",
+      "sha256": "16c33c18bc1ae48f634b4d247e195d41971a82a336f85b17b1a657d9476cfbdf",
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset_search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/62_11.txt",
+        "402",
+        "15.0",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset/62_11_402_hill.jsonl",
+        "hill"
+      ],
+      "resource": "research/c0202026102018570000000000000001/coset/62_11_402_hill.resource.txt"
+    },
+    {
+      "n": 52,
+      "k": 10,
+      "seed": 401,
+      "method": "hill",
+      "initial_d": 21,
+      "final_d": 21,
+      "minimum_words": 77,
+      "steps": 3966345,
+      "seconds": 15.000937417,
+      "cpu_seconds": 4.578722,
+      "object": "research/c0202026102018570000000000000001/coset/52_10_401_hill.certificate.json",
+      "sha256": "52375a3bf8e10dbe8e7e50d5a42f65c60b8d5ea173b54da80a2bee6d7a02e623",
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset_search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/52_10.txt",
+        "401",
+        "15.0",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset/52_10_401_hill.jsonl",
+        "hill"
+      ],
+      "resource": "research/c0202026102018570000000000000001/coset/52_10_401_hill.resource.txt"
+    },
+    {
+      "n": 42,
+      "k": 12,
+      "seed": 401,
+      "method": "hill",
+      "initial_d": 15,
+      "final_d": 15,
+      "minimum_words": 212,
+      "steps": 630308,
+      "seconds": 15.005158834,
+      "cpu_seconds": 2.806399,
+      "object": "research/c0202026102018570000000000000001/coset/42_12_401_hill.certificate.json",
+      "sha256": "cde456271f0a138e5e7a40226be6896262ad781277005f514a861130acb16e38",
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset_search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/42_12.txt",
+        "401",
+        "15.0",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset/42_12_401_hill.jsonl",
+        "hill"
+      ],
+      "resource": "research/c0202026102018570000000000000001/coset/42_12_401_hill.resource.txt"
+    },
+    {
+      "n": 62,
+      "k": 11,
+      "seed": 401,
+      "method": "hill",
+      "initial_d": 25,
+      "final_d": 25,
+      "minimum_words": 156,
+      "steps": 2964709,
+      "seconds": 15.000005917,
+      "cpu_seconds": 6.125874,
+      "object": "research/c0202026102018570000000000000001/coset/62_11_401_hill.certificate.json",
+      "sha256": "4cbfd1aec8bba2260dd14124090a18d9e5f2b0caa03787a08c0afde27e822da3",
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset_search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/62_11.txt",
+        "401",
+        "15.0",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset/62_11_401_hill.jsonl",
+        "hill"
+      ],
+      "resource": "research/c0202026102018570000000000000001/coset/62_11_401_hill.resource.txt"
+    },
+    {
+      "n": 62,
+      "k": 11,
+      "seed": 403,
+      "method": "anneal",
+      "initial_d": 25,
+      "final_d": 25,
+      "minimum_words": 156,
+      "steps": 3411490,
+      "seconds": 15.000006542,
+      "cpu_seconds": 9.225334,
+      "object": "research/c0202026102018570000000000000001/coset/62_11_403_anneal.certificate.json",
+      "sha256": "65792f0f4c0d627d964974d15928f69624ed63656ea961a50ad4ad1558f96831",
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset_search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/62_11.txt",
+        "403",
+        "15.0",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/coset/62_11_403_anneal.jsonl",
+        "anneal"
+      ],
+      "resource": "research/c0202026102018570000000000000001/coset/62_11_403_anneal.resource.txt"
+    }
+  ],
+  "finished_at": "2026-10-20T19:23:56.590097+00:00"
+}

@@ -1,0 +1,19 @@
+blind cold 45,11 steps=482397 best=16 minwords=83 last_progress=89873 wall=10.5725
+       10.58 real         4.68 user         0.32 sys
+             1589248  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                 261  page reclaims
+                   1  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   1  voluntary context switches
+               14426  involuntary context switches
+         24840050554  instructions retired
+          9636441277  cycles elapsed
+             1130808  peak memory footprint

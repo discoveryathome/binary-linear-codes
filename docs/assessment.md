@@ -33,3 +33,9 @@ A practical next assessment is ten independently reviewed sessions, each with a 
 ## Verification cost
 
 Three repeats per final witness gave a maximum median combined cost of 0.0626 seconds for the two exhaustive checks. Full measurements are in `results/verification-benchmark.json`; shared-host timing caveats apply. See `results/clean-checkout.json` for the clean-checkout reproduction measurement.
+
+## Later contributor trial
+
+See the [timed featured-pilot assessment](../research/c0202026102018570000000000000001/README.md)
+for a longer contributor session, additional search methods, and corrected donor
+directions. The original short pilot measurements above are retained unchanged.

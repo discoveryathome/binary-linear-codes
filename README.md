@@ -4,6 +4,12 @@ For a binary linear code with length n and dimension k, maximize its minimum Ham
 
 **No new scientific record or optimality proof is claimed.** Every target has a locally verified published lower-bound witness. Table values are checked against newer literature: six initially apparent gaps were already settled. See [record table](docs/record-table.md), [measured assessment](docs/assessment.md), and [literature audit](docs/literature.md).
 
+The later [timed contributor trial](research/c0202026102018570000000000000001/README.md)
+tests launch suitability, compares search methods, supplies a public demonstration,
+and corrects two initially unproductive donor directions. Its new local obstructions
+and replication of the published [173,20,68] code do not change the sixteen target
+lower bounds.
+
 ## Reproduce offline
 
 Requirements: Python 3.10+ and git; standard library only. From this directory:

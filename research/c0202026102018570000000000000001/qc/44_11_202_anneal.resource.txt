@@ -1,0 +1,19 @@
+QC anneal seed 202 steps 4843293 d 16 A_d 66
+       20.00 real         9.88 user         0.16 sys
+             1589248  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                 258  page reclaims
+                   2  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+               23480  involuntary context switches
+         70672211489  instructions retired
+         20659220062  cycles elapsed
+             1114400  peak memory footprint

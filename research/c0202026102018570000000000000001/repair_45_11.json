@@ -1,0 +1,20 @@
+{
+  "parent": "research/c0202026102018570000000000000001/paired/45_11_warm_103_walsh.certificate.json",
+  "n": 45,
+  "k": 11,
+  "initial_d": 16,
+  "goal": 17,
+  "seed": 301,
+  "triples_total": 14190,
+  "visited": 14190,
+  "cover_rejects": 8044,
+  "affine_rejects": 2221,
+  "pair_attempts": 1046103,
+  "pair_cover_rejects": 1023926,
+  "third_affine_rejects": 22177,
+  "completed_triples": 14190,
+  "found": false,
+  "complete": true,
+  "seconds": 22.135437000077218,
+  "claim": "Exact constraints explored; negative search is not independently proof-certified."
+}

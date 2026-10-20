@@ -1,0 +1,19 @@
+QC hill seed 202 steps 2590300 d 16 A_d 66
+       20.01 real         4.16 user         0.10 sys
+             1605632  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                 259  page reclaims
+                   2  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   2  voluntary context switches
+               14898  involuntary context switches
+         30770638177  instructions retired
+          8789557685  cycles elapsed
+             1130784  peak memory footprint

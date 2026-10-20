@@ -1,0 +1,16 @@
+1/16 62_11_cold_902_walsh: 16 -> 24 (known 25); minwords 28; CPU 5.00s
+2/16 45_11_cold_901_blind: 12 -> 16 (known 16); minwords 85; CPU 5.00s
+3/16 62_11_cold_901_blind: 18 -> 24 (known 25); minwords 125; CPU 5.00s
+4/16 45_11_cold_902_blind: 9 -> 16 (known 16); minwords 83; CPU 5.00s
+5/16 52_10_cold_902_blind: 14 -> 20 (known 21); minwords 61; CPU 5.00s
+6/16 42_12_cold_901_walsh: 10 -> 14 (known 15); minwords 32; CPU 5.00s
+7/16 42_12_cold_901_blind: 10 -> 14 (known 15); minwords 107; CPU 5.00s
+8/16 52_10_cold_901_walsh: 13 -> 20 (known 21); minwords 10; CPU 5.00s
+9/16 62_11_cold_901_walsh: 18 -> 24 (known 25); minwords 29; CPU 5.00s
+10/16 52_10_cold_901_blind: 13 -> 20 (known 21); minwords 57; CPU 5.00s
+11/16 45_11_cold_902_walsh: 9 -> 16 (known 16); minwords 20; CPU 5.00s
+12/16 52_10_cold_902_walsh: 14 -> 20 (known 21); minwords 9; CPU 5.00s
+13/16 45_11_cold_901_walsh: 12 -> 16 (known 16); minwords 16; CPU 5.00s
+14/16 42_12_cold_902_blind: 6 -> 14 (known 15); minwords 108; CPU 5.00s
+15/16 42_12_cold_902_walsh: 6 -> 14 (known 15); minwords 31; CPU 5.00s
+16/16 62_11_cold_902_blind: 16 -> 24 (known 25); minwords 110; CPU 5.00s

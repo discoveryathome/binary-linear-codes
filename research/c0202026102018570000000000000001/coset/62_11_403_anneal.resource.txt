@@ -1,0 +1,19 @@
+coset 62,11 anneal seed=403 steps=3411490 d=25
+       15.01 real         9.09 user         0.13 sys
+             1589248  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                 258  page reclaims
+                   2  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   2  voluntary context switches
+               18379  involuntary context switches
+         53769433487  instructions retired
+         18318644295  cycles elapsed
+             1130808  peak memory footprint

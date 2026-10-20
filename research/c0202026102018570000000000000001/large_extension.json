@@ -1,0 +1,16 @@
+{
+  "n": 173,
+  "k": 20,
+  "d": 68,
+  "minimal_words": 1156,
+  "odd_xor_dependency": [
+    191,
+    520,
+    754,
+    1349,
+    1888,
+    2281,
+    2697
+  ],
+  "source": "published_173_20_68.json"
+}

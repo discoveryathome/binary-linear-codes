@@ -1,0 +1,183 @@
+{
+  "phases": {
+    "paired": {
+      "runs": 48,
+      "search_steps": 16599808,
+      "cpu_seconds": 246.60705099999998,
+      "search_wall_seconds": 720.195912335,
+      "max_search_RSS_bytes": 1638400
+    },
+    "heldout": {
+      "runs": 16,
+      "search_steps": 5242002,
+      "cpu_seconds": 80.000493,
+      "search_wall_seconds": 266.054363542,
+      "max_search_RSS_bytes": 1638400
+    },
+    "coset": {
+      "runs": 18,
+      "search_steps": 55740548,
+      "cpu_seconds": 120.042541,
+      "search_wall_seconds": 270.017016755,
+      "max_search_RSS_bytes": 1622016
+    },
+    "qc": {
+      "runs": 9,
+      "search_steps": 29448649,
+      "cpu_seconds": 54.2206,
+      "search_wall_seconds": 180.034900332,
+      "max_search_RSS_bytes": 1654784
+    }
+  },
+  "candidate_distance_records": [],
+  "heldout_pairs": [
+    {
+      "n": 42,
+      "k": 12,
+      "seed": 901,
+      "blind_d": 14,
+      "guided_d": 14,
+      "blind_minimum_words": 107,
+      "guided_minimum_words": 32,
+      "multiplicity_ratio": 3.34375
+    },
+    {
+      "n": 42,
+      "k": 12,
+      "seed": 902,
+      "blind_d": 14,
+      "guided_d": 14,
+      "blind_minimum_words": 108,
+      "guided_minimum_words": 31,
+      "multiplicity_ratio": 3.4838709677419355
+    },
+    {
+      "n": 45,
+      "k": 11,
+      "seed": 901,
+      "blind_d": 16,
+      "guided_d": 16,
+      "blind_minimum_words": 85,
+      "guided_minimum_words": 16,
+      "multiplicity_ratio": 5.3125
+    },
+    {
+      "n": 45,
+      "k": 11,
+      "seed": 902,
+      "blind_d": 16,
+      "guided_d": 16,
+      "blind_minimum_words": 83,
+      "guided_minimum_words": 20,
+      "multiplicity_ratio": 4.15
+    },
+    {
+      "n": 52,
+      "k": 10,
+      "seed": 901,
+      "blind_d": 20,
+      "guided_d": 20,
+      "blind_minimum_words": 57,
+      "guided_minimum_words": 10,
+      "multiplicity_ratio": 5.7
+    },
+    {
+      "n": 52,
+      "k": 10,
+      "seed": 902,
+      "blind_d": 20,
+      "guided_d": 20,
+      "blind_minimum_words": 61,
+      "guided_minimum_words": 9,
+      "multiplicity_ratio": 6.777777777777778
+    },
+    {
+      "n": 62,
+      "k": 11,
+      "seed": 901,
+      "blind_d": 24,
+      "guided_d": 24,
+      "blind_minimum_words": 125,
+      "guided_minimum_words": 29,
+      "multiplicity_ratio": 4.310344827586207
+    },
+    {
+      "n": 62,
+      "k": 11,
+      "seed": 902,
+      "blind_d": 24,
+      "guided_d": 24,
+      "blind_minimum_words": 110,
+      "guided_minimum_words": 28,
+      "multiplicity_ratio": 3.9285714285714284
+    }
+  ],
+  "heldout_distance_wins": 0,
+  "heldout_distance_ties": 8,
+  "heldout_multiplicity_wins": 8,
+  "heldout_median_multiplicity_ratio": 4.230172413793104,
+  "paired_cold": {
+    "blind": {
+      "runs": 12,
+      "known_distance_matches": 3,
+      "median_distance_gain": 5.0,
+      "median_remaining_gap": 1.0
+    },
+    "walsh": {
+      "runs": 12,
+      "known_distance_matches": 3,
+      "median_distance_gain": 5.5,
+      "median_remaining_gap": 1.0
+    }
+  },
+  "target_results": [
+    {
+      "n": 42,
+      "k": 12,
+      "published_lower": 15,
+      "closure_lower": 15,
+      "upper": 16,
+      "best_observed": 15,
+      "search_runs": 22
+    },
+    {
+      "n": 44,
+      "k": 11,
+      "published_lower": 16,
+      "closure_lower": 16,
+      "upper": 17,
+      "best_observed": 16,
+      "search_runs": 9
+    },
+    {
+      "n": 45,
+      "k": 11,
+      "published_lower": 16,
+      "closure_lower": 16,
+      "upper": 18,
+      "best_observed": 16,
+      "search_runs": 16
+    },
+    {
+      "n": 52,
+      "k": 10,
+      "published_lower": 21,
+      "closure_lower": 21,
+      "upper": 22,
+      "best_observed": 21,
+      "search_runs": 22
+    },
+    {
+      "n": 62,
+      "k": 11,
+      "published_lower": 25,
+      "closure_lower": 25,
+      "upper": 26,
+      "best_observed": 25,
+      "search_runs": 22
+    }
+  ],
+  "total_runs": 91,
+  "total_cpu_seconds": 500.870685,
+  "total_search_wall_seconds": 1436.302192964
+}

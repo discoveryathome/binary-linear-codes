@@ -1,0 +1,10 @@
+{
+  "started_at": "2026-10-20T18:57:48+00:00",
+  "finished_at": "2026-10-20T19:29:40.419365+00:00",
+  "wall_minutes": 31.873656083333334,
+  "scope": "One agent-assisted contributor trial including orientation, coding, search, verification and assessment.",
+  "base": "f7e33cc1680b7e31f5f167f8320bab535d2c0515",
+  "independent_contributor": false,
+  "search_runs": 91,
+  "candidate_records": 0
+}

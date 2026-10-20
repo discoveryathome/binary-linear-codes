@@ -1,0 +1,57 @@
+{
+  "scope": "Exploratory secondary metric; no new distance record or best-known spectrum claim.",
+  "interpretation": "A transmitted codeword suffers independent bit flips with probability p. The receiver only tests code membership; a nonzero error equal to a codeword goes undetected. This is not an error-correcting decoder comparison.",
+  "formula": "sum_{w=1}^n A_w p^w (1-p)^(n-w)",
+  "rows": [
+    {
+      "object": "certificates/baseline_45_11.json",
+      "d": 16,
+      "minimum_words": 247,
+      "metrics": [
+        {
+          "p": "1/20",
+          "numerator": 2996136771384485377617906018829405018333,
+          "denominator": 35184372088832000000000000000000000000000000000000000000000,
+          "approximation": 8.515532873003864e-20
+        },
+        {
+          "p": "1/10",
+          "numerator": 1163947480198670281149863576343,
+          "denominator": 1000000000000000000000000000000000000000000000,
+          "approximation": 1.1639474801986703e-15
+        },
+        {
+          "p": "3/20",
+          "numerator": 5139858039233374183984701457495471486357587759,
+          "denominator": 35184372088832000000000000000000000000000000000000000000000,
+          "approximation": 1.4608355170461704e-13
+        }
+      ]
+    },
+    {
+      "object": "research/c0202026102018570000000000000001/paired/45_11_warm_101_walsh.certificate.json",
+      "d": 16,
+      "minimum_words": 18,
+      "metrics": [
+        {
+          "p": "1/20",
+          "numerator": 288209090988838109846604296989101179101,
+          "denominator": 35184372088832000000000000000000000000000000000000000000000,
+          "approximation": 8.191395039285627e-21
+        },
+        {
+          "p": "1/10",
+          "numerator": 148245049045243750846766326551,
+          "denominator": 1000000000000000000000000000000000000000000000,
+          "approximation": 1.4824504904524374e-16
+        },
+        {
+          "p": "3/20",
+          "numerator": 873114462531679354203392169384327252372733743,
+          "denominator": 35184372088832000000000000000000000000000000000000000000000,
+          "approximation": 2.4815405553558757e-14
+        }
+      ]
+    }
+  ]
+}

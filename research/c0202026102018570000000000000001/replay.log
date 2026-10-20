@@ -1,0 +1,7 @@
+blind cold 62,11 steps=799575 best=23 minwords=12 last_progress=209762 wall=29.8067
+walsh cold 62,11 steps=120145 best=24 minwords=26 last_progress=114768 wall=17.2528
+blind cold 62,11 steps=494039 best=24 minwords=125 last_progress=93396 wall=8.63958
+walsh cold 62,11 steps=106013 best=24 minwords=29 last_progress=24479 wall=10.058
+coset 42,12 hill seed=403 steps=1681757 d=15
+QC anneal seed 201 steps 3683573 d 16 A_d 66
+PASS deterministic replay: 6 runs

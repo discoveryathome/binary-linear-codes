@@ -1,0 +1,3118 @@
+{
+  "started_at": "2026-10-20T19:02:43.498707+00:00",
+  "phase": "paired",
+  "seconds_per_run": 15,
+  "seeds": [
+    101,
+    102,
+    103
+  ],
+  "source_sha256": "d1de91eb7a2d95666e9af9e75ee721edbd2acbeddb01b94d3582b4277f0e566f",
+  "python": "3.14.6",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "cpu": "Apple M2; 8 logical cores; 24 GiB RAM; shared loaded host",
+  "search_workers": 1,
+  "accelerator": null,
+  "job_order": [
+    [
+      62,
+      11,
+      "cold",
+      102,
+      "blind"
+    ],
+    [
+      52,
+      10,
+      "warm",
+      103,
+      "walsh"
+    ],
+    [
+      62,
+      11,
+      "warm",
+      101,
+      "walsh"
+    ],
+    [
+      42,
+      12,
+      "cold",
+      101,
+      "blind"
+    ],
+    [
+      45,
+      11,
+      "warm",
+      103,
+      "walsh"
+    ],
+    [
+      42,
+      12,
+      "warm",
+      103,
+      "walsh"
+    ],
+    [
+      52,
+      10,
+      "cold",
+      101,
+      "blind"
+    ],
+    [
+      42,
+      12,
+      "cold",
+      101,
+      "walsh"
+    ],
+    [
+      62,
+      11,
+      "cold",
+      103,
+      "blind"
+    ],
+    [
+      42,
+      12,
+      "cold",
+      102,
+      "blind"
+    ],
+    [
+      42,
+      12,
+      "cold",
+      103,
+      "blind"
+    ],
+    [
+      52,
+      10,
+      "warm",
+      103,
+      "blind"
+    ],
+    [
+      45,
+      11,
+      "warm",
+      101,
+      "walsh"
+    ],
+    [
+      62,
+      11,
+      "warm",
+      103,
+      "walsh"
+    ],
+    [
+      45,
+      11,
+      "cold",
+      101,
+      "blind"
+    ],
+    [
+      45,
+      11,
+      "warm",
+      101,
+      "blind"
+    ],
+    [
+      42,
+      12,
+      "warm",
+      103,
+      "blind"
+    ],
+    [
+      45,
+      11,
+      "cold",
+      102,
+      "blind"
+    ],
+    [
+      52,
+      10,
+      "warm",
+      102,
+      "blind"
+    ],
+    [
+      62,
+      11,
+      "warm",
+      101,
+      "blind"
+    ],
+    [
+      62,
+      11,
+      "cold",
+      102,
+      "walsh"
+    ],
+    [
+      45,
+      11,
+      "warm",
+      103,
+      "blind"
+    ],
+    [
+      52,
+      10,
+      "cold",
+      101,
+      "walsh"
+    ],
+    [
+      42,
+      12,
+      "warm",
+      102,
+      "walsh"
+    ],
+    [
+      52,
+      10,
+      "warm",
+      101,
+      "blind"
+    ],
+    [
+      45,
+      11,
+      "cold",
+      103,
+      "blind"
+    ],
+    [
+      45,
+      11,
+      "warm",
+      102,
+      "walsh"
+    ],
+    [
+      62,
+      11,
+      "cold",
+      101,
+      "blind"
+    ],
+    [
+      52,
+      10,
+      "warm",
+      101,
+      "walsh"
+    ],
+    [
+      45,
+      11,
+      "cold",
+      103,
+      "walsh"
+    ],
+    [
+      62,
+      11,
+      "cold",
+      101,
+      "walsh"
+    ],
+    [
+      42,
+      12,
+      "cold",
+      102,
+      "walsh"
+    ],
+    [
+      45,
+      11,
+      "cold",
+      102,
+      "walsh"
+    ],
+    [
+      52,
+      10,
+      "cold",
+      103,
+      "blind"
+    ],
+    [
+      62,
+      11,
+      "warm",
+      102,
+      "blind"
+    ],
+    [
+      42,
+      12,
+      "warm",
+      102,
+      "blind"
+    ],
+    [
+      62,
+      11,
+      "warm",
+      102,
+      "walsh"
+    ],
+    [
+      52,
+      10,
+      "cold",
+      102,
+      "blind"
+    ],
+    [
+      52,
+      10,
+      "warm",
+      102,
+      "walsh"
+    ],
+    [
+      52,
+      10,
+      "cold",
+      103,
+      "walsh"
+    ],
+    [
+      42,
+      12,
+      "warm",
+      101,
+      "walsh"
+    ],
+    [
+      62,
+      11,
+      "warm",
+      103,
+      "blind"
+    ],
+    [
+      52,
+      10,
+      "cold",
+      102,
+      "walsh"
+    ],
+    [
+      42,
+      12,
+      "warm",
+      101,
+      "blind"
+    ],
+    [
+      45,
+      11,
+      "cold",
+      101,
+      "walsh"
+    ],
+    [
+      45,
+      11,
+      "warm",
+      102,
+      "blind"
+    ],
+    [
+      62,
+      11,
+      "cold",
+      103,
+      "walsh"
+    ],
+    [
+      42,
+      12,
+      "cold",
+      103,
+      "walsh"
+    ]
+  ],
+  "rows": [
+    {
+      "n": 62,
+      "k": 11,
+      "start": "cold",
+      "seed": 102,
+      "method": "blind",
+      "initial_d": 18,
+      "final_d": 23,
+      "minimum_words": 9,
+      "published_lower": 25,
+      "exclusion_lower": 25,
+      "upper": 26,
+      "candidate_record": false,
+      "seconds": 15.000621208,
+      "cpu_seconds": 3.79808,
+      "steps": 412160,
+      "alternatives": 412160,
+      "accepted": 198,
+      "shakes": 0,
+      "object": "research/c0202026102018570000000000000001/paired/62_11_cold_102_blind.certificate.json",
+      "sha256": "634f8421539297cb6e0187bc810b2b79e4fc96d37dc56ee3c4360ba84f6d6731",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 2.2666e-05,
+          "d": 18,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_102_blind.milestone_0.json"
+        },
+        {
+          "step": 12,
+          "seconds": 0.000286875,
+          "d": 19,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_102_blind.milestone_1.json"
+        },
+        {
+          "step": 15,
+          "seconds": 0.000343208,
+          "d": 20,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_102_blind.milestone_2.json"
+        },
+        {
+          "step": 36,
+          "seconds": 0.000796041,
+          "d": 21,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_102_blind.milestone_3.json"
+        },
+        {
+          "step": 112,
+          "seconds": 0.00163425,
+          "d": 22,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_102_blind.milestone_4.json"
+        },
+        {
+          "step": 1892,
+          "seconds": 0.01925725,
+          "d": 23,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_102_blind.milestone_5.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/62_11.txt",
+        "blind",
+        "102",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/62_11_cold_102_blind.jsonl",
+        "cold",
+        "26"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/62_11_cold_102_blind.resource.txt"
+    },
+    {
+      "n": 52,
+      "k": 10,
+      "start": "warm",
+      "seed": 103,
+      "method": "walsh",
+      "initial_d": 21,
+      "final_d": 21,
+      "minimum_words": 77,
+      "published_lower": 21,
+      "exclusion_lower": 21,
+      "upper": 22,
+      "candidate_record": false,
+      "seconds": 15.000025833,
+      "cpu_seconds": 3.681654,
+      "steps": 155401,
+      "alternatives": 159130624,
+      "accepted": 9593,
+      "shakes": 373,
+      "object": "research/c0202026102018570000000000000001/paired/52_10_warm_103_walsh.certificate.json",
+      "sha256": "03588a02a9142941f12e65b3efe43d834733f0c263933081acdc2e18f3597056",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.2917e-05,
+          "d": 21,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_warm_103_walsh.milestone_0.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/52_10.txt",
+        "walsh",
+        "103",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/52_10_warm_103_walsh.jsonl",
+        "warm",
+        "22"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/52_10_warm_103_walsh.resource.txt"
+    },
+    {
+      "n": 62,
+      "k": 11,
+      "start": "warm",
+      "seed": 101,
+      "method": "walsh",
+      "initial_d": 25,
+      "final_d": 25,
+      "minimum_words": 156,
+      "published_lower": 25,
+      "exclusion_lower": 25,
+      "upper": 26,
+      "candidate_record": false,
+      "seconds": 15.004844292,
+      "cpu_seconds": 2.963963,
+      "steps": 64059,
+      "alternatives": 131192832,
+      "accepted": 3200,
+      "shakes": 129,
+      "object": "research/c0202026102018570000000000000001/paired/62_11_warm_101_walsh.certificate.json",
+      "sha256": "a68dd8907e375d5404e64b865c697f063a0b80798cc61644c6617f1bb37e06fe",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.6292e-05,
+          "d": 25,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_warm_101_walsh.milestone_0.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/62_11.txt",
+        "walsh",
+        "101",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/62_11_warm_101_walsh.jsonl",
+        "warm",
+        "26"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/62_11_warm_101_walsh.resource.txt"
+    },
+    {
+      "n": 42,
+      "k": 12,
+      "start": "cold",
+      "seed": 101,
+      "method": "blind",
+      "initial_d": 8,
+      "final_d": 14,
+      "minimum_words": 107,
+      "published_lower": 15,
+      "exclusion_lower": 15,
+      "upper": 16,
+      "candidate_record": false,
+      "seconds": 15.010623542,
+      "cpu_seconds": 2.800773,
+      "steps": 149508,
+      "alternatives": 149508,
+      "accepted": 67,
+      "shakes": 0,
+      "object": "research/c0202026102018570000000000000001/paired/42_12_cold_101_blind.certificate.json",
+      "sha256": "1532f6311d02adb71e10c46f60de4b137ed348a88e6048d491c43221a45b2402",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.9834e-05,
+          "d": 8,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_101_blind.milestone_0.json"
+        },
+        {
+          "step": 4,
+          "seconds": 0.000200917,
+          "d": 9,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_101_blind.milestone_1.json"
+        },
+        {
+          "step": 11,
+          "seconds": 0.00034925,
+          "d": 10,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_101_blind.milestone_2.json"
+        },
+        {
+          "step": 18,
+          "seconds": 0.003510667,
+          "d": 11,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_101_blind.milestone_3.json"
+        },
+        {
+          "step": 30,
+          "seconds": 0.003772042,
+          "d": 12,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_101_blind.milestone_4.json"
+        },
+        {
+          "step": 83,
+          "seconds": 0.005111084,
+          "d": 13,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_101_blind.milestone_5.json"
+        },
+        {
+          "step": 29361,
+          "seconds": 2.259887375,
+          "d": 14,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_101_blind.milestone_8.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/42_12.txt",
+        "blind",
+        "101",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/42_12_cold_101_blind.jsonl",
+        "cold",
+        "16"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/42_12_cold_101_blind.resource.txt"
+    },
+    {
+      "n": 45,
+      "k": 11,
+      "start": "warm",
+      "seed": 103,
+      "method": "walsh",
+      "initial_d": 16,
+      "final_d": 16,
+      "minimum_words": 20,
+      "published_lower": 16,
+      "exclusion_lower": 16,
+      "upper": 18,
+      "candidate_record": false,
+      "seconds": 15.008919625,
+      "cpu_seconds": 2.835555,
+      "steps": 63252,
+      "alternatives": 129540096,
+      "accepted": 4225,
+      "shakes": 175,
+      "object": "research/c0202026102018570000000000000001/paired/45_11_warm_103_walsh.certificate.json",
+      "sha256": "ab186bf44237267ee07edbd8b3ecabd63833f183238923394d665f0cff8f9d7d",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 2.6417e-05,
+          "d": 16,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_warm_103_walsh.milestone_0.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/45_11.txt",
+        "walsh",
+        "103",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/45_11_warm_103_walsh.jsonl",
+        "warm",
+        "17"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/45_11_warm_103_walsh.resource.txt"
+    },
+    {
+      "n": 42,
+      "k": 12,
+      "start": "warm",
+      "seed": 103,
+      "method": "walsh",
+      "initial_d": 15,
+      "final_d": 15,
+      "minimum_words": 212,
+      "published_lower": 15,
+      "exclusion_lower": 15,
+      "upper": 16,
+      "candidate_record": false,
+      "seconds": 15.00270325,
+      "cpu_seconds": 3.251637,
+      "steps": 35746,
+      "alternatives": 146415616,
+      "accepted": 2960,
+      "shakes": 106,
+      "object": "research/c0202026102018570000000000000001/paired/42_12_warm_103_walsh.certificate.json",
+      "sha256": "2e98be7b7419ecf5562dd7379450ba073c0cec7a076d85d94acf65f6f7d67b99",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.5417e-05,
+          "d": 15,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_warm_103_walsh.milestone_0.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/42_12.txt",
+        "walsh",
+        "103",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/42_12_warm_103_walsh.jsonl",
+        "warm",
+        "16"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/42_12_warm_103_walsh.resource.txt"
+    },
+    {
+      "n": 52,
+      "k": 10,
+      "start": "cold",
+      "seed": 101,
+      "method": "blind",
+      "initial_d": 14,
+      "final_d": 20,
+      "minimum_words": 63,
+      "published_lower": 21,
+      "exclusion_lower": 21,
+      "upper": 22,
+      "candidate_record": false,
+      "seconds": 15.001424542,
+      "cpu_seconds": 2.374583,
+      "steps": 493443,
+      "alternatives": 493443,
+      "accepted": 313,
+      "shakes": 0,
+      "object": "research/c0202026102018570000000000000001/paired/52_10_cold_101_blind.certificate.json",
+      "sha256": "38e031cdc220008cc93d150f4b4fe6c135c467db2a02da811a36005fea637d8d",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.925e-05,
+          "d": 14,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_101_blind.milestone_0.json"
+        },
+        {
+          "step": 0,
+          "seconds": 0.000118084,
+          "d": 15,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_101_blind.milestone_1.json"
+        },
+        {
+          "step": 9,
+          "seconds": 0.000197167,
+          "d": 16,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_101_blind.milestone_2.json"
+        },
+        {
+          "step": 20,
+          "seconds": 0.000267709,
+          "d": 17,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_101_blind.milestone_3.json"
+        },
+        {
+          "step": 54,
+          "seconds": 0.000532375,
+          "d": 18,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_101_blind.milestone_4.json"
+        },
+        {
+          "step": 134,
+          "seconds": 0.001035042,
+          "d": 19,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_101_blind.milestone_5.json"
+        },
+        {
+          "step": 9060,
+          "seconds": 0.110186834,
+          "d": 20,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_101_blind.milestone_6.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/52_10.txt",
+        "blind",
+        "101",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/52_10_cold_101_blind.jsonl",
+        "cold",
+        "22"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/52_10_cold_101_blind.resource.txt"
+    },
+    {
+      "n": 42,
+      "k": 12,
+      "start": "cold",
+      "seed": 101,
+      "method": "walsh",
+      "initial_d": 8,
+      "final_d": 14,
+      "minimum_words": 29,
+      "published_lower": 15,
+      "exclusion_lower": 15,
+      "upper": 16,
+      "candidate_record": false,
+      "seconds": 15.012719042,
+      "cpu_seconds": 2.602543,
+      "steps": 27795,
+      "alternatives": 113848320,
+      "accepted": 1864,
+      "shakes": 82,
+      "object": "research/c0202026102018570000000000000001/paired/42_12_cold_101_walsh.certificate.json",
+      "sha256": "70c5360ca668b5ceef2d57bd47379905fa26b921758942cdfe761b2bd2c95821",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.7334e-05,
+          "d": 8,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_101_walsh.milestone_0.json"
+        },
+        {
+          "step": 0,
+          "seconds": 0.000203042,
+          "d": 9,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_101_walsh.milestone_1.json"
+        },
+        {
+          "step": 1,
+          "seconds": 0.000325834,
+          "d": 10,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_101_walsh.milestone_2.json"
+        },
+        {
+          "step": 2,
+          "seconds": 0.000471542,
+          "d": 11,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_101_walsh.milestone_3.json"
+        },
+        {
+          "step": 5,
+          "seconds": 0.000992375,
+          "d": 12,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_101_walsh.milestone_4.json"
+        },
+        {
+          "step": 20,
+          "seconds": 0.002473042,
+          "d": 13,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_101_walsh.milestone_5.json"
+        },
+        {
+          "step": 1252,
+          "seconds": 0.3969895,
+          "d": 14,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_101_walsh.milestone_6.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/42_12.txt",
+        "walsh",
+        "101",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/42_12_cold_101_walsh.jsonl",
+        "cold",
+        "16"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/42_12_cold_101_walsh.resource.txt"
+    },
+    {
+      "n": 62,
+      "k": 11,
+      "start": "cold",
+      "seed": 103,
+      "method": "blind",
+      "initial_d": 19,
+      "final_d": 24,
+      "minimum_words": 108,
+      "published_lower": 25,
+      "exclusion_lower": 25,
+      "upper": 26,
+      "candidate_record": false,
+      "seconds": 15.001786959,
+      "cpu_seconds": 2.701738,
+      "steps": 293455,
+      "alternatives": 293455,
+      "accepted": 173,
+      "shakes": 0,
+      "object": "research/c0202026102018570000000000000001/paired/62_11_cold_103_blind.certificate.json",
+      "sha256": "6c3994f2cbc5c25bd5b3002f6b979f87935550eeba31e3c5fe2ad5740bb519a0",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.4209e-05,
+          "d": 19,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_103_blind.milestone_0.json"
+        },
+        {
+          "step": 5,
+          "seconds": 0.000147542,
+          "d": 20,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_103_blind.milestone_1.json"
+        },
+        {
+          "step": 25,
+          "seconds": 0.00034575,
+          "d": 21,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_103_blind.milestone_2.json"
+        },
+        {
+          "step": 118,
+          "seconds": 0.001142792,
+          "d": 22,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_103_blind.milestone_3.json"
+        },
+        {
+          "step": 1400,
+          "seconds": 0.017000292,
+          "d": 23,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_103_blind.milestone_4.json"
+        },
+        {
+          "step": 178569,
+          "seconds": 9.578993625,
+          "d": 24,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_103_blind.milestone_22.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/62_11.txt",
+        "blind",
+        "103",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/62_11_cold_103_blind.jsonl",
+        "cold",
+        "26"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/62_11_cold_103_blind.resource.txt"
+    },
+    {
+      "n": 42,
+      "k": 12,
+      "start": "cold",
+      "seed": 102,
+      "method": "blind",
+      "initial_d": 8,
+      "final_d": 14,
+      "minimum_words": 115,
+      "published_lower": 15,
+      "exclusion_lower": 15,
+      "upper": 16,
+      "candidate_record": false,
+      "seconds": 15.001994875,
+      "cpu_seconds": 2.477914,
+      "steps": 131499,
+      "alternatives": 131499,
+      "accepted": 91,
+      "shakes": 0,
+      "object": "research/c0202026102018570000000000000001/paired/42_12_cold_102_blind.certificate.json",
+      "sha256": "23ba5e3fb0ca2917b091a706047ba600ef089ea56e15c8ba3343e8df1ccb7170",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.6875e-05,
+          "d": 8,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_102_blind.milestone_0.json"
+        },
+        {
+          "step": 4,
+          "seconds": 0.000186792,
+          "d": 9,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_102_blind.milestone_1.json"
+        },
+        {
+          "step": 21,
+          "seconds": 0.000496334,
+          "d": 10,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_102_blind.milestone_2.json"
+        },
+        {
+          "step": 29,
+          "seconds": 0.000650917,
+          "d": 11,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_102_blind.milestone_3.json"
+        },
+        {
+          "step": 53,
+          "seconds": 0.0010755,
+          "d": 12,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_102_blind.milestone_4.json"
+        },
+        {
+          "step": 143,
+          "seconds": 0.002700375,
+          "d": 13,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_102_blind.milestone_5.json"
+        },
+        {
+          "step": 40564,
+          "seconds": 4.346893709,
+          "d": 14,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_102_blind.milestone_10.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/42_12.txt",
+        "blind",
+        "102",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/42_12_cold_102_blind.jsonl",
+        "cold",
+        "16"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/42_12_cold_102_blind.resource.txt"
+    },
+    {
+      "n": 42,
+      "k": 12,
+      "start": "cold",
+      "seed": 103,
+      "method": "blind",
+      "initial_d": 10,
+      "final_d": 14,
+      "minimum_words": 112,
+      "published_lower": 15,
+      "exclusion_lower": 15,
+      "upper": 16,
+      "candidate_record": false,
+      "seconds": 15.002246417,
+      "cpu_seconds": 2.612677,
+      "steps": 139113,
+      "alternatives": 139113,
+      "accepted": 95,
+      "shakes": 0,
+      "object": "research/c0202026102018570000000000000001/paired/42_12_cold_103_blind.certificate.json",
+      "sha256": "181f1ebffb49a7a9719ddfacecac8e615fbd59d0611a83683ef8d9a7454fbed6",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.75e-05,
+          "d": 10,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_103_blind.milestone_0.json"
+        },
+        {
+          "step": 21,
+          "seconds": 0.000501584,
+          "d": 11,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_103_blind.milestone_1.json"
+        },
+        {
+          "step": 54,
+          "seconds": 0.001080209,
+          "d": 12,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_103_blind.milestone_2.json"
+        },
+        {
+          "step": 127,
+          "seconds": 0.002296209,
+          "d": 13,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_103_blind.milestone_3.json"
+        },
+        {
+          "step": 26877,
+          "seconds": 2.252227,
+          "d": 14,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_103_blind.milestone_6.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/42_12.txt",
+        "blind",
+        "103",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/42_12_cold_103_blind.jsonl",
+        "cold",
+        "16"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/42_12_cold_103_blind.resource.txt"
+    },
+    {
+      "n": 52,
+      "k": 10,
+      "start": "warm",
+      "seed": 103,
+      "method": "blind",
+      "initial_d": 21,
+      "final_d": 21,
+      "minimum_words": 77,
+      "published_lower": 21,
+      "exclusion_lower": 21,
+      "upper": 22,
+      "candidate_record": false,
+      "seconds": 15.002754,
+      "cpu_seconds": 2.528054,
+      "steps": 545266,
+      "alternatives": 545266,
+      "accepted": 1161,
+      "shakes": 0,
+      "object": "research/c0202026102018570000000000000001/paired/52_10_warm_103_blind.certificate.json",
+      "sha256": "a12452453c475652e1a11b6c1d1f61b431c8758043b9c7e6e6916cc0557acfc1",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.4916e-05,
+          "d": 21,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_warm_103_blind.milestone_0.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/52_10.txt",
+        "blind",
+        "103",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/52_10_warm_103_blind.jsonl",
+        "warm",
+        "22"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/52_10_warm_103_blind.resource.txt"
+    },
+    {
+      "n": 45,
+      "k": 11,
+      "start": "warm",
+      "seed": 101,
+      "method": "walsh",
+      "initial_d": 16,
+      "final_d": 16,
+      "minimum_words": 18,
+      "published_lower": 16,
+      "exclusion_lower": 16,
+      "upper": 18,
+      "candidate_record": false,
+      "seconds": 15.001623541,
+      "cpu_seconds": 2.507122,
+      "steps": 55822,
+      "alternatives": 114323456,
+      "accepted": 3597,
+      "shakes": 155,
+      "object": "research/c0202026102018570000000000000001/paired/45_11_warm_101_walsh.certificate.json",
+      "sha256": "3db96a201a3f011ee8dfb496361412b693d51e141a0a3792aa00e082e202b0b9",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.4958e-05,
+          "d": 16,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_warm_101_walsh.milestone_0.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/45_11.txt",
+        "walsh",
+        "101",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/45_11_warm_101_walsh.jsonl",
+        "warm",
+        "17"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/45_11_warm_101_walsh.resource.txt"
+    },
+    {
+      "n": 62,
+      "k": 11,
+      "start": "warm",
+      "seed": 103,
+      "method": "walsh",
+      "initial_d": 25,
+      "final_d": 25,
+      "minimum_words": 156,
+      "published_lower": 25,
+      "exclusion_lower": 25,
+      "upper": 26,
+      "candidate_record": false,
+      "seconds": 15.000202125,
+      "cpu_seconds": 2.767298,
+      "steps": 59696,
+      "alternatives": 122257408,
+      "accepted": 2929,
+      "shakes": 120,
+      "object": "research/c0202026102018570000000000000001/paired/62_11_warm_103_walsh.certificate.json",
+      "sha256": "5904788cdbfc60078a927aeb119806984538f97fd67b874e866122041ad8fcf8",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.6083e-05,
+          "d": 25,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_warm_103_walsh.milestone_0.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/62_11.txt",
+        "walsh",
+        "103",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/62_11_warm_103_walsh.jsonl",
+        "warm",
+        "26"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/62_11_warm_103_walsh.resource.txt"
+    },
+    {
+      "n": 45,
+      "k": 11,
+      "start": "cold",
+      "seed": 101,
+      "method": "blind",
+      "initial_d": 11,
+      "final_d": 16,
+      "minimum_words": 77,
+      "published_lower": 16,
+      "exclusion_lower": 16,
+      "upper": 18,
+      "candidate_record": false,
+      "seconds": 15.000022291,
+      "cpu_seconds": 2.843586,
+      "steps": 294791,
+      "alternatives": 294791,
+      "accepted": 140,
+      "shakes": 0,
+      "object": "research/c0202026102018570000000000000001/paired/45_11_cold_101_blind.certificate.json",
+      "sha256": "70f4cebcc8af872a02d856ed29de2efb4cab4ac4425e3a27b94f8cd19c974cb3",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.6083e-05,
+          "d": 11,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_cold_101_blind.milestone_0.json"
+        },
+        {
+          "step": 0,
+          "seconds": 0.000116541,
+          "d": 12,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_cold_101_blind.milestone_1.json"
+        },
+        {
+          "step": 16,
+          "seconds": 0.000281375,
+          "d": 13,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_cold_101_blind.milestone_2.json"
+        },
+        {
+          "step": 45,
+          "seconds": 0.000551291,
+          "d": 14,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_cold_101_blind.milestone_3.json"
+        },
+        {
+          "step": 191,
+          "seconds": 0.001850166,
+          "d": 15,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_cold_101_blind.milestone_4.json"
+        },
+        {
+          "step": 14691,
+          "seconds": 0.407421833,
+          "d": 16,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_cold_101_blind.milestone_6.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/45_11.txt",
+        "blind",
+        "101",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/45_11_cold_101_blind.jsonl",
+        "cold",
+        "17"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/45_11_cold_101_blind.resource.txt"
+    },
+    {
+      "n": 45,
+      "k": 11,
+      "start": "warm",
+      "seed": 101,
+      "method": "blind",
+      "initial_d": 16,
+      "final_d": 16,
+      "minimum_words": 109,
+      "published_lower": 16,
+      "exclusion_lower": 16,
+      "upper": 18,
+      "candidate_record": false,
+      "seconds": 15.020029459,
+      "cpu_seconds": 1.745426,
+      "steps": 173885,
+      "alternatives": 173885,
+      "accepted": 61,
+      "shakes": 0,
+      "object": "research/c0202026102018570000000000000001/paired/45_11_warm_101_blind.certificate.json",
+      "sha256": "36799b51ccf44cbbb979b79e3f07581a7779c0f26f655b0da70f6974b22e1ed5",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.3792e-05,
+          "d": 16,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_warm_101_blind.milestone_0.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/45_11.txt",
+        "blind",
+        "101",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/45_11_warm_101_blind.jsonl",
+        "warm",
+        "17"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/45_11_warm_101_blind.resource.txt"
+    },
+    {
+      "n": 42,
+      "k": 12,
+      "start": "warm",
+      "seed": 103,
+      "method": "blind",
+      "initial_d": 15,
+      "final_d": 15,
+      "minimum_words": 211,
+      "published_lower": 15,
+      "exclusion_lower": 15,
+      "upper": 16,
+      "candidate_record": false,
+      "seconds": 15.005301958,
+      "cpu_seconds": 2.496739,
+      "steps": 132035,
+      "alternatives": 132035,
+      "accepted": 51,
+      "shakes": 0,
+      "object": "research/c0202026102018570000000000000001/paired/42_12_warm_103_blind.certificate.json",
+      "sha256": "6d5a5884988037e04b648cec68cf2adea9c32368f4b6498f092aff4ee7eff4d1",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 2.1292e-05,
+          "d": 15,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_warm_103_blind.milestone_0.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/42_12.txt",
+        "blind",
+        "103",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/42_12_warm_103_blind.jsonl",
+        "warm",
+        "16"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/42_12_warm_103_blind.resource.txt"
+    },
+    {
+      "n": 45,
+      "k": 11,
+      "start": "cold",
+      "seed": 102,
+      "method": "blind",
+      "initial_d": 11,
+      "final_d": 16,
+      "minimum_words": 81,
+      "published_lower": 16,
+      "exclusion_lower": 16,
+      "upper": 18,
+      "candidate_record": false,
+      "seconds": 15.000005125,
+      "cpu_seconds": 2.821758,
+      "steps": 290132,
+      "alternatives": 290132,
+      "accepted": 152,
+      "shakes": 0,
+      "object": "research/c0202026102018570000000000000001/paired/45_11_cold_102_blind.certificate.json",
+      "sha256": "9979f9f9bcbe95bff9a42221805c68c47bfc4d8d869080c56e423d10dfdd9a99",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.8334e-05,
+          "d": 11,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_cold_102_blind.milestone_0.json"
+        },
+        {
+          "step": 9,
+          "seconds": 0.000207417,
+          "d": 12,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_cold_102_blind.milestone_1.json"
+        },
+        {
+          "step": 25,
+          "seconds": 0.0003715,
+          "d": 13,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_cold_102_blind.milestone_2.json"
+        },
+        {
+          "step": 26,
+          "seconds": 0.000394042,
+          "d": 14,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_cold_102_blind.milestone_3.json"
+        },
+        {
+          "step": 208,
+          "seconds": 0.002018792,
+          "d": 15,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_cold_102_blind.milestone_4.json"
+        },
+        {
+          "step": 1455,
+          "seconds": 0.016343209,
+          "d": 16,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_cold_102_blind.milestone_5.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/45_11.txt",
+        "blind",
+        "102",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/45_11_cold_102_blind.jsonl",
+        "cold",
+        "17"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/45_11_cold_102_blind.resource.txt"
+    },
+    {
+      "n": 52,
+      "k": 10,
+      "start": "warm",
+      "seed": 102,
+      "method": "blind",
+      "initial_d": 21,
+      "final_d": 21,
+      "minimum_words": 77,
+      "published_lower": 21,
+      "exclusion_lower": 21,
+      "upper": 22,
+      "candidate_record": false,
+      "seconds": 15.012099708,
+      "cpu_seconds": 3.31945,
+      "steps": 703105,
+      "alternatives": 703105,
+      "accepted": 1256,
+      "shakes": 0,
+      "object": "research/c0202026102018570000000000000001/paired/52_10_warm_102_blind.certificate.json",
+      "sha256": "59c246320c88643d7b59c17b8a1ab3b6670833a0f68bf0cd5d927adc0e33d1e5",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.6125e-05,
+          "d": 21,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_warm_102_blind.milestone_0.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/52_10.txt",
+        "blind",
+        "102",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/52_10_warm_102_blind.jsonl",
+        "warm",
+        "22"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/52_10_warm_102_blind.resource.txt"
+    },
+    {
+      "n": 62,
+      "k": 11,
+      "start": "warm",
+      "seed": 101,
+      "method": "blind",
+      "initial_d": 25,
+      "final_d": 25,
+      "minimum_words": 156,
+      "published_lower": 25,
+      "exclusion_lower": 25,
+      "upper": 26,
+      "candidate_record": false,
+      "seconds": 15.00088425,
+      "cpu_seconds": 2.963348,
+      "steps": 311791,
+      "alternatives": 311791,
+      "accepted": 273,
+      "shakes": 0,
+      "object": "research/c0202026102018570000000000000001/paired/62_11_warm_101_blind.certificate.json",
+      "sha256": "d96761c0e19a671b2777971eb2dcfe4c48099ca342bfd418d1199933bbbd0c17",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.5084e-05,
+          "d": 25,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_warm_101_blind.milestone_0.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/62_11.txt",
+        "blind",
+        "101",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/62_11_warm_101_blind.jsonl",
+        "warm",
+        "26"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/62_11_warm_101_blind.resource.txt"
+    },
+    {
+      "n": 62,
+      "k": 11,
+      "start": "cold",
+      "seed": 102,
+      "method": "walsh",
+      "initial_d": 18,
+      "final_d": 24,
+      "minimum_words": 33,
+      "published_lower": 25,
+      "exclusion_lower": 25,
+      "upper": 26,
+      "candidate_record": false,
+      "seconds": 15.000016042,
+      "cpu_seconds": 2.33517,
+      "steps": 48952,
+      "alternatives": 100253696,
+      "accepted": 2758,
+      "shakes": 98,
+      "object": "research/c0202026102018570000000000000001/paired/62_11_cold_102_walsh.certificate.json",
+      "sha256": "3665fa88c1352c3f99965d0d12c3ef9a05cf054f574b6e602f205ce05f7a135b",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.9709e-05,
+          "d": 18,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_102_walsh.milestone_0.json"
+        },
+        {
+          "step": 0,
+          "seconds": 0.000222125,
+          "d": 19,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_102_walsh.milestone_1.json"
+        },
+        {
+          "step": 2,
+          "seconds": 0.000405667,
+          "d": 20,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_102_walsh.milestone_2.json"
+        },
+        {
+          "step": 6,
+          "seconds": 0.000891625,
+          "d": 21,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_102_walsh.milestone_3.json"
+        },
+        {
+          "step": 20,
+          "seconds": 0.001871167,
+          "d": 22,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_102_walsh.milestone_4.json"
+        },
+        {
+          "step": 48,
+          "seconds": 0.003184709,
+          "d": 23,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_102_walsh.milestone_5.json"
+        },
+        {
+          "step": 8086,
+          "seconds": 2.29274975,
+          "d": 24,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_102_walsh.milestone_6.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/62_11.txt",
+        "walsh",
+        "102",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/62_11_cold_102_walsh.jsonl",
+        "cold",
+        "26"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/62_11_cold_102_walsh.resource.txt"
+    },
+    {
+      "n": 45,
+      "k": 11,
+      "start": "warm",
+      "seed": 103,
+      "method": "blind",
+      "initial_d": 16,
+      "final_d": 16,
+      "minimum_words": 110,
+      "published_lower": 16,
+      "exclusion_lower": 16,
+      "upper": 18,
+      "candidate_record": false,
+      "seconds": 15.003230959,
+      "cpu_seconds": 3.261557,
+      "steps": 332505,
+      "alternatives": 332505,
+      "accepted": 130,
+      "shakes": 0,
+      "object": "research/c0202026102018570000000000000001/paired/45_11_warm_103_blind.certificate.json",
+      "sha256": "fa14b2e3dc463cb3a4640428060b40e1c11a6880b5b27b5adbfcd360e7e9f1e0",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 2.1167e-05,
+          "d": 16,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_warm_103_blind.milestone_0.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/45_11.txt",
+        "blind",
+        "103",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/45_11_warm_103_blind.jsonl",
+        "warm",
+        "17"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/45_11_warm_103_blind.resource.txt"
+    },
+    {
+      "n": 52,
+      "k": 10,
+      "start": "cold",
+      "seed": 101,
+      "method": "walsh",
+      "initial_d": 14,
+      "final_d": 20,
+      "minimum_words": 9,
+      "published_lower": 21,
+      "exclusion_lower": 21,
+      "upper": 22,
+      "candidate_record": false,
+      "seconds": 15.000022625,
+      "cpu_seconds": 4.336508,
+      "steps": 183054,
+      "alternatives": 187447296,
+      "accepted": 10962,
+      "shakes": 440,
+      "object": "research/c0202026102018570000000000000001/paired/52_10_cold_101_walsh.certificate.json",
+      "sha256": "ee5e0497029dc394cfb164dabb8e38401890d512b4a65206f058f4a7d310ef74",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 2.2792e-05,
+          "d": 14,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_101_walsh.milestone_0.json"
+        },
+        {
+          "step": 0,
+          "seconds": 0.000141625,
+          "d": 15,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_101_walsh.milestone_1.json"
+        },
+        {
+          "step": 2,
+          "seconds": 0.000242708,
+          "d": 16,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_101_walsh.milestone_2.json"
+        },
+        {
+          "step": 3,
+          "seconds": 0.000295125,
+          "d": 17,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_101_walsh.milestone_3.json"
+        },
+        {
+          "step": 6,
+          "seconds": 0.000410958,
+          "d": 18,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_101_walsh.milestone_4.json"
+        },
+        {
+          "step": 22,
+          "seconds": 0.00098575,
+          "d": 19,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_101_walsh.milestone_5.json"
+        },
+        {
+          "step": 240,
+          "seconds": 0.007131917,
+          "d": 20,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_101_walsh.milestone_6.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/52_10.txt",
+        "walsh",
+        "101",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/52_10_cold_101_walsh.jsonl",
+        "cold",
+        "22"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/52_10_cold_101_walsh.resource.txt"
+    },
+    {
+      "n": 42,
+      "k": 12,
+      "start": "warm",
+      "seed": 102,
+      "method": "walsh",
+      "initial_d": 15,
+      "final_d": 15,
+      "minimum_words": 210,
+      "published_lower": 15,
+      "exclusion_lower": 15,
+      "upper": 16,
+      "candidate_record": false,
+      "seconds": 15.005108333,
+      "cpu_seconds": 4.483997,
+      "steps": 49611,
+      "alternatives": 203206656,
+      "accepted": 3962,
+      "shakes": 147,
+      "object": "research/c0202026102018570000000000000001/paired/42_12_warm_102_walsh.certificate.json",
+      "sha256": "2b9e73fc30250114a10ca67caceb2fa725a61a23f8c5e80319b4a272d4e93653",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.6416e-05,
+          "d": 15,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_warm_102_walsh.milestone_0.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/42_12.txt",
+        "walsh",
+        "102",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/42_12_warm_102_walsh.jsonl",
+        "warm",
+        "16"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/42_12_warm_102_walsh.resource.txt"
+    },
+    {
+      "n": 52,
+      "k": 10,
+      "start": "warm",
+      "seed": 101,
+      "method": "blind",
+      "initial_d": 21,
+      "final_d": 21,
+      "minimum_words": 77,
+      "published_lower": 21,
+      "exclusion_lower": 21,
+      "upper": 22,
+      "candidate_record": false,
+      "seconds": 15.0059985,
+      "cpu_seconds": 4.68616,
+      "steps": 998002,
+      "alternatives": 998002,
+      "accepted": 2217,
+      "shakes": 0,
+      "object": "research/c0202026102018570000000000000001/paired/52_10_warm_101_blind.certificate.json",
+      "sha256": "887565a53b5b0fa0e5e0b27dc613f469e74393e353ee3ee33d977b4a3a86ec40",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 2.3917e-05,
+          "d": 21,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_warm_101_blind.milestone_0.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/52_10.txt",
+        "blind",
+        "101",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/52_10_warm_101_blind.jsonl",
+        "warm",
+        "22"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/52_10_warm_101_blind.resource.txt"
+    },
+    {
+      "n": 45,
+      "k": 11,
+      "start": "cold",
+      "seed": 103,
+      "method": "blind",
+      "initial_d": 13,
+      "final_d": 16,
+      "minimum_words": 80,
+      "published_lower": 16,
+      "exclusion_lower": 16,
+      "upper": 18,
+      "candidate_record": false,
+      "seconds": 15.000017375,
+      "cpu_seconds": 5.499993,
+      "steps": 569906,
+      "alternatives": 569906,
+      "accepted": 245,
+      "shakes": 0,
+      "object": "research/c0202026102018570000000000000001/paired/45_11_cold_103_blind.certificate.json",
+      "sha256": "66a79fa0231f58762cc771a97bb9a7287e73f4e23a6bf7a6fb578d52ad306f08",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.4208e-05,
+          "d": 13,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_cold_103_blind.milestone_0.json"
+        },
+        {
+          "step": 15,
+          "seconds": 0.000243083,
+          "d": 14,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_cold_103_blind.milestone_1.json"
+        },
+        {
+          "step": 379,
+          "seconds": 0.003650291,
+          "d": 15,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_cold_103_blind.milestone_2.json"
+        },
+        {
+          "step": 14820,
+          "seconds": 0.259763041,
+          "d": 16,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_cold_103_blind.milestone_4.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/45_11.txt",
+        "blind",
+        "103",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/45_11_cold_103_blind.jsonl",
+        "cold",
+        "17"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/45_11_cold_103_blind.resource.txt"
+    },
+    {
+      "n": 45,
+      "k": 11,
+      "start": "warm",
+      "seed": 102,
+      "method": "walsh",
+      "initial_d": 16,
+      "final_d": 16,
+      "minimum_words": 21,
+      "published_lower": 16,
+      "exclusion_lower": 16,
+      "upper": 18,
+      "candidate_record": false,
+      "seconds": 15.012762917,
+      "cpu_seconds": 5.951416,
+      "steps": 133864,
+      "alternatives": 274153472,
+      "accepted": 8664,
+      "shakes": 371,
+      "object": "research/c0202026102018570000000000000001/paired/45_11_warm_102_walsh.certificate.json",
+      "sha256": "21f2efd8dc33abdfac4bd4528ffcc7c3262517dcbe30b2f0107b03993ebf0487",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.6458e-05,
+          "d": 16,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_warm_102_walsh.milestone_0.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/45_11.txt",
+        "walsh",
+        "102",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/45_11_warm_102_walsh.jsonl",
+        "warm",
+        "17"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/45_11_warm_102_walsh.resource.txt"
+    },
+    {
+      "n": 62,
+      "k": 11,
+      "start": "cold",
+      "seed": 101,
+      "method": "blind",
+      "initial_d": 18,
+      "final_d": 23,
+      "minimum_words": 12,
+      "published_lower": 25,
+      "exclusion_lower": 25,
+      "upper": 26,
+      "candidate_record": false,
+      "seconds": 15.004096542,
+      "cpu_seconds": 7.425187,
+      "steps": 799575,
+      "alternatives": 799575,
+      "accepted": 306,
+      "shakes": 0,
+      "object": "research/c0202026102018570000000000000001/paired/62_11_cold_101_blind.certificate.json",
+      "sha256": "235235ed030e49b60346717480c0948e4aaf412dfd291aba97f9619f3c11fcc4",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.4667e-05,
+          "d": 18,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_101_blind.milestone_0.json"
+        },
+        {
+          "step": 0,
+          "seconds": 0.000118,
+          "d": 19,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_101_blind.milestone_1.json"
+        },
+        {
+          "step": 23,
+          "seconds": 0.000396167,
+          "d": 20,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_101_blind.milestone_2.json"
+        },
+        {
+          "step": 42,
+          "seconds": 0.000607834,
+          "d": 21,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_101_blind.milestone_3.json"
+        },
+        {
+          "step": 176,
+          "seconds": 0.001977417,
+          "d": 22,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_101_blind.milestone_4.json"
+        },
+        {
+          "step": 1207,
+          "seconds": 0.011681625,
+          "d": 23,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_101_blind.milestone_5.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/62_11.txt",
+        "blind",
+        "101",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/62_11_cold_101_blind.jsonl",
+        "cold",
+        "26"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/62_11_cold_101_blind.resource.txt"
+    },
+    {
+      "n": 52,
+      "k": 10,
+      "start": "warm",
+      "seed": 101,
+      "method": "walsh",
+      "initial_d": 21,
+      "final_d": 21,
+      "minimum_words": 77,
+      "published_lower": 21,
+      "exclusion_lower": 21,
+      "upper": 22,
+      "candidate_record": false,
+      "seconds": 15.001756208,
+      "cpu_seconds": 7.328639,
+      "steps": 306647,
+      "alternatives": 314006528,
+      "accepted": 18449,
+      "shakes": 737,
+      "object": "research/c0202026102018570000000000000001/paired/52_10_warm_101_walsh.certificate.json",
+      "sha256": "24aef41d4b2b9d969b5167bf8a3e182f231af53a574bbf3a27a7433778cc0074",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.5416e-05,
+          "d": 21,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_warm_101_walsh.milestone_0.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/52_10.txt",
+        "walsh",
+        "101",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/52_10_warm_101_walsh.jsonl",
+        "warm",
+        "22"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/52_10_warm_101_walsh.resource.txt"
+    },
+    {
+      "n": 45,
+      "k": 11,
+      "start": "cold",
+      "seed": 103,
+      "method": "walsh",
+      "initial_d": 13,
+      "final_d": 16,
+      "minimum_words": 18,
+      "published_lower": 16,
+      "exclusion_lower": 16,
+      "upper": 18,
+      "candidate_record": false,
+      "seconds": 15.007477,
+      "cpu_seconds": 6.625658,
+      "steps": 148987,
+      "alternatives": 305125376,
+      "accepted": 9879,
+      "shakes": 413,
+      "object": "research/c0202026102018570000000000000001/paired/45_11_cold_103_walsh.certificate.json",
+      "sha256": "6e527998e2e41e4ecf991872c331c7fffdb05c6a1085954724dbe62293075c85",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.6291e-05,
+          "d": 13,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_cold_103_walsh.milestone_0.json"
+        },
+        {
+          "step": 5,
+          "seconds": 0.0004075,
+          "d": 14,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_cold_103_walsh.milestone_1.json"
+        },
+        {
+          "step": 10,
+          "seconds": 0.000679666,
+          "d": 15,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_cold_103_walsh.milestone_2.json"
+        },
+        {
+          "step": 566,
+          "seconds": 0.0252265,
+          "d": 16,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_cold_103_walsh.milestone_3.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/45_11.txt",
+        "walsh",
+        "103",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/45_11_cold_103_walsh.jsonl",
+        "cold",
+        "17"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/45_11_cold_103_walsh.resource.txt"
+    },
+    {
+      "n": 62,
+      "k": 11,
+      "start": "cold",
+      "seed": 101,
+      "method": "walsh",
+      "initial_d": 18,
+      "final_d": 24,
+      "minimum_words": 26,
+      "published_lower": 25,
+      "exclusion_lower": 25,
+      "upper": 26,
+      "candidate_record": false,
+      "seconds": 15.0004625,
+      "cpu_seconds": 5.590717,
+      "steps": 120145,
+      "alternatives": 246056960,
+      "accepted": 6602,
+      "shakes": 242,
+      "object": "research/c0202026102018570000000000000001/paired/62_11_cold_101_walsh.certificate.json",
+      "sha256": "b3aa9a8040d4b47977b83444f38360496eeb4e460c71f479fcdbe2bac8328e8e",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 9.1583e-05,
+          "d": 18,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_101_walsh.milestone_0.json"
+        },
+        {
+          "step": 0,
+          "seconds": 0.000227041,
+          "d": 19,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_101_walsh.milestone_1.json"
+        },
+        {
+          "step": 2,
+          "seconds": 0.000357125,
+          "d": 20,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_101_walsh.milestone_2.json"
+        },
+        {
+          "step": 8,
+          "seconds": 0.000717833,
+          "d": 21,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_101_walsh.milestone_3.json"
+        },
+        {
+          "step": 14,
+          "seconds": 0.001076875,
+          "d": 22,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_101_walsh.milestone_4.json"
+        },
+        {
+          "step": 30,
+          "seconds": 0.001907875,
+          "d": 23,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_101_walsh.milestone_5.json"
+        },
+        {
+          "step": 3808,
+          "seconds": 0.2469635,
+          "d": 24,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_101_walsh.milestone_6.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/62_11.txt",
+        "walsh",
+        "101",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/62_11_cold_101_walsh.jsonl",
+        "cold",
+        "26"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/62_11_cold_101_walsh.resource.txt"
+    },
+    {
+      "n": 42,
+      "k": 12,
+      "start": "cold",
+      "seed": 102,
+      "method": "walsh",
+      "initial_d": 8,
+      "final_d": 14,
+      "minimum_words": 33,
+      "published_lower": 15,
+      "exclusion_lower": 15,
+      "upper": 16,
+      "candidate_record": false,
+      "seconds": 15.00061075,
+      "cpu_seconds": 5.507075,
+      "steps": 60758,
+      "alternatives": 248864768,
+      "accepted": 3944,
+      "shakes": 180,
+      "object": "research/c0202026102018570000000000000001/paired/42_12_cold_102_walsh.certificate.json",
+      "sha256": "6a1e837bc37f57927df5ac5fd61509e07daadca4e6bea6fa0167d542c309d472",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.6667e-05,
+          "d": 8,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_102_walsh.milestone_0.json"
+        },
+        {
+          "step": 1,
+          "seconds": 0.000294584,
+          "d": 9,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_102_walsh.milestone_1.json"
+        },
+        {
+          "step": 2,
+          "seconds": 0.000416125,
+          "d": 10,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_102_walsh.milestone_2.json"
+        },
+        {
+          "step": 3,
+          "seconds": 0.000531292,
+          "d": 11,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_102_walsh.milestone_3.json"
+        },
+        {
+          "step": 10,
+          "seconds": 0.001244209,
+          "d": 12,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_102_walsh.milestone_4.json"
+        },
+        {
+          "step": 20,
+          "seconds": 0.002267334,
+          "d": 13,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_102_walsh.milestone_5.json"
+        },
+        {
+          "step": 1918,
+          "seconds": 0.231415042,
+          "d": 14,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_102_walsh.milestone_6.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/42_12.txt",
+        "walsh",
+        "102",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/42_12_cold_102_walsh.jsonl",
+        "cold",
+        "16"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/42_12_cold_102_walsh.resource.txt"
+    },
+    {
+      "n": 45,
+      "k": 11,
+      "start": "cold",
+      "seed": 102,
+      "method": "walsh",
+      "initial_d": 11,
+      "final_d": 16,
+      "minimum_words": 20,
+      "published_lower": 16,
+      "exclusion_lower": 16,
+      "upper": 18,
+      "candidate_record": false,
+      "seconds": 15.000023625,
+      "cpu_seconds": 5.937723,
+      "steps": 132764,
+      "alternatives": 271900672,
+      "accepted": 8830,
+      "shakes": 368,
+      "object": "research/c0202026102018570000000000000001/paired/45_11_cold_102_walsh.certificate.json",
+      "sha256": "97c0794ffc0911cde8b847602c5a2d59fb438612bd396311f032cc5f3527788e",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 2.575e-05,
+          "d": 11,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_cold_102_walsh.milestone_0.json"
+        },
+        {
+          "step": 0,
+          "seconds": 0.000148042,
+          "d": 12,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_cold_102_walsh.milestone_1.json"
+        },
+        {
+          "step": 1,
+          "seconds": 0.000224417,
+          "d": 13,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_cold_102_walsh.milestone_2.json"
+        },
+        {
+          "step": 6,
+          "seconds": 0.000501708,
+          "d": 14,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_cold_102_walsh.milestone_3.json"
+        },
+        {
+          "step": 15,
+          "seconds": 0.001564042,
+          "d": 15,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_cold_102_walsh.milestone_4.json"
+        },
+        {
+          "step": 104,
+          "seconds": 0.00552025,
+          "d": 16,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_cold_102_walsh.milestone_5.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/45_11.txt",
+        "walsh",
+        "102",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/45_11_cold_102_walsh.jsonl",
+        "cold",
+        "17"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/45_11_cold_102_walsh.resource.txt"
+    },
+    {
+      "n": 52,
+      "k": 10,
+      "start": "cold",
+      "seed": 103,
+      "method": "blind",
+      "initial_d": 16,
+      "final_d": 20,
+      "minimum_words": 56,
+      "published_lower": 21,
+      "exclusion_lower": 21,
+      "upper": 22,
+      "candidate_record": false,
+      "seconds": 15.006617167,
+      "cpu_seconds": 5.981101,
+      "steps": 1250042,
+      "alternatives": 1250042,
+      "accepted": 715,
+      "shakes": 0,
+      "object": "research/c0202026102018570000000000000001/paired/52_10_cold_103_blind.certificate.json",
+      "sha256": "2517af99cd60e1106200e7a846c1be29480814538a579fce985c23160d50f6bd",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.4167e-05,
+          "d": 16,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_103_blind.milestone_0.json"
+        },
+        {
+          "step": 12,
+          "seconds": 0.000181375,
+          "d": 17,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_103_blind.milestone_1.json"
+        },
+        {
+          "step": 52,
+          "seconds": 0.000380375,
+          "d": 18,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_103_blind.milestone_2.json"
+        },
+        {
+          "step": 491,
+          "seconds": 0.002330542,
+          "d": 19,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_103_blind.milestone_3.json"
+        },
+        {
+          "step": 17058,
+          "seconds": 0.086272042,
+          "d": 20,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_103_blind.milestone_5.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/52_10.txt",
+        "blind",
+        "103",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/52_10_cold_103_blind.jsonl",
+        "cold",
+        "22"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/52_10_cold_103_blind.resource.txt"
+    },
+    {
+      "n": 62,
+      "k": 11,
+      "start": "warm",
+      "seed": 102,
+      "method": "blind",
+      "initial_d": 25,
+      "final_d": 25,
+      "minimum_words": 156,
+      "published_lower": 25,
+      "exclusion_lower": 25,
+      "upper": 26,
+      "candidate_record": false,
+      "seconds": 15.019623042,
+      "cpu_seconds": 6.10832,
+      "steps": 655584,
+      "alternatives": 655584,
+      "accepted": 450,
+      "shakes": 0,
+      "object": "research/c0202026102018570000000000000001/paired/62_11_warm_102_blind.certificate.json",
+      "sha256": "a4eb0d65893cd17d48f3942f004d136de97a6d94ef504b9ab5e6151145d71897",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.6917e-05,
+          "d": 25,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_warm_102_blind.milestone_0.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/62_11.txt",
+        "blind",
+        "102",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/62_11_warm_102_blind.jsonl",
+        "warm",
+        "26"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/62_11_warm_102_blind.resource.txt"
+    },
+    {
+      "n": 42,
+      "k": 12,
+      "start": "warm",
+      "seed": 102,
+      "method": "blind",
+      "initial_d": 15,
+      "final_d": 15,
+      "minimum_words": 210,
+      "published_lower": 15,
+      "exclusion_lower": 15,
+      "upper": 16,
+      "candidate_record": false,
+      "seconds": 15.000016625,
+      "cpu_seconds": 6.891216,
+      "steps": 354896,
+      "alternatives": 354896,
+      "accepted": 81,
+      "shakes": 0,
+      "object": "research/c0202026102018570000000000000001/paired/42_12_warm_102_blind.certificate.json",
+      "sha256": "f926eda6b3140ae12cce06bb323762729a2f7f888933f58c857096cc620320a5",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.5334e-05,
+          "d": 15,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_warm_102_blind.milestone_0.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/42_12.txt",
+        "blind",
+        "102",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/42_12_warm_102_blind.jsonl",
+        "warm",
+        "16"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/42_12_warm_102_blind.resource.txt"
+    },
+    {
+      "n": 62,
+      "k": 11,
+      "start": "warm",
+      "seed": 102,
+      "method": "walsh",
+      "initial_d": 25,
+      "final_d": 25,
+      "minimum_words": 156,
+      "published_lower": 25,
+      "exclusion_lower": 25,
+      "upper": 26,
+      "candidate_record": false,
+      "seconds": 15.025476333,
+      "cpu_seconds": 6.980363,
+      "steps": 151389,
+      "alternatives": 310044672,
+      "accepted": 7454,
+      "shakes": 305,
+      "object": "research/c0202026102018570000000000000001/paired/62_11_warm_102_walsh.certificate.json",
+      "sha256": "7d931fc3d30681a4a894b74bb4c7d6af4e9d610f7d6f0910efc5958648bc39bc",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 2.0667e-05,
+          "d": 25,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_warm_102_walsh.milestone_0.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/62_11.txt",
+        "walsh",
+        "102",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/62_11_warm_102_walsh.jsonl",
+        "warm",
+        "26"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/62_11_warm_102_walsh.resource.txt"
+    },
+    {
+      "n": 52,
+      "k": 10,
+      "start": "cold",
+      "seed": 102,
+      "method": "blind",
+      "initial_d": 13,
+      "final_d": 20,
+      "minimum_words": 55,
+      "published_lower": 21,
+      "exclusion_lower": 21,
+      "upper": 22,
+      "candidate_record": false,
+      "seconds": 15.000009125,
+      "cpu_seconds": 8.204298,
+      "steps": 1716732,
+      "alternatives": 1716732,
+      "accepted": 944,
+      "shakes": 0,
+      "object": "research/c0202026102018570000000000000001/paired/52_10_cold_102_blind.certificate.json",
+      "sha256": "f99139089a0319f1d65fde7beac2827274861cce3fdd30e04a8c6b05b3757d82",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.475e-05,
+          "d": 13,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_102_blind.milestone_0.json"
+        },
+        {
+          "step": 6,
+          "seconds": 0.000136167,
+          "d": 14,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_102_blind.milestone_1.json"
+        },
+        {
+          "step": 25,
+          "seconds": 0.000248792,
+          "d": 15,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_102_blind.milestone_2.json"
+        },
+        {
+          "step": 37,
+          "seconds": 0.000316834,
+          "d": 16,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_102_blind.milestone_3.json"
+        },
+        {
+          "step": 55,
+          "seconds": 0.000408542,
+          "d": 17,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_102_blind.milestone_4.json"
+        },
+        {
+          "step": 72,
+          "seconds": 0.000494834,
+          "d": 18,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_102_blind.milestone_5.json"
+        },
+        {
+          "step": 284,
+          "seconds": 0.001415167,
+          "d": 19,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_102_blind.milestone_6.json"
+        },
+        {
+          "step": 2597,
+          "seconds": 0.012352709,
+          "d": 20,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_102_blind.milestone_7.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/52_10.txt",
+        "blind",
+        "102",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/52_10_cold_102_blind.jsonl",
+        "cold",
+        "22"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/52_10_cold_102_blind.resource.txt"
+    },
+    {
+      "n": 52,
+      "k": 10,
+      "start": "warm",
+      "seed": 102,
+      "method": "walsh",
+      "initial_d": 21,
+      "final_d": 21,
+      "minimum_words": 77,
+      "published_lower": 21,
+      "exclusion_lower": 21,
+      "upper": 22,
+      "candidate_record": false,
+      "seconds": 15.000012,
+      "cpu_seconds": 9.357404,
+      "steps": 392684,
+      "alternatives": 402108416,
+      "accepted": 23613,
+      "shakes": 943,
+      "object": "research/c0202026102018570000000000000001/paired/52_10_warm_102_walsh.certificate.json",
+      "sha256": "1b2ceae8aced05cc2fc9894dc708c923f2e52c6f2a0f618b4e2c7e761809fcae",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.6125e-05,
+          "d": 21,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_warm_102_walsh.milestone_0.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/52_10.txt",
+        "walsh",
+        "102",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/52_10_warm_102_walsh.jsonl",
+        "warm",
+        "22"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/52_10_warm_102_walsh.resource.txt"
+    },
+    {
+      "n": 52,
+      "k": 10,
+      "start": "cold",
+      "seed": 103,
+      "method": "walsh",
+      "initial_d": 16,
+      "final_d": 20,
+      "minimum_words": 9,
+      "published_lower": 21,
+      "exclusion_lower": 21,
+      "upper": 22,
+      "candidate_record": false,
+      "seconds": 15.009426959,
+      "cpu_seconds": 8.799942,
+      "steps": 367665,
+      "alternatives": 376488960,
+      "accepted": 22851,
+      "shakes": 883,
+      "object": "research/c0202026102018570000000000000001/paired/52_10_cold_103_walsh.certificate.json",
+      "sha256": "1b7eebd7862b65103bc02fa84015731bf50e1766128ad3c93828d089892b622a",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.6709e-05,
+          "d": 16,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_103_walsh.milestone_0.json"
+        },
+        {
+          "step": 1,
+          "seconds": 0.000146084,
+          "d": 17,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_103_walsh.milestone_1.json"
+        },
+        {
+          "step": 5,
+          "seconds": 0.000265667,
+          "d": 18,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_103_walsh.milestone_2.json"
+        },
+        {
+          "step": 23,
+          "seconds": 0.000718625,
+          "d": 19,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_103_walsh.milestone_3.json"
+        },
+        {
+          "step": 216,
+          "seconds": 0.004935417,
+          "d": 20,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_103_walsh.milestone_4.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/52_10.txt",
+        "walsh",
+        "103",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/52_10_cold_103_walsh.jsonl",
+        "cold",
+        "22"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/52_10_cold_103_walsh.resource.txt"
+    },
+    {
+      "n": 42,
+      "k": 12,
+      "start": "warm",
+      "seed": 101,
+      "method": "walsh",
+      "initial_d": 15,
+      "final_d": 15,
+      "minimum_words": 210,
+      "published_lower": 15,
+      "exclusion_lower": 15,
+      "upper": 16,
+      "candidate_record": false,
+      "seconds": 15.000009916,
+      "cpu_seconds": 7.674994,
+      "steps": 84863,
+      "alternatives": 347598848,
+      "accepted": 6638,
+      "shakes": 252,
+      "object": "research/c0202026102018570000000000000001/paired/42_12_warm_101_walsh.certificate.json",
+      "sha256": "6dda88ce7fa724a5624f8efb9c2e0d61df5c7b4ea1cf0269f08af468132f9902",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.8e-05,
+          "d": 15,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_warm_101_walsh.milestone_0.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/42_12.txt",
+        "walsh",
+        "101",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/42_12_warm_101_walsh.jsonl",
+        "warm",
+        "16"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/42_12_warm_101_walsh.resource.txt"
+    },
+    {
+      "n": 62,
+      "k": 11,
+      "start": "warm",
+      "seed": 103,
+      "method": "blind",
+      "initial_d": 25,
+      "final_d": 25,
+      "minimum_words": 156,
+      "published_lower": 25,
+      "exclusion_lower": 25,
+      "upper": 26,
+      "candidate_record": false,
+      "seconds": 15.000012083,
+      "cpu_seconds": 8.770861,
+      "steps": 945240,
+      "alternatives": 945240,
+      "accepted": 721,
+      "shakes": 0,
+      "object": "research/c0202026102018570000000000000001/paired/62_11_warm_103_blind.certificate.json",
+      "sha256": "928ea9ec64d821277e46a764494bc07ca5e6f5cd5b9c598b4abf4ace1460c79d",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 2.4041e-05,
+          "d": 25,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_warm_103_blind.milestone_0.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/62_11.txt",
+        "blind",
+        "103",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/62_11_warm_103_blind.jsonl",
+        "warm",
+        "26"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/62_11_warm_103_blind.resource.txt"
+    },
+    {
+      "n": 52,
+      "k": 10,
+      "start": "cold",
+      "seed": 102,
+      "method": "walsh",
+      "initial_d": 13,
+      "final_d": 20,
+      "minimum_words": 8,
+      "published_lower": 21,
+      "exclusion_lower": 21,
+      "upper": 22,
+      "candidate_record": false,
+      "seconds": 15.000027292,
+      "cpu_seconds": 10.930444,
+      "steps": 459669,
+      "alternatives": 470701056,
+      "accepted": 26012,
+      "shakes": 1104,
+      "object": "research/c0202026102018570000000000000001/paired/52_10_cold_102_walsh.certificate.json",
+      "sha256": "86435beb7e70402cfc51c13a2c251eb203658521846afe0fdf25ae494826d5c6",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.6167e-05,
+          "d": 13,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_102_walsh.milestone_0.json"
+        },
+        {
+          "step": 1,
+          "seconds": 0.000161334,
+          "d": 14,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_102_walsh.milestone_1.json"
+        },
+        {
+          "step": 2,
+          "seconds": 0.000210292,
+          "d": 15,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_102_walsh.milestone_2.json"
+        },
+        {
+          "step": 5,
+          "seconds": 0.00029425,
+          "d": 16,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_102_walsh.milestone_3.json"
+        },
+        {
+          "step": 8,
+          "seconds": 0.000376459,
+          "d": 17,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_102_walsh.milestone_4.json"
+        },
+        {
+          "step": 15,
+          "seconds": 0.000757125,
+          "d": 18,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_102_walsh.milestone_5.json"
+        },
+        {
+          "step": 32,
+          "seconds": 0.001289584,
+          "d": 19,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_102_walsh.milestone_6.json"
+        },
+        {
+          "step": 84,
+          "seconds": 0.002794584,
+          "d": 20,
+          "object": "research/c0202026102018570000000000000001/paired/52_10_cold_102_walsh.milestone_7.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/52_10.txt",
+        "walsh",
+        "102",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/52_10_cold_102_walsh.jsonl",
+        "cold",
+        "22"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/52_10_cold_102_walsh.resource.txt"
+    },
+    {
+      "n": 42,
+      "k": 12,
+      "start": "warm",
+      "seed": 101,
+      "method": "blind",
+      "initial_d": 15,
+      "final_d": 15,
+      "minimum_words": 211,
+      "published_lower": 15,
+      "exclusion_lower": 15,
+      "upper": 16,
+      "candidate_record": false,
+      "seconds": 15.000020375,
+      "cpu_seconds": 6.306398,
+      "steps": 329915,
+      "alternatives": 329915,
+      "accepted": 95,
+      "shakes": 0,
+      "object": "research/c0202026102018570000000000000001/paired/42_12_warm_101_blind.certificate.json",
+      "sha256": "a2532e0e10694eb5f49572a506549f2143197661b6df9f906dfd881f03350386",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 0.000341166,
+          "d": 15,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_warm_101_blind.milestone_0.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/42_12.txt",
+        "blind",
+        "101",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/42_12_warm_101_blind.jsonl",
+        "warm",
+        "16"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/42_12_warm_101_blind.resource.txt"
+    },
+    {
+      "n": 45,
+      "k": 11,
+      "start": "cold",
+      "seed": 101,
+      "method": "walsh",
+      "initial_d": 11,
+      "final_d": 16,
+      "minimum_words": 19,
+      "published_lower": 16,
+      "exclusion_lower": 16,
+      "upper": 18,
+      "candidate_record": false,
+      "seconds": 15.000027791,
+      "cpu_seconds": 7.688887,
+      "steps": 173068,
+      "alternatives": 354443264,
+      "accepted": 11313,
+      "shakes": 480,
+      "object": "research/c0202026102018570000000000000001/paired/45_11_cold_101_walsh.certificate.json",
+      "sha256": "7e966d242c66dc7746a9664ace6144a9770db9310e2c318b281246f73f91bbe5",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.4083e-05,
+          "d": 11,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_cold_101_walsh.milestone_0.json"
+        },
+        {
+          "step": 0,
+          "seconds": 0.000137791,
+          "d": 12,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_cold_101_walsh.milestone_1.json"
+        },
+        {
+          "step": 1,
+          "seconds": 0.000214833,
+          "d": 13,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_cold_101_walsh.milestone_2.json"
+        },
+        {
+          "step": 5,
+          "seconds": 0.000437583,
+          "d": 14,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_cold_101_walsh.milestone_3.json"
+        },
+        {
+          "step": 11,
+          "seconds": 0.000733375,
+          "d": 15,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_cold_101_walsh.milestone_4.json"
+        },
+        {
+          "step": 263,
+          "seconds": 0.012299833,
+          "d": 16,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_cold_101_walsh.milestone_5.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/45_11.txt",
+        "walsh",
+        "101",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/45_11_cold_101_walsh.jsonl",
+        "cold",
+        "17"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/45_11_cold_101_walsh.resource.txt"
+    },
+    {
+      "n": 45,
+      "k": 11,
+      "start": "warm",
+      "seed": 102,
+      "method": "blind",
+      "initial_d": 16,
+      "final_d": 16,
+      "minimum_words": 109,
+      "published_lower": 16,
+      "exclusion_lower": 16,
+      "upper": 18,
+      "candidate_record": false,
+      "seconds": 15.000002875,
+      "cpu_seconds": 9.794191,
+      "steps": 1002279,
+      "alternatives": 1002279,
+      "accepted": 357,
+      "shakes": 0,
+      "object": "research/c0202026102018570000000000000001/paired/45_11_warm_102_blind.certificate.json",
+      "sha256": "1396eb80bbf20d4dc18906bcf8086e4b8f2b412dc5df976358affe143c67aeab",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 2.6e-05,
+          "d": 16,
+          "object": "research/c0202026102018570000000000000001/paired/45_11_warm_102_blind.milestone_0.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/45_11.txt",
+        "blind",
+        "102",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/45_11_warm_102_blind.jsonl",
+        "warm",
+        "17"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/45_11_warm_102_blind.resource.txt"
+    },
+    {
+      "n": 62,
+      "k": 11,
+      "start": "cold",
+      "seed": 103,
+      "method": "walsh",
+      "initial_d": 19,
+      "final_d": 24,
+      "minimum_words": 30,
+      "published_lower": 25,
+      "exclusion_lower": 25,
+      "upper": 26,
+      "candidate_record": false,
+      "seconds": 15.002137125,
+      "cpu_seconds": 9.38773,
+      "steps": 202821,
+      "alternatives": 415377408,
+      "accepted": 10887,
+      "shakes": 408,
+      "object": "research/c0202026102018570000000000000001/paired/62_11_cold_103_walsh.certificate.json",
+      "sha256": "e614c1d5c024d9514dac61a3e13965f2608a7cb6c177e2aebd39147126ad66df",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.4833e-05,
+          "d": 19,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_103_walsh.milestone_0.json"
+        },
+        {
+          "step": 1,
+          "seconds": 0.000427583,
+          "d": 20,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_103_walsh.milestone_1.json"
+        },
+        {
+          "step": 3,
+          "seconds": 0.000567541,
+          "d": 21,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_103_walsh.milestone_2.json"
+        },
+        {
+          "step": 6,
+          "seconds": 0.000760333,
+          "d": 22,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_103_walsh.milestone_3.json"
+        },
+        {
+          "step": 35,
+          "seconds": 0.00408575,
+          "d": 23,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_103_walsh.milestone_4.json"
+        },
+        {
+          "step": 4523,
+          "seconds": 0.259204041,
+          "d": 24,
+          "object": "research/c0202026102018570000000000000001/paired/62_11_cold_103_walsh.milestone_5.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/62_11.txt",
+        "walsh",
+        "103",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/62_11_cold_103_walsh.jsonl",
+        "cold",
+        "26"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/62_11_cold_103_walsh.resource.txt"
+    },
+    {
+      "n": 42,
+      "k": 12,
+      "start": "cold",
+      "seed": 103,
+      "method": "walsh",
+      "initial_d": 10,
+      "final_d": 14,
+      "minimum_words": 32,
+      "published_lower": 15,
+      "exclusion_lower": 15,
+      "upper": 16,
+      "candidate_record": false,
+      "seconds": 15.000078209,
+      "cpu_seconds": 8.667204,
+      "steps": 96237,
+      "alternatives": 394186752,
+      "accepted": 6844,
+      "shakes": 286,
+      "object": "research/c0202026102018570000000000000001/paired/42_12_cold_103_walsh.certificate.json",
+      "sha256": "b699a276c34f0b644748ef7d230a412a48ca9391e7ee7d2e97a89795abf02192",
+      "milestones": [
+        {
+          "step": 0,
+          "seconds": 1.5459e-05,
+          "d": 10,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_103_walsh.milestone_0.json"
+        },
+        {
+          "step": 0,
+          "seconds": 0.000190792,
+          "d": 11,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_103_walsh.milestone_1.json"
+        },
+        {
+          "step": 2,
+          "seconds": 0.000407584,
+          "d": 12,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_103_walsh.milestone_2.json"
+        },
+        {
+          "step": 11,
+          "seconds": 0.001279875,
+          "d": 13,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_103_walsh.milestone_3.json"
+        },
+        {
+          "step": 247,
+          "seconds": 0.021918667,
+          "d": 14,
+          "object": "research/c0202026102018570000000000000001/paired/42_12_cold_103_walsh.milestone_4.json"
+        }
+      ],
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/search",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/42_12.txt",
+        "walsh",
+        "103",
+        "15",
+        "1000000000000",
+        "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/research/c0202026102018570000000000000001/paired/42_12_cold_103_walsh.jsonl",
+        "cold",
+        "16"
+      ],
+      "resource": "research/c0202026102018570000000000000001/paired/42_12_cold_103_walsh.resource.txt"
+    }
+  ],
+  "updated_at": "2026-10-20T19:14:51.538485+00:00",
+  "finished_at": "2026-10-20T19:14:51.541321+00:00"
+}

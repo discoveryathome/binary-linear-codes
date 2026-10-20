@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "certificates": 439,
+  "by_dimension": {
+    "12": 100,
+    "10": 104,
+    "11": 231,
+    "20": 1,
+    "14": 1,
+    "3": 2
+  },
+  "seconds": 34.57067654200364,
+  "note": "Two independently implemented checkers; same author session, no independent human review."
+}

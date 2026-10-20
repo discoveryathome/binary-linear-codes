@@ -1,6 +1,6 @@
 {
   "schema": "discover-catalog/v0",
-  "priority_revision": 1,
+  "priority_revision": 2,
   "assessed_on": "2026-10-20",
   "priority_log": "discover/priority-log.md",
   "status": "Local proposal: meaningful draft cards, not open donor invitations or reservations.",
@@ -146,27 +146,27 @@
       "tasks": [
         {
           "id": "qc",
-          "question": "Can structured subcode selection improve the [45,11,16] lower bound?",
+          "question": "Can a different QC parent with odd row weight improve the [44,11,16] lower bound and its parity extension at length45?",
           "starting_points": [
             "DISCOVERY.md",
             "docs/literature.md",
-            "data/targets.json"
+            "data/targets.json",
+            "research/c0202026102018570000000000000001/README.md"
           ],
           "methods": [
-            "Start from the published [45,14,16] QC parent; vary independent 11-dimensional message subspaces using seeded local search."
+            "Search [I | circ(a) | circ(b) | circ(c)] with block size11, odd a,b and even c; use exact cyclic message-orbit evaluation. The original fixed [45,14,16] parent cannot help: every 11-dimensional subcode has distance16."
           ],
-          "acceptance_gate": "Full-rank certificate with d>16, both exact checkers, complete provenance and closure comparison; pure transforms are derived constructions, not fresh parent records.",
+          "acceptance_gate": "Full-rank [44,11,d>=17] certificate with both exact checkers and refreshed novelty audit; report transformations with their provenance. Secondary spectrum improvements do not pass the distance gate.",
           "first_step": {
             "command": [
               "python3",
-              "scripts/tasks.py",
-              "qc"
+              "research/c0202026102018570000000000000001/family_proof.py"
             ],
-            "expected": "PASS",
-            "scope": "Real local positive control for this card."
+            "expected": "Every 11-dimensional subcode of this fixed parent has distance exactly 16.",
+            "scope": "Positive control for the proven obstruction; the replacement search uses a different QC family."
           },
-          "first_experiment": "Replay the QC baseline, then evaluate 1000 distinct seeded subspaces and report all outcomes.",
-          "bottleneck_link": "The two-unit gap is larger than the usual one-unit gaps, but no success probability is established.",
+          "first_experiment": "Read qc_family_proof.json and reproduce its bound, then compare 100000 random and hill-climb proposals in the replacement QC family using qc_search.cpp. Record negative results and distinguish known-distance recovery from discovery.",
+          "bottleneck_link": "The timed trial proved the original subspace-only card impossible. A fresh family is required; no volunteer success rate is established.",
           "allowed_variations": [
             "Change deterministic seed and fixed evaluation budget; record both.",
             "Use equivalent generator bases with independent verification."
@@ -186,14 +186,15 @@
         },
         {
           "id": "columns",
-          "question": "Can coupled column changes escape the local-search plateau at [52,10]?",
+          "question": "Can coset replacement or changes involving more than two coordinates improve [52,10,21]?",
           "starting_points": [
             "DISCOVERY.md",
             "docs/literature.md",
-            "data/targets.json"
+            "data/targets.json",
+            "research/c0202026102018570000000000000001/README.md"
           ],
           "methods": [
-            "Use the published [53,10,22] parent and [52,10,21] baseline; try two-column repair or constraints on minimum words."
+            "Preserve the even-weight dimension9 kernel and search its other coset; alternatively test coordinated changes beyond the certified two-column obstruction."
           ],
           "acceptance_gate": "A certificate and honest negative result after a fixed candidate budget; candidate record requires d>21 and a new literature audit.",
           "first_step": {
@@ -205,8 +206,8 @@
             "expected": "PASS",
             "scope": "Real local positive control for this card."
           },
-          "first_experiment": "Replay the baseline, then compare equal-budget coupled-column repair with the saved 1000-proposal control.",
-          "bottleneck_link": "Single-column/bit hill climbs were measured; their local failure does not establish impossibility.",
+          "first_experiment": "Verify all 1326 two-column obstructions for the published baseline, then compare a fixed CPU budget of coset search against ordinary mutation. Do not repeat the ruled-out two-column search.",
+          "bottleneck_link": "Every one- or two-column replacement of the starting matrix is now excluded by checked local proofs. A lack of search improvement still does not prove global optimality.",
           "allowed_variations": [
             "Change deterministic seed and fixed evaluation budget; record both.",
             "Use equivalent generator bases with independent verification."
@@ -237,10 +238,11 @@
           "starting_points": [
             "DISCOVERY.md",
             "docs/literature.md",
-            "data/targets.json"
+            "data/targets.json",
+            "research/c0202026102018570000000000000001/README.md"
           ],
           "methods": [
-            "Audit disjoint-set proof and implement a carefully justified extension; alternatively reproduce the reported [173,20,68] code from LinCodeEvolve as a known control."
+            "Audit the disjoint-information-set stopping argument or independently reproduce the now locally reconstructed [173,20,68] published control; review its fixed-core and one-column-extension obstructions."
           ],
           "acceptance_gate": "Agreement with both exhaustive checkers on controls, adversarial rejection tests, exact covering argument and measured cost; timeout never certifies distance.",
           "first_step": {

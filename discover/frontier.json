@@ -19,9 +19,9 @@
     },
     {
       "id": "A2",
-      "statement": "Recent large-dimension constructions are conservative novelty exclusions, not locally verified witnesses.",
+      "statement": "The timed contributor trial independently implemented verification of the published [173,20,68] parent. Other recent large constructions remain conservative exclusions without local certificate replay.",
       "status": "open",
-      "link": "docs/literature.md"
+      "link": "research/c0202026102018570000000000000001/README.md"
     }
   ],
   "review": "discover/ledger.md",

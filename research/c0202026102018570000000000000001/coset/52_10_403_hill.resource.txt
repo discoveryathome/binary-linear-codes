@@ -1,0 +1,19 @@
+coset 52,10 hill seed=403 steps=9345448 d=21
+       15.00 real        10.32 user         0.14 sys
+             1572864  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                 259  page reclaims
+                   2  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   1  voluntary context switches
+               20231  involuntary context switches
+         60418626403  instructions retired
+         20624033647  cycles elapsed
+             1114424  peak memory footprint

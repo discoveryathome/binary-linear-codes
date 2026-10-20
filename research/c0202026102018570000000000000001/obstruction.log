@@ -1,0 +1,16 @@
+41 12 {'containing-minimum-word': 820} unresolved 0
+42 12 {'containing-minimum-word': 861} unresolved 0
+43 10 {'containing-minimum-word': 861, 'exhausted-affine-solutions': 42} unresolved 0
+44 10 {'containing-minimum-word': 946} unresolved 0
+44 11 {'containing-minimum-word': 903, 'exhausted-affine-solutions': 43} unresolved 0
+45 11 {'containing-minimum-word': 946, 'exhausted-affine-solutions': 44} unresolved 0
+46 12 {'containing-minimum-word': 1035} unresolved 0
+47 10 {'containing-minimum-word': 1081} unresolved 0
+52 10 {'containing-minimum-word': 1323, 'odd-parity-dependency': 3} unresolved 0
+55 10 {'containing-minimum-word': 1485} unresolved 0
+55 12 {'containing-minimum-word': 1485} unresolved 0
+58 12 {'containing-minimum-word': 1653} unresolved 0
+59 10 {'containing-minimum-word': 1711} unresolved 0
+61 11 {'containing-minimum-word': 1770, 'exhausted-affine-solutions': 60} unresolved 0
+62 10 {'containing-minimum-word': 1891} unresolved 0
+62 11 {'containing-minimum-word': 1891} unresolved 0
