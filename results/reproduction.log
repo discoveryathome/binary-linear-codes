@@ -1,0 +1,6 @@
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.049s
+
+OK
+{"status": "PASS", "targets": 16, "certificates": 66, "seconds": 19.347084500011988, "novel_records": 0, "note": "Two implementations; author-checked, no independent reviewer or optimality proof."}

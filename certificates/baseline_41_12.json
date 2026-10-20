@@ -1,0 +1,54 @@
+{
+  "format": "binary-generator-v1",
+  "q": 2,
+  "n": 41,
+  "k": 12,
+  "d": 14,
+  "rows": [
+    "11101001110101000100000100010101110010111",
+    "11101001110001111110011111100011100101110",
+    "11101001111000001010101000001111001011100",
+    "11101001101011100011000111010110010111000",
+    "11101001001100110000011001100100101110000",
+    "11101000000010010110100100000001011100000",
+    "11101010011111011011011111001010111000000",
+    "11101110100101000000101001011101110000000",
+    "11100111010001110111000101110011100000000",
+    "11110100111000011000011100101111000000000",
+    "11010011101011000110101110010110000000000",
+    "10011101001101111011001011100100000000000"
+  ],
+  "provenance": {
+    "kind": "published-reconstruction",
+    "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=41&k=12",
+    "snapshot": "data/sources/41_12.html",
+    "snapshot_sha256": "f781c30b9d54ee23a312485eb57ecd73a87dfc9b5df7072a5efdd6b5e4375700",
+    "steps": [
+      {
+        "index": 1,
+        "n": 43,
+        "k": 15,
+        "published_d": 13,
+        "verified_d": 13,
+        "recipe": "CyclicCode of length 43 with generating polynomial x^28 + x^27 + x^26 + x^24 + x^21 + x^20 + x^19 + x^17 + x^16 + x^14 + x^12 + x^11 + x^9 + x^8 + x^7 + x^4 + x^2 + x + 1"
+      },
+      {
+        "index": 2,
+        "n": 44,
+        "k": 15,
+        "published_d": 14,
+        "verified_d": 14,
+        "recipe": "ExtendCode [1] by 1"
+      },
+      {
+        "index": 3,
+        "n": 41,
+        "k": 12,
+        "published_d": 14,
+        "verified_d": 14,
+        "recipe": "Shortening of [2] at { 42 .. 44 }"
+      }
+    ],
+    "credit": "Published construction, not a pilot discovery. Named authors retained in recipe text."
+  }
+}

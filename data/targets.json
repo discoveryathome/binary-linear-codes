@@ -1,0 +1,306 @@
+[
+  {
+    "n": 41,
+    "k": 12,
+    "published_lower": 14,
+    "closure_lower": 14,
+    "table_upper": 15,
+    "upper": 15,
+    "upper_derivation": {
+      "source": "codetables:41:12"
+    },
+    "verified_d": 14,
+    "object": "certificates/baseline_41_12.json",
+    "source": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=41&k=12",
+    "by": "Published construction via Grassl code tables",
+    "updated": "2026-10-20",
+    "status": "open; construction verified; upper bound literature-reported",
+    "codewords": 4096,
+    "improvement_goal": 15
+  },
+  {
+    "n": 42,
+    "k": 12,
+    "published_lower": 15,
+    "closure_lower": 15,
+    "table_upper": 16,
+    "upper": 16,
+    "upper_derivation": {
+      "source": "codetables:42:12"
+    },
+    "verified_d": 15,
+    "object": "certificates/baseline_42_12.json",
+    "source": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=42&k=12",
+    "by": "Published construction via Grassl code tables",
+    "updated": "2026-10-20",
+    "status": "open; construction verified; upper bound literature-reported",
+    "codewords": 4096,
+    "improvement_goal": 16
+  },
+  {
+    "n": 43,
+    "k": 10,
+    "published_lower": 16,
+    "closure_lower": 16,
+    "table_upper": 17,
+    "upper": 17,
+    "upper_derivation": {
+      "source": "codetables:43:10"
+    },
+    "verified_d": 16,
+    "object": "certificates/baseline_43_10.json",
+    "source": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=43&k=10",
+    "by": "Published construction via Grassl code tables",
+    "updated": "2026-10-20",
+    "status": "open; construction verified; upper bound literature-reported",
+    "codewords": 1024,
+    "improvement_goal": 17
+  },
+  {
+    "n": 44,
+    "k": 10,
+    "published_lower": 17,
+    "closure_lower": 17,
+    "table_upper": 18,
+    "upper": 18,
+    "upper_derivation": {
+      "source": "codetables:44:10"
+    },
+    "verified_d": 17,
+    "object": "certificates/baseline_44_10.json",
+    "source": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=44&k=10",
+    "by": "Published construction via Grassl code tables",
+    "updated": "2026-10-20",
+    "status": "open; construction verified; upper bound literature-reported",
+    "codewords": 1024,
+    "improvement_goal": 18
+  },
+  {
+    "n": 44,
+    "k": 11,
+    "published_lower": 16,
+    "closure_lower": 16,
+    "table_upper": 17,
+    "upper": 17,
+    "upper_derivation": {
+      "source": "codetables:44:11"
+    },
+    "verified_d": 16,
+    "object": "certificates/baseline_44_11.json",
+    "source": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=44&k=11",
+    "by": "Published construction via Grassl code tables",
+    "updated": "2026-10-20",
+    "status": "open; construction verified; upper bound literature-reported",
+    "codewords": 2048,
+    "improvement_goal": 17
+  },
+  {
+    "n": 45,
+    "k": 11,
+    "published_lower": 16,
+    "closure_lower": 16,
+    "table_upper": 18,
+    "upper": 18,
+    "upper_derivation": {
+      "source": "codetables:45:11"
+    },
+    "verified_d": 16,
+    "object": "certificates/baseline_45_11.json",
+    "source": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=45&k=11",
+    "by": "Published construction via Grassl code tables",
+    "updated": "2026-10-20",
+    "status": "open; construction verified; upper bound literature-reported",
+    "codewords": 2048,
+    "improvement_goal": 17
+  },
+  {
+    "n": 46,
+    "k": 12,
+    "published_lower": 16,
+    "closure_lower": 16,
+    "table_upper": 17,
+    "upper": 17,
+    "upper_derivation": {
+      "source": "codetables:46:12"
+    },
+    "verified_d": 16,
+    "object": "certificates/baseline_46_12.json",
+    "source": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=46&k=12",
+    "by": "Published construction via Grassl code tables",
+    "updated": "2026-10-20",
+    "status": "open; construction verified; upper bound literature-reported",
+    "codewords": 4096,
+    "improvement_goal": 17
+  },
+  {
+    "n": 47,
+    "k": 10,
+    "published_lower": 19,
+    "closure_lower": 19,
+    "table_upper": 20,
+    "upper": 20,
+    "upper_derivation": {
+      "source": "codetables:47:10"
+    },
+    "verified_d": 19,
+    "object": "certificates/baseline_47_10.json",
+    "source": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=47&k=10",
+    "by": "Published construction via Grassl code tables",
+    "updated": "2026-10-20",
+    "status": "open; construction verified; upper bound literature-reported",
+    "codewords": 1024,
+    "improvement_goal": 20
+  },
+  {
+    "n": 52,
+    "k": 10,
+    "published_lower": 21,
+    "closure_lower": 21,
+    "table_upper": 22,
+    "upper": 22,
+    "upper_derivation": {
+      "source": "codetables:52:10"
+    },
+    "verified_d": 21,
+    "object": "certificates/baseline_52_10.json",
+    "source": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=52&k=10",
+    "by": "Published construction via Grassl code tables",
+    "updated": "2026-10-20",
+    "status": "open; construction verified; upper bound literature-reported",
+    "codewords": 1024,
+    "improvement_goal": 22
+  },
+  {
+    "n": 55,
+    "k": 10,
+    "published_lower": 23,
+    "closure_lower": 23,
+    "table_upper": 24,
+    "upper": 24,
+    "upper_derivation": {
+      "source": "codetables:55:10"
+    },
+    "verified_d": 23,
+    "object": "certificates/baseline_55_10.json",
+    "source": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=55&k=10",
+    "by": "Published construction via Grassl code tables",
+    "updated": "2026-10-20",
+    "status": "open; construction verified; upper bound literature-reported",
+    "codewords": 1024,
+    "improvement_goal": 24
+  },
+  {
+    "n": 55,
+    "k": 12,
+    "published_lower": 21,
+    "closure_lower": 21,
+    "table_upper": 22,
+    "upper": 22,
+    "upper_derivation": {
+      "source": "codetables:55:12"
+    },
+    "verified_d": 21,
+    "object": "certificates/baseline_55_12.json",
+    "source": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=55&k=12",
+    "by": "Published construction via Grassl code tables",
+    "updated": "2026-10-20",
+    "status": "open; construction verified; upper bound literature-reported",
+    "codewords": 4096,
+    "improvement_goal": 22
+  },
+  {
+    "n": 58,
+    "k": 12,
+    "published_lower": 23,
+    "closure_lower": 23,
+    "table_upper": 24,
+    "upper": 24,
+    "upper_derivation": {
+      "source": "codetables:58:12"
+    },
+    "verified_d": 23,
+    "object": "certificates/baseline_58_12.json",
+    "source": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=58&k=12",
+    "by": "Published construction via Grassl code tables",
+    "updated": "2026-10-20",
+    "status": "open; construction verified; upper bound literature-reported",
+    "codewords": 4096,
+    "improvement_goal": 24
+  },
+  {
+    "n": 59,
+    "k": 10,
+    "published_lower": 24,
+    "closure_lower": 24,
+    "table_upper": 25,
+    "upper": 25,
+    "upper_derivation": {
+      "source": "codetables:59:10"
+    },
+    "verified_d": 24,
+    "object": "certificates/baseline_59_10.json",
+    "source": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=59&k=10",
+    "by": "Published construction via Grassl code tables",
+    "updated": "2026-10-20",
+    "status": "open; construction verified; upper bound literature-reported",
+    "codewords": 1024,
+    "improvement_goal": 25
+  },
+  {
+    "n": 61,
+    "k": 11,
+    "published_lower": 24,
+    "closure_lower": 24,
+    "table_upper": 25,
+    "upper": 25,
+    "upper_derivation": {
+      "source": "codetables:61:11"
+    },
+    "verified_d": 24,
+    "object": "certificates/baseline_61_11.json",
+    "source": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=61&k=11",
+    "by": "Published construction via Grassl code tables",
+    "updated": "2026-10-20",
+    "status": "open; construction verified; upper bound literature-reported",
+    "codewords": 2048,
+    "improvement_goal": 25
+  },
+  {
+    "n": 62,
+    "k": 10,
+    "published_lower": 26,
+    "closure_lower": 26,
+    "table_upper": 27,
+    "upper": 27,
+    "upper_derivation": {
+      "source": "codetables:62:10"
+    },
+    "verified_d": 26,
+    "object": "certificates/baseline_62_10.json",
+    "source": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=62&k=10",
+    "by": "Published construction via Grassl code tables",
+    "updated": "2026-10-20",
+    "status": "open; construction verified; upper bound literature-reported",
+    "codewords": 1024,
+    "improvement_goal": 27
+  },
+  {
+    "n": 62,
+    "k": 11,
+    "published_lower": 25,
+    "closure_lower": 25,
+    "table_upper": 26,
+    "upper": 26,
+    "upper_derivation": {
+      "source": "codetables:62:11"
+    },
+    "verified_d": 25,
+    "object": "certificates/baseline_62_11.json",
+    "source": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=62&k=11",
+    "by": "Published construction via Grassl code tables",
+    "updated": "2026-10-20",
+    "status": "open; construction verified; upper bound literature-reported",
+    "codewords": 2048,
+    "improvement_goal": 26
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "n": 35,
+    "k": 10,
+    "status": "deferred",
+    "reason": "closed by exclusions"
+  },
+  {
+    "n": 36,
+    "k": 10,
+    "status": "deferred",
+    "reason": "closed by exclusions"
+  },
+  {
+    "n": 36,
+    "k": 11,
+    "status": "deferred",
+    "reason": "closed by exclusions"
+  },
+  {
+    "n": 37,
+    "k": 11,
+    "status": "deferred",
+    "reason": "closed by exclusions"
+  },
+  {
+    "n": 37,
+    "k": 12,
+    "status": "deferred",
+    "reason": "closed by exclusions"
+  },
+  {
+    "n": 38,
+    "k": 12,
+    "status": "deferred",
+    "reason": "closed by exclusions"
+  },
+  {
+    "n": 41,
+    "k": 12,
+    "status": "reconstructed"
+  },
+  {
+    "n": 42,
+    "k": 12,
+    "status": "reconstructed"
+  },
+  {
+    "n": 43,
+    "k": 10,
+    "status": "reconstructed"
+  },
+  {
+    "n": 44,
+    "k": 10,
+    "status": "reconstructed"
+  },
+  {
+    "n": 44,
+    "k": 11,
+    "status": "reconstructed"
+  },
+  {
+    "n": 45,
+    "k": 11,
+    "status": "reconstructed"
+  },
+  {
+    "n": 46,
+    "k": 10,
+    "status": "deferred",
+    "reason": "unsupported: GoppaCode with 55 points over GF(64) and polynomial x^9 + 1 where w := GF(64).1"
+  },
+  {
+    "n": 46,
+    "k": 11,
+    "status": "deferred",
+    "reason": "unsupported: GoppaCode with 55 points over GF(64) and polynomial x^9 + 1 where w := GF(64).1"
+  },
+  {
+    "n": 46,
+    "k": 12,
+    "status": "reconstructed"
+  },
+  {
+    "n": 47,
+    "k": 10,
+    "status": "reconstructed"
+  },
+  {
+    "n": 47,
+    "k": 12,
+    "status": "deferred",
+    "reason": "unsupported: RepetitionCode of length 2"
+  },
+  {
+    "n": 48,
+    "k": 11,
+    "status": "deferred",
+    "reason": "unsupported: GoppaCode with 55 points over GF(64) and polynomial x^9 + 1 where w := GF(64).1"
+  },
+  {
+    "n": 48,
+    "k": 12,
+    "status": "deferred",
+    "reason": "unsupported: GoppaCode with 55 points over GF(64) and polynomial x^9 + 1 where w := GF(64).1"
+  },
+  {
+    "n": 49,
+    "k": 11,
+    "status": "deferred",
+    "reason": "unsupported: GoppaCode with 55 points over GF(64) and polynomial x^9 + 1 where w := GF(64).1"
+  },
+  {
+    "n": 49,
+    "k": 12,
+    "status": "deferred",
+    "reason": "unsupported: GoppaCode with 55 points over GF(64) and polynomial x^9 + 1 where w := GF(64).1"
+  },
+  {
+    "n": 50,
+    "k": 12,
+    "status": "deferred",
+    "reason": "unsupported: GoppaCode with 55 points over GF(64) and polynomial x^9 + 1 where w := GF(64).1"
+  },
+  {
+    "n": 51,
+    "k": 10,
+    "status": "deferred",
+    "reason": "unsupported: GoppaCode with 55 points over GF(64) and polynomial x^9 + 1 where w := GF(64).1"
+  },
+  {
+    "n": 51,
+    "k": 12,
+    "status": "deferred",
+    "reason": "unsupported: GoppaCode with 55 points over GF(64) and polynomial x^9 + 1 where w := GF(64).1"
+  },
+  {
+    "n": 52,
+    "k": 10,
+    "status": "reconstructed"
+  },
+  {
+    "n": 52,
+    "k": 11,
+    "status": "deferred",
+    "reason": "unsupported: GoppaCode with 55 points over GF(64) and polynomial x^9 + 1 where w := GF(64).1"
+  },
+  {
+    "n": 53,
+    "k": 11,
+    "status": "deferred",
+    "reason": "unsupported: GoppaCode with 55 points over GF(64) and polynomial x^9 + 1 where w := GF(64).1"
+  },
+  {
+    "n": 53,
+    "k": 12,
+    "status": "deferred",
+    "reason": "unsupported: GoppaCode with 55 points over GF(64) and polynomial x^9 + 1 where w := GF(64).1"
+  },
+  {
+    "n": 54,
+    "k": 10,
+    "status": "deferred",
+    "reason": "unsupported: Construction B2 of [2]"
+  },
+  {
+    "n": 54,
+    "k": 11,
+    "status": "deferred",
+    "reason": "unsupported: Construction B2 of [2]"
+  },
+  {
+    "n": 54,
+    "k": 12,
+    "status": "deferred",
+    "reason": "unsupported: GoppaCode with 55 points over GF(64) and polynomial x^9 + 1 where w := GF(64).1"
+  },
+  {
+    "n": 55,
+    "k": 10,
+    "status": "reconstructed"
+  },
+  {
+    "n": 55,
+    "k": 11,
+    "status": "deferred",
+    "reason": "unsupported: Construction B2 of [2]"
+  },
+  {
+    "n": 55,
+    "k": 12,
+    "status": "reconstructed"
+  },
+  {
+    "n": 56,
+    "k": 11,
+    "status": "deferred",
+    "reason": "step 4 distance 21<22; coordinate convention requires audit"
+  },
+  {
+    "n": 57,
+    "k": 11,
+    "status": "deferred",
+    "reason": "unsupported: Construction B2 of [2]"
+  },
+  {
+    "n": 57,
+    "k": 12,
+    "status": "deferred",
+    "reason": "step 4 distance 21<22; coordinate convention requires audit"
+  },
+  {
+    "n": 58,
+    "k": 12,
+    "status": "reconstructed"
+  },
+  {
+    "n": 59,
+    "k": 10,
+    "status": "reconstructed"
+  },
+  {
+    "n": 60,
+    "k": 10,
+    "status": "deferred",
+    "reason": "unsupported: UniverseCode of length 4\n[2]: [8,0] Code\n     ZeroCode of length 8"
+  },
+  {
+    "n": 61,
+    "k": 11,
+    "status": "reconstructed"
+  },
+  {
+    "n": 62,
+    "k": 10,
+    "status": "reconstructed"
+  },
+  {
+    "n": 62,
+    "k": 11,
+    "status": "reconstructed"
+  },
+  {
+    "n": 62,
+    "k": 12,
+    "status": "reconstructed"
+  },
+  {
+    "n": 63,
+    "k": 10,
+    "status": "reconstructed"
+  },
+  {
+    "n": 63,
+    "k": 12,
+    "status": "reconstructed"
+  },
+  {
+    "n": 64,
+    "k": 11,
+    "status": "reconstructed"
+  },
+  {
+    "n": 64,
+    "k": 12,
+    "status": "reconstructed"
+  },
+  {
+    "n": 65,
+    "k": 9,
+    "status": "deferred",
+    "reason": "unsupported: CordaroWagnerCode of length 2"
+  },
+  {
+    "n": 65,
+    "k": 11,
+    "status": "deferred",
+    "reason": "unsupported: CordaroWagnerCode of length 2"
+  },
+  {
+    "n": 65,
+    "k": 12,
+    "status": "reconstructed"
+  },
+  {
+    "n": 66,
+    "k": 9,
+    "status": "deferred",
+    "reason": "unsupported: Dual of the RepetitionCode of length 4"
+  },
+  {
+    "n": 66,
+    "k": 12,
+    "status": "reconstructed"
+  },
+  {
+    "n": 67,
+    "k": 12,
+    "status": "reconstructed"
+  },
+  {
+    "n": 68,
+    "k": 11,
+    "status": "reconstructed"
+  },
+  {
+    "n": 69,
+    "k": 11,
+    "status": "reconstructed"
+  },
+  {
+    "n": 69,
+    "k": 12,
+    "status": "reconstructed"
+  },
+  {
+    "n": 70,
+    "k": 12,
+    "status": "reconstructed"
+  }
+]

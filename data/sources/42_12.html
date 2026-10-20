@@ -1,0 +1,77 @@
+<HTML>
+<HEAD>
+<TITLE>Bounds on the minimum distance of linear codes</TITLE>
+<link rel="SHORTCUT ICON" href="../MG.ico"> 
+<link rel="stylesheet" type="text/css" href="../codetables.css">
+</HEAD>
+<BODY>
+
+<H2>Bounds on the minimum distance of linear codes</H2>
+
+<H3>Bounds on linear codes [42,12] over GF(2)</H3><TABLE><TR><TD>lower bound:</TD><TD>15</TD></TR><TR><TD>upper bound:</TD><TD>16</TD></TR></TABLE><H3>Construction</H3><PRE>Construction of a linear code [42,12,15] over GF(2):
+[1]:  [45, 14, 16] Quasicyclic of degree 3 Linear Code over GF(2)
+     QuasiCyclicCode of length 45 with Generating Polynomials (in octal):
+ [ 3, 4631, 11327 ]
+[2]:  [44, 14, 15] Linear Code over GF(2)
+     Puncturing of [1] at { 45 }
+[3]:  [42, 12, 15] Linear Code over GF(2)
+     Shortening of [2] at { 43 .. 44 }
+
+last modified: 2001-01-30
+</PRE><H3>From Brouwer's table (as of 2007-02-13)</H3>
+<PRE>
+Lb(42,12) = 15 is found by shortening of:
+Lb(44,14) = 15 is found by truncation of:
+Lb(45,14) = 16 Bo0
+
+Ub(42,12) = 16 follows by the Griesmer bound.
+</PRE>
+<H6> References </H6>
+<b> Bo0: </b>
+I Boukliev, private comm. 1995-1997.
+<P>
+
+
+<TABLE WIDTH=600 CELLPADDING=0 CELLSPACING=0>
+<TR><TD>
+<H3>Notes</H3>
+<UL>
+<LI>All codes establishing the lower bounds were constructed using 
+     <A target="MAGMA" HREF="http://magma.maths.usyd.edu.au">MAGMA</A>.
+<LI>Upper bounds are taken from the <A target="Brouwer" HREF="http://www.win.tue.nl/~aeb/voorlincod.html">tables</A> of Andries E. Brouwer, with the exception of codes over GF(7) with <EM>n&gt;50</EM>.  
+For most of these codes, the upper bounds are rather weak.  
+Upper bounds for codes over GF(7) with small dimension have been provided by <B>Rumen Daskalov</B>.
+<LI>Special thanks to <B>John Cannon</B> for his support in this project.
+<LI>A prototype version of MAGMA's code database  over GF(2) was
+written by <B>Tat Chan</B> in 1999 and extended later that year by 
+<B>Damien Fisher</B>. The current release version was 
+developed by <B>Greg White</B> over the period 2001-2006.
+<LI>Thanks also to <B>Allan Steel</B> for his MAGMA support.
+<LI>My apologies to all authors that have contributed codes to this table for not giving specific credits.
+<P>
+<LI>If you have found any code improving the bounds or some errors, please send me an e-mail:<BR>
+<A HREF="mailto:codes [at] codetables.de">codes [at] codetables.de</A>
+</UL>
+</TD><TR>
+</TABLE>
+
+<HR>
+<A class="tab" target="_parent" HREF="../index.html">Homepage</A> | 
+<A class="tab" HREF="BKLC_query.php">New Query</A> | 
+<A class="tab" HREF="mailto:codes [at] codetables.de">Contact</A>
+
+<HR>
+<SMALL>
+<ADDRESS>
+This page is maintained by 
+<A target="mg" HREF="http://www.markus-grassl.de/index.html">Markus Grassl</A>
+ (<A HREF="mailto:codes@codetables.de">codes@codetables.de</A>).
+<!-- HHMTS START -->
+Last change: 30.12.2011<!-- HHMTS END -->
+</ADDRESS>
+</SMALL>
+<HR>
+
+
+</BODY>
+</HTML>

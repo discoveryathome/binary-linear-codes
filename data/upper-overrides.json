@@ -1,0 +1,51 @@
+[
+  {
+    "n": 35,
+    "k": 10,
+    "upper": 12,
+    "source": "https://doi.org/10.1109/TIT.2010.2100803",
+    "primary_confirmation": "https://www.markus-grassl.de/publications.html",
+    "claim": "No binary [35,10,13] code",
+    "evidence": "published theorem; classification not replayed"
+  },
+  {
+    "n": 36,
+    "k": 11,
+    "upper": 12,
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7340893/",
+    "claim": "Proposition 2 proof: no binary [36,11,13] code",
+    "evidence": "published theorem; classification not replayed"
+  },
+  {
+    "n": 37,
+    "k": 12,
+    "upper": 12,
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7340893/",
+    "claim": "Proposition 2 proof: no binary [37,12,13] code",
+    "evidence": "published theorem; classification not replayed"
+  },
+  {
+    "n": 41,
+    "k": 14,
+    "upper": 13,
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7340893/",
+    "claim": "Proposition 2: no binary [41,14,14] code",
+    "evidence": "published theorem; classification not replayed"
+  },
+  {
+    "n": 43,
+    "k": 17,
+    "upper": 12,
+    "source": "https://www.algorithm.uni-bayreuth.de/en/team/Feulner_Thomas/icmcta_preprint.pdf",
+    "claim": "Table 2 binary upper bound",
+    "evidence": "published classification; not replayed"
+  },
+  {
+    "n": 57,
+    "k": 30,
+    "upper": 12,
+    "source": "https://www.algorithm.uni-bayreuth.de/en/team/Feulner_Thomas/icmcta_preprint.pdf",
+    "claim": "Table 2 binary upper bound",
+    "evidence": "published classification; not replayed"
+  }
+]

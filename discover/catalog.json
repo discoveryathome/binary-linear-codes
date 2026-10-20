@@ -1,0 +1,277 @@
+{
+  "schema": "discover-catalog/v0",
+  "priority_revision": 1,
+  "assessed_on": "2026-10-20",
+  "priority_log": "discover/priority-log.md",
+  "status": "Local proposal: meaningful draft cards, not open donor invitations or reservations.",
+  "tracks": [
+    {
+      "id": "verification",
+      "weight": 25,
+      "useful_outcome": "Independent replay and artifact trust",
+      "tasks": [
+        {
+          "id": "replay",
+          "question": "Can a fresh checkout reproduce all 16 witnesses and reject malformed ones?",
+          "starting_points": [
+            "DISCOVERY.md",
+            "docs/literature.md",
+            "data/targets.json"
+          ],
+          "methods": [
+            "Replay both checkers, source hashes and the recipe path; audit one randomly selected code against direct vector arithmetic."
+          ],
+          "acceptance_gate": "An independently authored receipt with commit, hashes, wall time and all discrepancies.",
+          "first_step": {
+            "command": [
+              "python3",
+              "scripts/tasks.py",
+              "replay"
+            ],
+            "expected": "PASS",
+            "scope": "Real local positive control for this card."
+          },
+          "first_experiment": "Run scripts/reproduce.py, then add one adversarial certificate not already covered by tests.",
+          "bottleneck_link": "Review is scarce; a second implementation is not a second reviewer.",
+          "allowed_variations": [
+            "Change deterministic seed and fixed evaluation budget; record both.",
+            "Use equivalent generator bases with independent verification."
+          ],
+          "scope_change_triggers": [
+            "Stop record claims if literature or closure dominates the candidate.",
+            "Escalate k>20 certification or a large resource requirement into a separate scoped task."
+          ],
+          "overlap_terms": [
+            "replay",
+            "binary-linear-codes"
+          ],
+          "claim_kind": [
+            "exact",
+            "measured"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "literature",
+      "weight": 30,
+      "useful_outcome": "Eliminate stale and automatically implied targets",
+      "tasks": [
+        {
+          "id": "literature",
+          "question": "Do any final target gaps disappear under newer upper bounds or published construction closure?",
+          "starting_points": [
+            "DISCOVERY.md",
+            "docs/literature.md",
+            "data/targets.json"
+          ],
+          "methods": [
+            "Follow the target-specific original upper references and compare with recent classifications, not only table pages."
+          ],
+          "acceptance_gate": "Primary-source correction with exact parameter scope; rerun closure, list affected targets; no unsupported assertion of openness.",
+          "first_step": {
+            "command": [
+              "python3",
+              "scripts/tasks.py",
+              "literature"
+            ],
+            "expected": "PASS",
+            "scope": "Real local positive control for this card."
+          },
+          "first_experiment": "Audit (41,12) and (42,12) first, then expand upper-overrides.json only with primary evidence.",
+          "bottleneck_link": "Six initial table gaps were already settled; freshness is a demonstrated bottleneck.",
+          "allowed_variations": [
+            "Change deterministic seed and fixed evaluation budget; record both.",
+            "Use equivalent generator bases with independent verification."
+          ],
+          "scope_change_triggers": [
+            "Stop record claims if literature or closure dominates the candidate.",
+            "Escalate k>20 certification or a large resource requirement into a separate scoped task."
+          ],
+          "overlap_terms": [
+            "literature",
+            "binary-linear-codes"
+          ],
+          "claim_kind": [
+            "exact",
+            "measured"
+          ]
+        },
+        {
+          "id": "goppa",
+          "question": "Can deferred Goppa/B2 recipes be reconstructed without a proprietary runtime?",
+          "starting_points": [
+            "DISCOVERY.md",
+            "docs/literature.md",
+            "data/targets.json"
+          ],
+          "methods": [
+            "Implement a scoped GF(64) Goppa construction, independently verify parent rank/distance, then audit the precise B2 operation."
+          ],
+          "acceptance_gate": "Exact matrix, source provenance and both verifiers passing; replication credit only.",
+          "first_step": {
+            "command": [
+              "python3",
+              "scripts/tasks.py",
+              "goppa"
+            ],
+            "expected": "PASS",
+            "scope": "Real local positive control for this card."
+          },
+          "first_experiment": "Start with the published [55,16,19] Goppa recipe in data/sources/51_12.html and reproduce its parity-extended [56,16,20] parent.",
+          "bottleneck_link": "Unsupported recipes remain in the novelty exclusions and cannot be ignored.",
+          "allowed_variations": [
+            "Change deterministic seed and fixed evaluation budget; record both.",
+            "Use equivalent generator bases with independent verification."
+          ],
+          "scope_change_triggers": [
+            "Stop record claims if literature or closure dominates the candidate.",
+            "Escalate k>20 certification or a large resource requirement into a separate scoped task."
+          ],
+          "overlap_terms": [
+            "goppa",
+            "binary-linear-codes"
+          ],
+          "claim_kind": [
+            "exact",
+            "measured"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "structured",
+      "weight": 35,
+      "useful_outcome": "Search near certified constructions",
+      "tasks": [
+        {
+          "id": "qc",
+          "question": "Can structured subcode selection improve the [45,11,16] lower bound?",
+          "starting_points": [
+            "DISCOVERY.md",
+            "docs/literature.md",
+            "data/targets.json"
+          ],
+          "methods": [
+            "Start from the published [45,14,16] QC parent; vary independent 11-dimensional message subspaces using seeded local search."
+          ],
+          "acceptance_gate": "Full-rank certificate with d>16, both exact checkers, complete provenance and closure comparison; pure transforms are derived constructions, not fresh parent records.",
+          "first_step": {
+            "command": [
+              "python3",
+              "scripts/tasks.py",
+              "qc"
+            ],
+            "expected": "PASS",
+            "scope": "Real local positive control for this card."
+          },
+          "first_experiment": "Replay the QC baseline, then evaluate 1000 distinct seeded subspaces and report all outcomes.",
+          "bottleneck_link": "The two-unit gap is larger than the usual one-unit gaps, but no success probability is established.",
+          "allowed_variations": [
+            "Change deterministic seed and fixed evaluation budget; record both.",
+            "Use equivalent generator bases with independent verification."
+          ],
+          "scope_change_triggers": [
+            "Stop record claims if literature or closure dominates the candidate.",
+            "Escalate k>20 certification or a large resource requirement into a separate scoped task."
+          ],
+          "overlap_terms": [
+            "qc",
+            "binary-linear-codes"
+          ],
+          "claim_kind": [
+            "exact",
+            "measured"
+          ]
+        },
+        {
+          "id": "columns",
+          "question": "Can coupled column changes escape the local-search plateau at [52,10]?",
+          "starting_points": [
+            "DISCOVERY.md",
+            "docs/literature.md",
+            "data/targets.json"
+          ],
+          "methods": [
+            "Use the published [53,10,22] parent and [52,10,21] baseline; try two-column repair or constraints on minimum words."
+          ],
+          "acceptance_gate": "A certificate and honest negative result after a fixed candidate budget; candidate record requires d>21 and a new literature audit.",
+          "first_step": {
+            "command": [
+              "python3",
+              "scripts/tasks.py",
+              "columns"
+            ],
+            "expected": "PASS",
+            "scope": "Real local positive control for this card."
+          },
+          "first_experiment": "Replay the baseline, then compare equal-budget coupled-column repair with the saved 1000-proposal control.",
+          "bottleneck_link": "Single-column/bit hill climbs were measured; their local failure does not establish impossibility.",
+          "allowed_variations": [
+            "Change deterministic seed and fixed evaluation budget; record both.",
+            "Use equivalent generator bases with independent verification."
+          ],
+          "scope_change_triggers": [
+            "Stop record claims if literature or closure dominates the candidate.",
+            "Escalate k>20 certification or a large resource requirement into a separate scoped task."
+          ],
+          "overlap_terms": [
+            "columns",
+            "binary-linear-codes"
+          ],
+          "claim_kind": [
+            "exact",
+            "measured"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "certified",
+      "weight": 10,
+      "useful_outcome": "Extend certification without trusting heuristic stopping",
+      "tasks": [
+        {
+          "id": "certification",
+          "question": "Can the information-set verifier cover larger k while retaining an auditable stopping proof?",
+          "starting_points": [
+            "DISCOVERY.md",
+            "docs/literature.md",
+            "data/targets.json"
+          ],
+          "methods": [
+            "Audit disjoint-set proof and implement a carefully justified extension; alternatively reproduce the reported [173,20,68] code from LinCodeEvolve as a known control."
+          ],
+          "acceptance_gate": "Agreement with both exhaustive checkers on controls, adversarial rejection tests, exact covering argument and measured cost; timeout never certifies distance.",
+          "first_step": {
+            "command": [
+              "python3",
+              "scripts/tasks.py",
+              "certification"
+            ],
+            "expected": "PASS",
+            "scope": "Real local positive control for this card."
+          },
+          "first_experiment": "Replay the [32,16,8] information-set control, then construct an overlapping-set counterexample to an intentionally naive bound.",
+          "bottleneck_link": "Exponential cost, rather than certificate storage, limits larger-dimension work.",
+          "allowed_variations": [
+            "Change deterministic seed and fixed evaluation budget; record both.",
+            "Use equivalent generator bases with independent verification."
+          ],
+          "scope_change_triggers": [
+            "Stop record claims if literature or closure dominates the candidate.",
+            "Escalate k>20 certification or a large resource requirement into a separate scoped task."
+          ],
+          "overlap_terms": [
+            "certification",
+            "binary-linear-codes"
+          ],
+          "claim_kind": [
+            "exact",
+            "measured"
+          ]
+        }
+      ]
+    }
+  ]
+}

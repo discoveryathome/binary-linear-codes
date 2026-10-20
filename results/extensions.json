@@ -1,0 +1,273 @@
+[
+  {
+    "object": "certificates/baseline_41_12.json",
+    "n": 41,
+    "k": 12,
+    "status": "impossible-for-this-matrix",
+    "d": 14,
+    "messages": [
+      22,
+      32,
+      54
+    ],
+    "minimal_words": 160
+  },
+  {
+    "object": "certificates/baseline_42_12.json",
+    "n": 42,
+    "k": 12,
+    "status": "extension-exists",
+    "d": 15,
+    "column": [
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    "minimal_words": 212
+  },
+  {
+    "object": "certificates/baseline_43_10.json",
+    "n": 43,
+    "k": 10,
+    "status": "impossible-for-this-matrix",
+    "d": 16,
+    "messages": [
+      1,
+      2,
+      3
+    ],
+    "minimal_words": 184
+  },
+  {
+    "object": "certificates/baseline_44_10.json",
+    "n": 44,
+    "k": 10,
+    "status": "extension-exists",
+    "d": 17,
+    "column": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "minimal_words": 72
+  },
+  {
+    "object": "certificates/baseline_44_11.json",
+    "n": 44,
+    "k": 11,
+    "status": "impossible-for-this-matrix",
+    "d": 16,
+    "messages": [
+      1,
+      2,
+      3
+    ],
+    "minimal_words": 305
+  },
+  {
+    "object": "certificates/baseline_45_11.json",
+    "n": 45,
+    "k": 11,
+    "status": "impossible-for-this-matrix",
+    "d": 16,
+    "messages": [
+      1,
+      4,
+      5
+    ],
+    "minimal_words": 247
+  },
+  {
+    "object": "certificates/baseline_46_12.json",
+    "n": 46,
+    "k": 12,
+    "status": "impossible-for-this-matrix",
+    "d": 16,
+    "messages": [
+      96,
+      309,
+      341
+    ],
+    "minimal_words": 161
+  },
+  {
+    "object": "certificates/baseline_47_10.json",
+    "n": 47,
+    "k": 10,
+    "status": "extension-exists",
+    "d": 19,
+    "column": [
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "minimal_words": 138
+  },
+  {
+    "object": "certificates/baseline_52_10.json",
+    "n": 52,
+    "k": 10,
+    "status": "extension-exists",
+    "d": 21,
+    "column": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    "minimal_words": 92
+  },
+  {
+    "object": "certificates/baseline_55_10.json",
+    "n": 55,
+    "k": 10,
+    "status": "extension-exists",
+    "d": 23,
+    "column": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "minimal_words": 171
+  },
+  {
+    "object": "certificates/baseline_55_12.json",
+    "n": 55,
+    "k": 12,
+    "status": "extension-exists",
+    "d": 21,
+    "column": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "minimal_words": 212
+  },
+  {
+    "object": "certificates/baseline_58_12.json",
+    "n": 58,
+    "k": 12,
+    "status": "extension-exists",
+    "d": 23,
+    "column": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "minimal_words": 376
+  },
+  {
+    "object": "certificates/baseline_59_10.json",
+    "n": 59,
+    "k": 10,
+    "status": "impossible-for-this-matrix",
+    "d": 24,
+    "messages": [
+      14,
+      18,
+      28
+    ],
+    "minimal_words": 223
+  },
+  {
+    "object": "certificates/baseline_61_11.json",
+    "n": 61,
+    "k": 11,
+    "status": "impossible-for-this-matrix",
+    "d": 24,
+    "messages": [
+      15,
+      18,
+      29
+    ],
+    "minimal_words": 366
+  },
+  {
+    "object": "certificates/baseline_62_10.json",
+    "n": 62,
+    "k": 10,
+    "status": "impossible-for-this-matrix",
+    "d": 26,
+    "messages": [
+      3,
+      5,
+      6
+    ],
+    "minimal_words": 222
+  },
+  {
+    "object": "certificates/baseline_62_11.json",
+    "n": 62,
+    "k": 11,
+    "status": "extension-exists",
+    "d": 25,
+    "column": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "minimal_words": 156
+  }
+]

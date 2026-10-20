@@ -1,0 +1,76 @@
+{
+  "schema": "discover-frontier/v0",
+  "statement": "Sixteen published binary linear lower-bound constructions verified by two exhaustive implementations; no novel record or target optimality proof claimed. Transformation and upper-bound closure precede final selection.",
+  "status": "Local pilot; awaiting maintainer and independent reviewer",
+  "evidence_level": [
+    "author-checked"
+  ],
+  "claim_kind": [
+    "exact",
+    "measured"
+  ],
+  "scope": "Final targets n=41..62, k=10..12 in data/records.csv. Bounds are source-scoped, not a claim of exhaustive literature coverage.",
+  "assumptions": [
+    {
+      "id": "A1",
+      "statement": "Reported table upper bounds and published classification theorems have not been independently replayed.",
+      "status": "open",
+      "link": "docs/literature.md"
+    },
+    {
+      "id": "A2",
+      "statement": "Recent large-dimension constructions are conservative novelty exclusions, not locally verified witnesses.",
+      "status": "open",
+      "link": "docs/literature.md"
+    }
+  ],
+  "review": "discover/ledger.md",
+  "updated_on": "2026-10-20",
+  "reproduce": "python3 scripts/reproduce.py",
+  "reproduce_minutes": 2,
+  "prerequisites": [
+    "Python 3.10 or later; standard library only"
+  ],
+  "table": {
+    "path": "data/records.csv",
+    "key": [
+      "n",
+      "k"
+    ],
+    "value": "verified_d",
+    "direction": "higher-is-better",
+    "bound": "upper",
+    "object": "object",
+    "check_row": [
+      "python3",
+      "scripts/verify.py",
+      "{object}"
+    ],
+    "check_row_minutes": 1,
+    "by": "by",
+    "source": "source",
+    "updated": "updated"
+  },
+  "sources": [
+    "docs/literature.md",
+    "data/source-index.json"
+  ],
+  "artifacts": [
+    {
+      "path": "data/records.csv",
+      "sha256": "d696e29663e01378e28d45d7a6d1cfd7150b80298d8b1bfc76bfacc47ca402ff"
+    },
+    {
+      "path": "data/targets.json",
+      "sha256": "4ed3a98b1f8aee6d5abbd71416bfd73805e7b889bcb76412c37c33d081249b51"
+    },
+    {
+      "path": "results/closure.json",
+      "sha256": "d41dce90791e61aeef3e0ce5c995ca8660774bfb476179ff860fac486e58e8da"
+    },
+    {
+      "path": "results/experiment/experiment.json",
+      "sha256": "3037279bfd2d96cbf14fecc095048503e717cb3411155518d70658dc7509b48b"
+    }
+  ]
+}

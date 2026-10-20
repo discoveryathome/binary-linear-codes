@@ -1,0 +1,80 @@
+<HTML>
+<HEAD>
+<TITLE>Bounds on the minimum distance of linear codes</TITLE>
+<link rel="SHORTCUT ICON" href="../MG.ico"> 
+<link rel="stylesheet" type="text/css" href="../codetables.css">
+</HEAD>
+<BODY>
+
+<H2>Bounds on the minimum distance of linear codes</H2>
+
+<H3>Bounds on linear codes [68,11] over GF(2)</H3><TABLE><TR><TD>lower bound:</TD><TD>28</TD></TR><TR><TD>upper bound:</TD><TD>29</TD></TR></TABLE><H3>Construction</H3><PRE>Construction of a linear code [68,11,28] over GF(2):
+[1]:  [70, 13, 28] Quasicyclic of degree 5 Linear Code over GF(2)
+     QuasiCyclicCode of length 70 with generating polynomials: x^13 + 1,  x^11 + x^10 + x^9 + x^7 + x^5 + x^2,  x^8 + x^7 + x^6 + x^5 + x^3 + x,  x^11 + x^8 + x^7 + x^5 + x^4 + x^3 + x^2 + x,  x^11 + x^9 + x^5 + x^4 + x^3 + x^2
+[2]:  [68, 11, 28] Linear Code over GF(2)
+     Shortening of [1] at { 69 .. 70 }
+
+last modified: 2001-01-30
+</PRE><H3>From Brouwer's table (as of 2007-02-13)</H3>
+<PRE>
+Lb(68,11) = 28 is found by shortening of:
+Lb(70,13) = 28 GB0
+
+Ub(68,11) = 29 follows by a one-step Griesmer bound from:
+Ub(38,10) = 14 otherwise adding a parity check bit would contradict:
+Ub(39,10) = 15 Bou
+</PRE>
+<H6> References </H6>
+<b> Bou: </b>
+I. Boukliev, <i>Some new bounds on minimum length for quaternary codes of 
+dimension five</i>, preprint, July 1994.
+<P>
+<b> GB0: </b>
+T. Aaron Gulliver & Vijay K. Bhargava, <i>Nine good rate (m-1)/pm quasi-cyclic 
+codes</i>, IEEE Trans. Inform. Th. <b>38</b> (July 1991) 1366-1369.
+<P>
+
+
+<TABLE WIDTH=600 CELLPADDING=0 CELLSPACING=0>
+<TR><TD>
+<H3>Notes</H3>
+<UL>
+<LI>All codes establishing the lower bounds were constructed using 
+     <A target="MAGMA" HREF="http://magma.maths.usyd.edu.au">MAGMA</A>.
+<LI>Upper bounds are taken from the <A target="Brouwer" HREF="http://www.win.tue.nl/~aeb/voorlincod.html">tables</A> of Andries E. Brouwer, with the exception of codes over GF(7) with <EM>n&gt;50</EM>.  
+For most of these codes, the upper bounds are rather weak.  
+Upper bounds for codes over GF(7) with small dimension have been provided by <B>Rumen Daskalov</B>.
+<LI>Special thanks to <B>John Cannon</B> for his support in this project.
+<LI>A prototype version of MAGMA's code database  over GF(2) was
+written by <B>Tat Chan</B> in 1999 and extended later that year by 
+<B>Damien Fisher</B>. The current release version was 
+developed by <B>Greg White</B> over the period 2001-2006.
+<LI>Thanks also to <B>Allan Steel</B> for his MAGMA support.
+<LI>My apologies to all authors that have contributed codes to this table for not giving specific credits.
+<P>
+<LI>If you have found any code improving the bounds or some errors, please send me an e-mail:<BR>
+<A HREF="mailto:codes [at] codetables.de">codes [at] codetables.de</A>
+</UL>
+</TD><TR>
+</TABLE>
+
+<HR>
+<A class="tab" target="_parent" HREF="../index.html">Homepage</A> | 
+<A class="tab" HREF="BKLC_query.php">New Query</A> | 
+<A class="tab" HREF="mailto:codes [at] codetables.de">Contact</A>
+
+<HR>
+<SMALL>
+<ADDRESS>
+This page is maintained by 
+<A target="mg" HREF="http://www.markus-grassl.de/index.html">Markus Grassl</A>
+ (<A HREF="mailto:codes@codetables.de">codes@codetables.de</A>).
+<!-- HHMTS START -->
+Last change: 30.12.2011<!-- HHMTS END -->
+</ADDRESS>
+</SMALL>
+<HR>
+
+
+</BODY>
+</HTML>

@@ -1,0 +1,44 @@
+{
+  "format": "binary-generator-v1",
+  "q": 2,
+  "n": 44,
+  "k": 10,
+  "d": 17,
+  "rows": [
+    "10100101100000000101100001001110001110000011",
+    "11010100010000011011000100101110001011100010",
+    "11001010110101111011000001001111000101101100",
+    "00001101110111011000101100101100100101111000",
+    "11110010000100110010100101001100001100010000",
+    "00000110101000110010001001000101111101100000",
+    "10000100111011111000110101100011000101000000",
+    "11101010000000111101010000000111101010000000",
+    "01100001001110001110000011110100101100000000",
+    "00101010100001000011111001011011011000000000"
+  ],
+  "provenance": {
+    "kind": "published-reconstruction",
+    "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=44&k=10",
+    "snapshot": "data/sources/44_10.html",
+    "snapshot_sha256": "d13d3a55a2d93fc74076e2341d978e224e9b083e5899ccd169263b21d4245031",
+    "steps": [
+      {
+        "index": 1,
+        "n": 45,
+        "k": 10,
+        "published_d": 18,
+        "verified_d": 18,
+        "recipe": "QuasiCyclicCode of length 45 with generating polynomials: x^14 + x^12 + x^10 + 1,  x^14 + x^11 + x^9 + x^8 + x^6 + x^2,  x^14 + x^11 + x^9 + x^6 + x^5 + x^2 + x + 1"
+      },
+      {
+        "index": 2,
+        "n": 44,
+        "k": 10,
+        "published_d": 17,
+        "verified_d": 17,
+        "recipe": "Puncturing of [1] at { 45 }"
+      }
+    ],
+    "credit": "Published construction, not a pilot discovery. Named authors retained in recipe text."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "format": "binary-generator-v1",
+  "q": 2,
+  "n": 43,
+  "k": 10,
+  "d": 16,
+  "rows": [
+    "0010101001010000010010010010010110010001011",
+    "0001111010010100110000010110100010000100010",
+    "0001111111111110101011110100010010100100100",
+    "0100111010101110011111100100010100111111000",
+    "1111010010100110000010110100010000100010000",
+    "1111111111110101011110100010010100100100000",
+    "1010000110101111101010100110100001111000000",
+    "0101101010011011100010110000100000110000000",
+    "1000100100010100000101110001111110100000000",
+    "1010111100011110110011010011010011000000000"
+  ],
+  "provenance": {
+    "kind": "published-reconstruction",
+    "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=43&k=10",
+    "snapshot": "data/sources/43_10.html",
+    "snapshot_sha256": "6d4850a676bb11a625df0f1680669ea935908ee23c1d862807801d4cef1d931d",
+    "steps": [
+      {
+        "index": 1,
+        "n": 45,
+        "k": 14,
+        "published_d": 16,
+        "verified_d": 16,
+        "recipe": "QuasiCyclicCode of length 45 with Generating Polynomials (in octal):\n [ 3, 4631, 11327 ]"
+      },
+      {
+        "index": 2,
+        "n": 43,
+        "k": 12,
+        "published_d": 16,
+        "verified_d": 16,
+        "recipe": "Shortening of [1] at { 44 .. 45 }"
+      },
+      {
+        "index": 3,
+        "n": 43,
+        "k": 10,
+        "published_d": 16,
+        "verified_d": 16,
+        "recipe": "Subcode of [2]"
+      }
+    ],
+    "credit": "Published construction, not a pilot discovery. Named authors retained in recipe text."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "format": "binary-generator-v1",
+  "q": 2,
+  "n": 47,
+  "k": 10,
+  "d": 19,
+  "rows": [
+    "11110000000010101111101011110000000010101111101",
+    "10100001110111111010111101010001110101010101010",
+    "11110100100001011011001010101011001000000100100",
+    "11010101010101011010000111011111101011110101000",
+    "00101011110100010010000100101011110100010010000",
+    "10010111010110111101010001100111111111101000000",
+    "00000101000101111010111110101010000101110000000",
+    "01100011001001011010010010011001011110100000000",
+    "11111011110000100101010110100100110010000000000",
+    "01010001011110101111101010100001011100000000000"
+  ],
+  "provenance": {
+    "kind": "published-reconstruction",
+    "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=47&k=10",
+    "snapshot": "data/sources/47_10.html",
+    "snapshot_sha256": "d6056d25930b94e6572c8f3b08396df60aeece823fc65148f061203157ac5787",
+    "steps": [
+      {
+        "index": 1,
+        "n": 48,
+        "k": 10,
+        "published_d": 20,
+        "verified_d": 20,
+        "recipe": "QuasiCyclicCode of length 48 with generating polynomials: x^8 + x^5 + x^4 + x^3 + x^2 + 1,  x^11 + x^10 + x^9 + x^8 + x^6 + x^5 + x^3 + x^2,  x^5 + x^4 + x^3 + 1,  x^11 + x^10 + x^9 + x^8 + x^7 + x^6 + x^5 + x^3 + x^2 + x"
+      },
+      {
+        "index": 2,
+        "n": 47,
+        "k": 10,
+        "published_d": 19,
+        "verified_d": 19,
+        "recipe": "Puncturing of [1] at { 48 }"
+      }
+    ],
+    "credit": "Published construction, not a pilot discovery. Named authors retained in recipe text."
+  }
+}

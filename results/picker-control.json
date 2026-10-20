@@ -1,0 +1,45 @@
+{
+  "seed": "0123456789abcdef0123456789abcdef",
+  "track": "structured",
+  "task": {
+    "id": "columns",
+    "question": "Can coupled column changes escape the local-search plateau at [52,10]?",
+    "starting_points": [
+      "DISCOVERY.md",
+      "docs/literature.md",
+      "data/targets.json"
+    ],
+    "methods": [
+      "Use the published [53,10,22] parent and [52,10,21] baseline; try two-column repair or constraints on minimum words."
+    ],
+    "acceptance_gate": "A certificate and honest negative result after a fixed candidate budget; candidate record requires d>21 and a new literature audit.",
+    "first_step": {
+      "command": [
+        "python3",
+        "scripts/tasks.py",
+        "columns"
+      ],
+      "expected": "PASS",
+      "scope": "Real local positive control for this card."
+    },
+    "first_experiment": "Replay the baseline, then compare equal-budget coupled-column repair with the saved 1000-proposal control.",
+    "bottleneck_link": "Single-column/bit hill climbs were measured; their local failure does not establish impossibility.",
+    "allowed_variations": [
+      "Change deterministic seed and fixed evaluation budget; record both.",
+      "Use equivalent generator bases with independent verification."
+    ],
+    "scope_change_triggers": [
+      "Stop record claims if literature or closure dominates the candidate.",
+      "Escalate k>20 certification or a large resource requirement into a separate scoped task."
+    ],
+    "overlap_terms": [
+      "columns",
+      "binary-linear-codes"
+    ],
+    "claim_kind": [
+      "exact",
+      "measured"
+    ]
+  },
+  "notice": "LOCAL proposal only; no reservation or public posting"
+}

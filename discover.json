@@ -1,0 +1,71 @@
+{
+  "schema": "discover/v0",
+  "title": "Binary linear code frontier pilot",
+  "summary": "Exact generator-matrix certificates and closure-aware searches for binary linear codes.",
+  "domains": [
+    "mathematics",
+    "coding-theory"
+  ],
+  "maintainers": [
+    {
+      "name": "UNASSIGNED \u2014 vacant role, no consenting maintainer"
+    }
+  ],
+  "entry": {
+    "agents": "AGENTS.md",
+    "project": "DISCOVERY.md"
+  },
+  "frontier": "discover/frontier.json",
+  "catalog": "discover/catalog.json",
+  "priority_log": "discover/priority-log.md",
+  "ledger": "discover/ledger.md",
+  "packages": "research/*/",
+  "overlap": {
+    "sources": [
+      "packages",
+      "ledger"
+    ]
+  },
+  "session": {
+    "default_minutes": 60,
+    "orient_fraction": 0.2,
+    "verify_fraction": 0.25
+  },
+  "permissions": {
+    "post_messages": false,
+    "open_prs": false,
+    "maintainer_only": [
+      "merge",
+      "close-others-prs",
+      "change-frontier"
+    ]
+  },
+  "verification_profile": "exact-certificate",
+  "review": {
+    "paused": true,
+    "note": "No consenting maintainer; actual review capacity zero. Local proposal only."
+  },
+  "credit": {
+    "policy": "Preserve literature authors for published and derived constructions. Credit accepted original contributions and independent verification by contributor name and artifact; no automatic coauthorship promise.",
+    "kinds": [
+      "contributors-file",
+      "citation",
+      "acknowledgement"
+    ]
+  },
+  "picker": {
+    "command": [
+      "python3",
+      "scripts/pick.py",
+      "--seed",
+      "{seed}"
+    ]
+  },
+  "requirements": {
+    "ram_gb": 1,
+    "disk_gb": 1,
+    "note": "Python >=3.10 standard library; no GPU, Magma, install, or network needed for reproduction."
+  },
+  "canonical_repo": "urn:discoveryathome:local:binary-linear-codes",
+  "license": "MIT"
+}
