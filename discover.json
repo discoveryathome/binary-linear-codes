@@ -66,6 +66,6 @@
     "disk_gb": 1,
     "note": "Python >=3.10 standard library; no GPU, Magma, install, or network needed for reproduction."
   },
-  "canonical_repo": "urn:discoveryathome:local:binary-linear-codes",
+  "canonical_repo": "https://github.com/discoveryathome/binary-linear-codes",
   "license": "MIT"
 }
