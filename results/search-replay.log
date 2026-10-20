@@ -1,0 +1,18 @@
+[41,12] best=14, exclusion=14, cold=12
+[42,12] best=15, exclusion=15, cold=13
+[43,10] best=16, exclusion=16, cold=15
+[44,10] best=17, exclusion=17, cold=15
+[44,11] best=16, exclusion=16, cold=14
+[45,11] best=16, exclusion=16, cold=15
+[46,12] best=16, exclusion=16, cold=15
+[47,10] best=19, exclusion=19, cold=17
+[52,10] best=21, exclusion=21, cold=19
+[55,10] best=23, exclusion=23, cold=20
+[55,12] best=21, exclusion=21, cold=18
+[58,12] best=23, exclusion=23, cold=20
+[59,10] best=24, exclusion=24, cold=22
+[61,11] best=24, exclusion=24, cold=22
+[62,10] best=26, exclusion=26, cold=23
+[62,11] best=25, exclusion=25, cold=22
+{"seed": "b17a20261020c0de0000000000000001", "iterations_per_restart": 1000, "restarts": 3, "local_proposals": 48000, "structured_candidates": 587, "seconds": 62.81967620796058, "environment": {"python": "3.14.6", "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O", "processor": "arm"}, "closure_sha256": "d41dce90791e61aeef3e0ce5c995ca8660774bfb476179ff860fac486e58e8da", "targets_sha256": "4ed3a98b1f8aee6d5abbd71416bfd73805e7b889bcb76412c37c33d081249b51", "candidate_records": 0}
+PASS deterministic search scores and exact matrix hashes; elapsed time excluded

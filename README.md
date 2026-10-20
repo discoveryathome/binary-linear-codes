@@ -16,7 +16,7 @@ python3 scripts/pick.py --seed 0123456789abcdef0123456789abcdef
 
 The reproduction checks source hashes, recomputes closure, replays published recipes, runs both exhaustive verifiers, checks experimental certificates, and runs the test suite. Expect a final JSON `status: PASS`, 16 targets, and 66 checked certificates. It does not rerun the classification proofs behind literature upper bounds.
 
-To repeat the bounded search with the same seed into a separate directory:
+To repeat the bounded search with the same seed into a separate directory (use Python 3.14.6 for exact seeded search replay; other supported Python versions can verify all certificates):
 
 ```sh
 python3 scripts/experiment.py --seed b17a20261020c0de0000000000000001 --iterations 1000 --output results/replay-search

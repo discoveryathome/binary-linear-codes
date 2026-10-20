@@ -1,0 +1,22 @@
+{
+  "base_commit": "4fd3b9c69104e721a06a2c87317c9b9124e38e9c",
+  "checked_at": "2026-10-20T18:42:36.155369+00:00",
+  "fresh_clone": true,
+  "verification": {
+    "status": "PASS",
+    "targets": 16,
+    "certificates": 66,
+    "seconds": 13.648657624959014,
+    "novel_records": 0,
+    "note": "Two implementations; author-checked, no independent reviewer or optimality proof."
+  },
+  "search_replay": {
+    "status": "PASS",
+    "seconds": 62.81967620796058,
+    "local_proposals": 48000,
+    "structured_candidates": 587,
+    "comparison": "All final generator matrix hashes, initial/final distances, accepted moves, rank rejections and counters match; timing and output paths excluded."
+  },
+  "tracked_checkout_clean": true,
+  "independent_human_review": false
+}

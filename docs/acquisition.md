@@ -1,0 +1,11 @@
+# Acquisition and replay provenance
+
+Snapshot date: 2026-10-20. `data/source-index.json` records each successful source URL, byte count and SHA-256. The complete GF(2) table was fetched from the table query for n,k=1..256. The initial recipe census was every open table cell with n<=70 and 9<=k<=12: 58 pages. The importer supports stored binary matrices, cyclic polynomials, one-generator QC polynomials, primitive BCH, parity extension, puncturing, shortening and arbitrary subcodes. Unsupported recipe types are explicit audit entries.
+
+The recent-literature inputs are arXiv versions 2412.15551v1, 2504.11010v1 and 2609.37056v1, plus the code-table update page and primary upper-bound references in docs/literature.md. A direct PMC fetch returned a challenge page; it was discarded. The Proposition 2 text was inspected using web retrieval, and only the source-linked mathematical bounds were transcribed into upper-overrides.json. No challenge response is represented as a literature snapshot.
+
+Offline reproduction uses the frozen sources and needs no live web service. Future refreshes should be written to a new directory, compared by hash, reviewed for field/model scope, and merged deliberately. Never overwrite a frozen source snapshot during a research session.
+
+The Discovery@Home start guide was followed in LOCAL mode. Its helper was downloaded outside this repository into `../session/setup/discover.pyz` and matched SHA-256 `77c850c65ff54e951b102950d06321751273ba6e9ef1bf28786930fb216802b6`. It is optional for certificate verification. `discover validate` passed; the only absent recommended convention is a public coordination channel, deliberately omitted in LOCAL mode. The manifest's URN and UNASSIGNED role are schema-compatible local placeholders, not a remote repository or a person who agreed to maintain it.
+
+Exact search replay uses the recorded Python 3.14.6 runtime because library sampling details can vary across Python versions. Certificate verification requires Python >=3.10 and integer operations only. All randomness used by the search is executed pseudorandomness with a recorded seed. Final target selection is a deterministic rule after closure, not an unrecorded model choice.

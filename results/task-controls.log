@@ -1,0 +1,7 @@
+PASS replay baseline [41,12,14]; goal=15; upper=15
+PASS six stale gaps excluded; audit final target upper-bound references next
+PASS deferred Goppa recipes identified: [{"n": 46, "k": 10, "status": "deferred", "reason": "unsupported: GoppaCode with 55 points over GF(64) and polynomial x^9 + 1 where w := GF(64).1"}, {"n": 46, "k": 11, "status": "deferred", "reason": "unsupported: GoppaCode with 55 points over GF(64) and polynomial x^9 + 1 where w := GF(64).1"}]
+PASS qc baseline [45,11,16]; goal=17; upper=18
+PASS columns baseline [52,10,21]; goal=22; upper=22
+PASS certified [32,16,8]; visits 1392
+PASS all six card first_steps

@@ -50,6 +50,11 @@ Recommended near-term work: independent replay; upper-bound freshness audits; po
 
 A practical next assessment is ten independently reviewed sessions, each with a fixed target, seed and budget. Measure accepted useful artifacts per session, new parent constructions versus derived entries, reviewer minutes, verification seconds and duplicated work. Do not assume donation volume compensates for low novelty yield. Current review capacity is zero because no maintainer has agreed.
 '''
+    benchmark=Path('results/verification-benchmark.json')
+    if benchmark.exists():
+        values=json.loads(benchmark.read_text())['rows']
+        maximum=max(x['gray_seconds_median']+x['column_seconds_median'] for x in values)
+        report+=f'\n## Verification cost\n\nThree repeats per final witness gave a maximum median combined cost of {maximum:.4f} seconds for the two exhaustive checks. Full measurements are in `results/verification-benchmark.json`; shared-host timing caveats apply. See `results/clean-checkout.json` for the clean-checkout reproduction measurement.\n'
     Path('docs/assessment.md').write_text(report)
     f=Path('discover/frontier.json');front=json.loads(f.read_text());front['artifacts']=[dict(path=str(p),sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in map(Path,['data/records.csv','data/targets.json','results/closure.json','results/experiment/experiment.json'])];f.write_text(json.dumps(front,indent=2)+'\n')
     print('PASS record table and assessment generated')
