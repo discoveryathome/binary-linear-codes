@@ -4,4 +4,4 @@
 
 The primary sources retain credit for constructions and nonexistence results. The 2026 LinCodeEvolve and 2024 group-code results are recorded as reported prior art; their large parent matrices were not checked here.
 
-Awaiting: consenting maintainer, declared review capacity, external independent replay, and confirmation of target literature before recruitment.
+2026-10-21: opened to donated sessions with @Mister-Meeseeks as maintainer (review capacity `surge`). Still awaiting: an independent replay of the target certificates and a freshness check of the target literature. No contribution has been independently reviewed, externally accepted or submitted yet.

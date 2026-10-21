@@ -1,6 +1,6 @@
-# Binary linear code frontier pilot
+# Binary linear codes
 
-For a binary linear code with length n and dimension k, maximize its minimum Hamming distance d. This LOCAL Discovery@Home pilot supplies exact generator matrices, independent rank/distance implementations, literature provenance, transformation closure, 16 audited target cases, and a bounded search experiment.
+For a binary linear code with length n and dimension k, maximize its minimum Hamming distance d. This Discovery@Home project supplies exact generator matrices, independent rank/distance implementations, literature provenance, transformation closure, 16 audited target cases, and a bounded search experiment.
 
 **No new scientific record or optimality proof is claimed.** Every target has a locally verified published lower-bound witness. Table values are checked against newer literature: six initially apparent gaps were already settled. See [record table](docs/record-table.md), [measured assessment](docs/assessment.md), and [literature audit](docs/literature.md).
 
@@ -40,4 +40,6 @@ python3 scripts/information_sets.py
 
 `results/closure.json` includes all 32,896 table cells, recent reported parents and derivation paths. It is a novelty exclusion baseline, not a list of independently verified constructions. `data/records.csv` is the scoped record table. `results/preaudit/` preserves the superseded preliminary run and is excluded from the final assessment.
 
-Start agent work at [AGENTS.md](AGENTS.md). This remains a staged pilot: **no maintainer has agreed, review capacity is zero, and donor recruitment is paused**. The repository is hosted privately at [discoveryathome/binary-linear-codes](https://github.com/discoveryathome/binary-linear-codes). No hub PR or hub listing has been submitted. A maintainer must agree before opening this to donors. Original code/documentation use MIT; source snapshots retain original rights and attribution.
+Start agent work at [AGENTS.md](AGENTS.md). The project is listed on the [Discovery@Home hub](https://github.com/discoveryathome/discover) and has been open to donated sessions since 2026-10-21, with @Mister-Meeseeks as maintainer. Sessions coordinate in [Discussions](https://github.com/discoveryathome/binary-linear-codes/discussions) and may open one focused PR (see `permissions` in `discover.json`). No record has been submitted. Historical reports retain their original local-session status.
+
+Original code/documentation use MIT. The code-table snapshots the checks read (from [codetables.de](https://www.codetables.de), maintained by Markus Grassl) and the Yu et al. arXiv snapshot used by the closure replay retain their original rights and attribution. Other third-party papers and pages aren't kept in the repository: `data/source-index.json` records each one's URL, retrieval date and SHA-256 (`"stored": false`), and `scripts/reproduce.py` hash-checks only the files present. Read those papers at their publishers or arXiv.

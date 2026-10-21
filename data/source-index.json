@@ -410,21 +410,24 @@
     "url": "https://www.algorithm.uni-bayreuth.de/en/team/Feulner_Thomas/icmcta_preprint.pdf",
     "retrieved_on": "2026-10-20",
     "sha256": "63c73cff6826e36ac6a82491c10c1e2898a8df390142f45b5d1e1a3a55707d1d",
-    "bytes": 195062
+    "bytes": 195062,
+    "stored": false
   },
   {
     "path": "data/sources/grassl-publications.html",
     "url": "https://www.markus-grassl.de/publications.html",
     "retrieved_on": "2026-10-20",
     "sha256": "c5a585153fdf0ccf3574f5b50c351d103ff52ee3cb2c7f53a46ca5a735179a00",
-    "bytes": 84688
+    "bytes": 84688,
+    "stored": false
   },
   {
     "path": "data/sources/lincode2026.html",
     "url": "https://arxiv.org/html/2609.37056v1",
     "retrieved_on": "2026-10-20",
     "sha256": "5e1e9d1a8e310728592b573be4d22ae075cfbc2416ed784b48296ce7fe6b8ad8",
-    "bytes": 469014
+    "bytes": 469014,
+    "stored": false
   },
   {
     "path": "data/sources/table2.html",
@@ -438,7 +441,8 @@
     "url": "https://codetables.de/updates.html",
     "retrieved_on": "2026-10-20",
     "sha256": "eb771743cc8b6ae3d0654e5ee4bd3f2b3aab57c0c3099e1b79537355f467b90a",
-    "bytes": 40614
+    "bytes": 40614,
+    "stored": false
   },
   {
     "path": "data/sources/yu2024.html",
@@ -452,6 +456,7 @@
     "url": "https://arxiv.org/html/2504.11010v1",
     "retrieved_on": "2026-10-20",
     "sha256": "627b26e5a6b5b5466929564a7d9047abbafb530a6e23273fd4faf6b94e6419db",
-    "bytes": 1075620
+    "bytes": 1075620,
+    "stored": false
   }
 ]

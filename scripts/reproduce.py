@@ -20,7 +20,10 @@ def main():
         for field in ('n','k','published_lower','closure_lower','verified_d','upper'):
             require(int(record[field])==target[field],'CSV/target disagreement '+field)
         require(record['object']==target['object'],'CSV certificate mismatch')
+    # Third-party papers and pages aren't redistributed ("stored": false); their URL, date and
+    # hash stay on record. Snapshots the checks read (code tables, Yu et al.) are kept and checked.
     for source in json.loads(Path('data/source-index.json').read_text()):
+        if source.get('stored',True)==False and not Path(source['path']).exists():continue
         require(hashlib.sha256(Path(source['path']).read_bytes()).hexdigest()==source['sha256'],'source hash '+source['path'])
     saved=json.loads(Path('results/closure.json').read_text());fresh=json.loads(json.dumps(closure.run(output=None,quiet=True)))
     require(saved==fresh,'closure replay mismatch')
