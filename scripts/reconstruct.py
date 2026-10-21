@@ -13,12 +13,30 @@ def polynomial(s):
         g^=1<<e
     return g
 
-def recipe(path):
-    text=re.findall(r'<PRE>(.*?)</PRE>',path.read_text(),re.S)[0]
+EXTRACTED=Path('data/extracted/codetables-recipes.json')
+
+def page_steps(path):
+    """Parse a codetables.de recipe page into its recipe steps (index, parameters, recipe line).
+    Used once by scripts/extract_sources.py; the checks read data/extracted/ instead."""
+    text=re.findall(r'<PRE>(.*?)</PRE>',Path(path).read_text(),re.S)[0]
     entries=re.split(r'\[(\d+)\]:\s*\[(\d+),\s*(\d+),\s*(\d+)\][^\n]*\n',text)
+    return [dict(zip(('index','n','k','d'),map(int,entries[i:i+4])),recipe=entries[i+4].split('last modified:')[0].strip()) for i in range(1,len(entries),5)]
+
+def extracted():
+    return json.loads(EXTRACTED.read_text())['recipes']
+
+def steps_for(snapshot,sha256):
+    """Recipe steps for a certificate's provenance, matched by snapshot path and page hash."""
+    for rec in extracted().values():
+        if rec['source']['path']==str(snapshot):
+            if rec['source']['sha256']!=sha256:raise ValueError('extracted recipe hash '+str(snapshot))
+            return rec['steps']
+    raise ValueError('no extracted recipe for '+str(snapshot))
+
+def recipe(published):
     made={};steps=[]
-    for i in range(1,len(entries),5):
-        idx,n,k,d=map(int,entries[i:i+4]);s=entries[i+4].split('last modified:')[0].strip()
+    for e in published:
+        idx,n,k,d,s=e['index'],e['n'],e['k'],e['d'],e['recipe']
         if 'stored generator matrix' in s:
             strings=[''.join(re.findall('[01]',r)) for r in re.findall(r'^\[ ([01, ]+) \]',s,re.M)]
             if len(strings)!=k or any(len(x)!=n for x in strings):raise ValueError('stored matrix shape')
@@ -67,10 +85,10 @@ def recipe(path):
 def run():
     closure=json.loads(Path('results/closure.json').read_text());b={(r['n'],r['k']):r for r in closure['rows']}
     eligible=[];audit=[]
-    for path in sorted(Path('data/sources').glob('*_*.html'),key=lambda p:tuple(map(int,p.stem.split('_')))):
-        n,k=map(int,path.stem.split('_'));row=b[n,k]
+    for key,rec in sorted(extracted().items(),key=lambda x:tuple(map(int,x[0].split('_')))):
+        n,k=map(int,key.split('_'));row=b[n,k];path=rec['source']
         try:
-            (r,nn),steps=recipe(path)
+            (r,nn),steps=recipe(rec['steps'])
             if nn!=n or len(r)!=k:raise ValueError('final parameters')
             if codes.distance(r,n)<row['table_lower']:raise ValueError('lower bound not reached')
             if row['exclusion_lower']>=row['audited_upper']:raise ValueError('closed by exclusions')
@@ -81,7 +99,7 @@ def run():
     for n,k,r,steps,source in chosen:
         row=b[n,k];url=f'https://www.codetables.de/BKLC/BKLC.php?q=2&n={n}&k={k}'
         name=f'certificates/baseline_{n}_{k}.json'
-        c=codes.write_cert(name,r,n,dict(kind='published-reconstruction',url=url,snapshot=str(source),snapshot_sha256=hashlib.sha256(source.read_bytes()).hexdigest(),steps=steps,credit='Published construction, not a pilot discovery. Named authors retained in recipe text.'))
+        c=codes.write_cert(name,r,n,dict(kind='published-reconstruction',url=url,snapshot=source['path'],snapshot_sha256=source['sha256'],steps=steps,credit='Published construction, not a pilot discovery. Named authors retained in recipe text.'))
         y=independent.check(name)
         if y['d']!=c['d']:raise ValueError('independent failure')
         out.append(dict(n=n,k=k,published_lower=row['table_lower'],closure_lower=row['exclusion_lower'],table_upper=row['table_upper'],upper=row['audited_upper'],upper_derivation=row['upper_derivation'],verified_d=c['d'],object=name,source=url,by='Published construction via Grassl code tables',updated='2026-10-20',status='open; construction verified; upper bound literature-reported',codewords=2**k,improvement_goal=row['exclusion_lower']+1))

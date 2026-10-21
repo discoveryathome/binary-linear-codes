@@ -6,11 +6,21 @@ import re,json,hashlib
 from pathlib import Path
 from collections import deque
 
-def table():
-    s=Path('data/sources/table2.html').read_text()
+BOUNDS=Path('data/extracted/codetables-bounds.json');TRIPLES=Path('data/extracted/yu2024-triples.json')
+
+def parse_table(s):
+    """Lower/upper bounds from the codetables.de full-table page (used once by extract_sources.py)."""
     out={}
     for n,k,ds in re.findall(r'HREF="BKLC.php\?q=2&n=(\d+)&k=(\d+)">([\d-]+)</A>',s):
         v=list(map(int,ds.split('-')));out[int(n),int(k)]=(v[0],v[-1])
+    return out
+
+def parse_triples(s):
+    """Explicitly displayed [n,k,d] triples in the Yu et al. page (used once by extract_sources.py)."""
+    return sorted(set(tuple(map(int,x)) for x in re.findall(r'\[(\d+),\s*(\d+),\s*(\d+)\]',s)))
+
+def table():
+    out={(n,k):(lb,ub) for n,k,lb,ub in json.loads(BOUNDS.read_text())['bounds']}
     if len(out)!=32896:raise ValueError('incomplete table snapshot')
     return out
 
@@ -43,8 +53,7 @@ def close(seeds,limit=256):
 def run(output='results/closure.json',quiet=False):
     t=table();seeds=[(n,k,lb,f'codetables:{n}:{k}') for (n,k),(lb,ub) in t.items()]
     # Extract explicitly displayed binary triples from recent group-code paper.
-    s=Path('data/sources/yu2024.html').read_text()
-    triples=sorted(set(tuple(map(int,x)) for x in re.findall(r'\[(\d+),\s*(\d+),\s*(\d+)\]',s)))
+    triples=[tuple(x) for x in json.loads(TRIPLES.read_text())['triples']]
     # These include comparison codes: inclusion is conservative for novelty.
     recent=[x for x in triples if 1<=x[1]<=x[0]<=256 and 1<=x[2]<=x[0]]
     seeds += [(*x,'Yu et al. arXiv:2412.15551v1; reported, not locally certified') for x in recent]

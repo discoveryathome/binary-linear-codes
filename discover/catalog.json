@@ -3,7 +3,7 @@
   "priority_revision": 2,
   "assessed_on": "2026-10-20",
   "priority_log": "discover/priority-log.md",
-  "status": "Local proposal: meaningful draft cards, not open donor invitations or reservations.",
+  "status": "Open since 2026-10-21. Cards are invitations, not reservations: claim in the Handoffs thread first. Record acceptance stays with the maintainer.",
   "tracks": [
     {
       "id": "verification",
@@ -118,7 +118,7 @@
             "expected": "PASS",
             "scope": "Real local positive control for this card."
           },
-          "first_experiment": "Start with the published [55,16,19] Goppa recipe in data/sources/51_12.html and reproduce its parity-extended [56,16,20] parent.",
+          "first_experiment": "Start with the published [55,16,19] Goppa recipe (data/extracted/codetables-recipes.json, key 51_12) and reproduce its parity-extended [56,16,20] parent.",
           "bottleneck_link": "Unsupported recipes remain in the novelty exclusions and cannot be ignored.",
           "allowed_variations": [
             "Change deterministic seed and fixed evaluation budget; record both.",

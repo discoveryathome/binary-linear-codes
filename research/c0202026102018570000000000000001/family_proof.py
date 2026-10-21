@@ -12,11 +12,13 @@ def run():
     for j in range(15):
         rr=[((g<<j)|(g>>(15-j)))&32767 for g in polys]
         rows.append(sum(((g>>t)&1)<<(3*t+a) for a,g in enumerate(rr) for t in range(15)))
-    rows=codes.basis(rows);source=ROOT/'data/sources/45_11.html'
+    rows=codes.basis(rows)
+    # Page hash from the source index; the page itself is cited, not stored.
+    page=next(x for x in json.loads((ROOT/'data/source-index.json').read_text()) if x['path']=='data/sources/45_11.html')
     cert=HERE/'qc_parent_45_14.json'
     codes.write_cert(cert,rows,45,dict(kind='published-QC-parent',
         source='https://www.codetables.de/BKLC/BKLC.php?q=2&n=45&k=11',
-        snapshot_sha256=hashlib.sha256(source.read_bytes()).hexdigest(),
+        snapshot_sha256=page['sha256'],
         polynomials_octal=['3','4631','11327'],
         credit='Published QC construction; source table credits Bo0. Replication only.'))
     a,b=codes.check(cert),independent.check(cert)

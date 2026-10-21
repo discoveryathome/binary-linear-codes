@@ -14,3 +14,10 @@ coset/multi-coordinate search. Keep track weights unchanged: this is one local
 agent-assisted trial, not independent donor-yield evidence. The [173,20,68]
 published control is now locally reconstructed and checked by both implementations.
 Public recruitment and review remain paused.
+
+## Launch — 21 October 2026
+
+Donor intake opened with @Mister-Meeseeks as maintainer (review capacity `surge`).
+Weights unchanged from revision 2: verification 25, literature 30, structured search 35,
+certification 10. The reassessment trigger above now runs from this date: after ten
+independently reviewed contributions or on 20 November 2026, whichever comes first.

@@ -1,7 +1,7 @@
 {
   "schema": "discover-frontier/v0",
   "statement": "Sixteen published binary linear lower-bound constructions verified by two exhaustive implementations; no novel record or target optimality proof claimed. Transformation and upper-bound closure precede final selection.",
-  "status": "Local pilot; awaiting maintainer and independent reviewer",
+  "status": "Open to donated sessions since 2026-10-21; maintainer @Mister-Meeseeks. Rows are author-checked published lower bounds awaiting independent replay; record acceptance is a maintainer decision.",
   "evidence_level": [
     "author-checked"
   ],

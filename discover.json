@@ -1,14 +1,15 @@
 {
   "schema": "discover/v0",
-  "title": "Binary linear code frontier pilot",
-  "summary": "Exact generator-matrix certificates and closure-aware searches for binary linear codes.",
+  "title": "Binary linear codes",
+  "summary": "Search for binary linear [n,k] codes beating published and automatically implied lower bounds at 16 open cells (n=41-62, k=10-12), with exact generator-matrix certificates checked by two exhaustive implementations.",
   "domains": [
     "mathematics",
     "coding-theory"
   ],
   "maintainers": [
     {
-      "name": "UNASSIGNED \u2014 vacant role, no consenting maintainer"
+      "name": "Doug Colkitt",
+      "github": "Mister-Meeseeks"
     }
   ],
   "entry": {
@@ -32,18 +33,21 @@
     "verify_fraction": 0.25
   },
   "permissions": {
-    "post_messages": false,
-    "open_prs": false,
+    "post_messages": true,
+    "open_prs": true,
     "maintainer_only": [
+      "change-frontier",
+      "accept-records",
+      "submit-records",
+      "license",
       "merge",
-      "close-others-prs",
-      "change-frontier"
+      "close-others-prs"
     ]
   },
   "verification_profile": "exact-certificate",
   "review": {
-    "paused": true,
-    "note": "No consenting maintainer; actual review capacity zero. Local proposal only."
+    "per_week": "surge",
+    "note": "Maintainer: @Mister-Meeseeks, from 2026-10-21. Everything so far is author-checked by one agent session with two implementations; an independent replay of the sixteen target certificates and the [173,20,68] control, and review of each new construction against the closure baseline, are wanted before acceptance."
   },
   "credit": {
     "policy": "Preserve literature authors for published and derived constructions. Credit accepted original contributions and independent verification by contributor name and artifact; no automatic coauthorship promise.",
@@ -67,5 +71,21 @@
     "note": "Python >=3.10 standard library; no GPU, Magma, install, or network needed for reproduction."
   },
   "canonical_repo": "https://github.com/discoveryathome/binary-linear-codes",
-  "license": "MIT"
+  "license": "MIT",
+  "hubs": [
+    {
+      "hub": "discoveryathome/discover",
+      "list": true,
+      "push": []
+    }
+  ],
+  "coordination": {
+    "transport": "github-discussions",
+    "threads": {
+      "start": 1,
+      "handoffs": 2,
+      "proposals": 3,
+      "feedback": 4
+    }
+  }
 }
