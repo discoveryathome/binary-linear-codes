@@ -21,10 +21,16 @@ def main():
             require(int(record[field])==target[field],'CSV/target disagreement '+field)
         require(record['object']==target['object'],'CSV certificate mismatch')
     # Third-party papers and pages aren't redistributed ("stored": false); their URL, date and
-    # hash stay on record. Snapshots the checks read (code tables, Yu et al.) are kept and checked.
+    # hash stay on record. The checks read facts extracted from them (data/extracted/), each
+    # pinned to the page hash recorded here.
+    index={}
     for source in json.loads(Path('data/source-index.json').read_text()):
+        index[source['path']]=source['sha256']
         if source.get('stored',True)==False and not Path(source['path']).exists():continue
         require(hashlib.sha256(Path(source['path']).read_bytes()).hexdigest()==source['sha256'],'source hash '+source['path'])
+    extracted=[json.loads(closure.BOUNDS.read_text())['source'],json.loads(closure.TRIPLES.read_text())['source']]
+    extracted+=[r['source'] for r in reconstruct.extracted().values()]
+    for s in extracted:require(index.get(s['path'])==s['sha256'],'extracted source hash '+s['path'])
     saved=json.loads(Path('results/closure.json').read_text());fresh=json.loads(json.dumps(closure.run(output=None,quiet=True)))
     require(saved==fresh,'closure replay mismatch')
     bd={(r['n'],r['k']):r for r in saved['rows']};count=0
@@ -32,7 +38,7 @@ def main():
         x=codes.check(t['object']);y=independent.check(t['object'])
         require(all(x[k]==y[k] for k in y),'checker mismatch')
         require((x['n'],x['k'],x['d'])==(t['n'],t['k'],t['verified_d']),'record mismatch')
-        c,rows=codes.read_cert(t['object']);(rr,n),steps=reconstruct.recipe(Path(c['provenance']['snapshot']))
+        c,rows=codes.read_cert(t['object']);(rr,n),steps=reconstruct.recipe(reconstruct.steps_for(c['provenance']['snapshot'],c['provenance']['snapshot_sha256']))
         require(rr==rows and n==c['n'],'recipe mismatch')
         b=bd[t['n'],t['k']]
         require(t['published_lower']==b['table_lower'] and t['closure_lower']==b['exclusion_lower'] and t['upper']==b['audited_upper'],'bound mismatch')

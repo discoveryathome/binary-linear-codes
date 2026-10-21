@@ -20,7 +20,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Scope: original project code and documentation only. Source snapshots retain
-their original rights; their inclusion does not relicense them. Other
-third-party papers and pages are cited by URL and hash in
-data/source-index.json, not redistributed. Mathematical matrices and facts retain source attribution.
+Scope: original project code and documentation only. Third-party papers and
+pages are cited by URL and hash in data/source-index.json, not redistributed.
+data/extracted/ holds factual values extracted from them, with credit to their
+sources; it does not relicense those sources. Mathematical matrices and facts retain source attribution.

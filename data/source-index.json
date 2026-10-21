@@ -4,406 +4,464 @@
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=35&k=10",
     "retrieved_on": "2026-10-20",
     "sha256": "ea42c727ac643201c68ad2de228b1497362eb1865df955b81fcdde3aebef8d73",
-    "bytes": 4688
+    "bytes": 4688,
+    "stored": false
   },
   {
     "path": "data/sources/36_10.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=36&k=10",
     "retrieved_on": "2026-10-20",
     "sha256": "0b291e681222b647cf3607b381c74afb092f78fbe385492034b509ef347f1523",
-    "bytes": 4630
+    "bytes": 4630,
+    "stored": false
   },
   {
     "path": "data/sources/36_11.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=36&k=11",
     "retrieved_on": "2026-10-20",
     "sha256": "8174661d91666e807242736f90d4250126a7e04ad7d2e449dba1c50fcb5d7a37",
-    "bytes": 4682
+    "bytes": 4682,
+    "stored": false
   },
   {
     "path": "data/sources/37_11.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=37&k=11",
     "retrieved_on": "2026-10-20",
     "sha256": "ecfb34ed0f0f5e72790a4abf6e9221ef32eb07a2a04e774c1da077c4907abd21",
-    "bytes": 4624
+    "bytes": 4624,
+    "stored": false
   },
   {
     "path": "data/sources/37_12.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=37&k=12",
     "retrieved_on": "2026-10-20",
     "sha256": "5a31c9e019dd413d3b4332f954716ff1df9c2e10867eca5accae55a147d3f5d8",
-    "bytes": 4565
+    "bytes": 4565,
+    "stored": false
   },
   {
     "path": "data/sources/38_12.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=38&k=12",
     "retrieved_on": "2026-10-20",
     "sha256": "cf50d564945275e9db4664af7c480878ce48afea2c469c8491ae40c1d9e7e871",
-    "bytes": 4507
+    "bytes": 4507,
+    "stored": false
   },
   {
     "path": "data/sources/41_12.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=41&k=12",
     "retrieved_on": "2026-10-20",
     "sha256": "f781c30b9d54ee23a312485eb57ecd73a87dfc9b5df7072a5efdd6b5e4375700",
-    "bytes": 3083
+    "bytes": 3083,
+    "stored": false
   },
   {
     "path": "data/sources/42_12.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=42&k=12",
     "retrieved_on": "2026-10-20",
     "sha256": "5646501cca56666cc34a570ef09c22a9a9fef1fbe8e9c41110b1b2ac032d7739",
-    "bytes": 2888
+    "bytes": 2888,
+    "stored": false
   },
   {
     "path": "data/sources/43_10.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=43&k=10",
     "retrieved_on": "2026-10-20",
     "sha256": "6d4850a676bb11a625df0f1680669ea935908ee23c1d862807801d4cef1d931d",
-    "bytes": 3185
+    "bytes": 3185,
+    "stored": false
   },
   {
     "path": "data/sources/44_10.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=44&k=10",
     "retrieved_on": "2026-10-20",
     "sha256": "d13d3a55a2d93fc74076e2341d978e224e9b083e5899ccd169263b21d4245031",
-    "bytes": 3159
+    "bytes": 3159,
+    "stored": false
   },
   {
     "path": "data/sources/44_11.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=44&k=11",
     "retrieved_on": "2026-10-20",
     "sha256": "6c6d7301c465068bca2882eeb3f1046fe346d9e2d3c22894f82d69be3491b10d",
-    "bytes": 3180
+    "bytes": 3180,
+    "stored": false
   },
   {
     "path": "data/sources/45_11.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=45&k=11",
     "retrieved_on": "2026-10-20",
     "sha256": "3afa3eb33ab1d85b4f1149244df4f9ee3dcaa7c9054e5518b06aec6484148c1a",
-    "bytes": 3063
+    "bytes": 3063,
+    "stored": false
   },
   {
     "path": "data/sources/46_10.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=46&k=10",
     "retrieved_on": "2026-10-20",
     "sha256": "d67e73c2eb3178f3b2c3833ff281931d28710948211f791a1592b79266cf0ba6",
-    "bytes": 3320
+    "bytes": 3320,
+    "stored": false
   },
   {
     "path": "data/sources/46_11.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=46&k=11",
     "retrieved_on": "2026-10-20",
     "sha256": "572608ebdf2d084e1ba2575d0fdfa8c4450f533be6ccec36f7cb5620638e9312",
-    "bytes": 3141
+    "bytes": 3141,
+    "stored": false
   },
   {
     "path": "data/sources/46_12.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=46&k=12",
     "retrieved_on": "2026-10-20",
     "sha256": "1d47b4f83ab52065517fb8c6ab76e94ba12756cedf8086a33555ea65878b27e0",
-    "bytes": 3072
+    "bytes": 3072,
+    "stored": false
   },
   {
     "path": "data/sources/47_10.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=47&k=10",
     "retrieved_on": "2026-10-20",
     "sha256": "d6056d25930b94e6572c8f3b08396df60aeece823fc65148f061203157ac5787",
-    "bytes": 3011
+    "bytes": 3011,
+    "stored": false
   },
   {
     "path": "data/sources/47_12.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=47&k=12",
     "retrieved_on": "2026-10-20",
     "sha256": "45edae1809553f292e693855b4c7c6cbe597f57745272f45347164296698d1ff",
-    "bytes": 3763
+    "bytes": 3763,
+    "stored": false
   },
   {
     "path": "data/sources/48_11.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=48&k=11",
     "retrieved_on": "2026-10-20",
     "sha256": "b037cee47e6d8721b23c0bc4c77e9fb3a837feef9252d32cf44a9646b9c028b5",
-    "bytes": 3216
+    "bytes": 3216,
+    "stored": false
   },
   {
     "path": "data/sources/48_12.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=48&k=12",
     "retrieved_on": "2026-10-20",
     "sha256": "8046b74b8eff1e0e5783e8147d999d0496790ebddef9ddad29bbe8fb1dc412ee",
-    "bytes": 3143
+    "bytes": 3143,
+    "stored": false
   },
   {
     "path": "data/sources/49_11.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=49&k=11",
     "retrieved_on": "2026-10-20",
     "sha256": "ce877d800ae9c006c3ff01470b816fb99e7350283ad333faebb2a405f35fbd5c",
-    "bytes": 3179
+    "bytes": 3179,
+    "stored": false
   },
   {
     "path": "data/sources/49_12.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=49&k=12",
     "retrieved_on": "2026-10-20",
     "sha256": "4fdd1f32bed9be4bf2e417707bc2ac4d1eeac8c3dc41e2bedbe32076bf7ff236",
-    "bytes": 3267
+    "bytes": 3267,
+    "stored": false
   },
   {
     "path": "data/sources/50_12.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=50&k=12",
     "retrieved_on": "2026-10-20",
     "sha256": "1dfa7368eb638bfddb760c4df30111459625ec8e377b08959d5d7c6f1730b367",
-    "bytes": 3260
+    "bytes": 3260,
+    "stored": false
   },
   {
     "path": "data/sources/51_10.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=51&k=10",
     "retrieved_on": "2026-10-20",
     "sha256": "4ce8da1bd529b6bf9980687351fe6031965f7b8183d0d4318eb446bff78bd5fc",
-    "bytes": 3324
+    "bytes": 3324,
+    "stored": false
   },
   {
     "path": "data/sources/51_12.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=51&k=12",
     "retrieved_on": "2026-10-20",
     "sha256": "7ef83bce045ba4dd48413e8d395ceb72eda570b4a0b3c00f12358b296be32b80",
-    "bytes": 3025
+    "bytes": 3025,
+    "stored": false
   },
   {
     "path": "data/sources/52_10.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=52&k=10",
     "retrieved_on": "2026-10-20",
     "sha256": "7a4ecccb3caabe31d670bb043301854604be84b0a54be858cfc6ff218a48676c",
-    "bytes": 4642
+    "bytes": 4642,
+    "stored": false
   },
   {
     "path": "data/sources/52_11.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=52&k=11",
     "retrieved_on": "2026-10-20",
     "sha256": "7cd4cfbc6926ea3d9aabf083bbcabca1431c651ed157fb619dcf742e0de6797a",
-    "bytes": 3324
+    "bytes": 3324,
+    "stored": false
   },
   {
     "path": "data/sources/53_11.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=53&k=11",
     "retrieved_on": "2026-10-20",
     "sha256": "f1602d54303d3d2eea60f16fa40bd0af83293a965558938e41a0cc029cb885a7",
-    "bytes": 3336
+    "bytes": 3336,
+    "stored": false
   },
   {
     "path": "data/sources/53_12.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=53&k=12",
     "retrieved_on": "2026-10-20",
     "sha256": "ea46cb05624cf1316f1945af11f8c54db3e9727442a68ef5d6837a6f49035097",
-    "bytes": 3324
+    "bytes": 3324,
+    "stored": false
   },
   {
     "path": "data/sources/54_10.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=54&k=10",
     "retrieved_on": "2026-10-20",
     "sha256": "930bba7f2d1aac396594e28b8a11e47c6cef01db8788adf1e04eb34ad38fd73f",
-    "bytes": 3273
+    "bytes": 3273,
+    "stored": false
   },
   {
     "path": "data/sources/54_11.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=54&k=11",
     "retrieved_on": "2026-10-20",
     "sha256": "bab1e0b9a0695ff35caf6754bd2478c9f3c01ba0430f1fc12db057b7188972ed",
-    "bytes": 3161
+    "bytes": 3161,
+    "stored": false
   },
   {
     "path": "data/sources/54_12.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=54&k=12",
     "retrieved_on": "2026-10-20",
     "sha256": "e38ba0bb1b9478dba7b4c3c5adb7676ff727ce3449808d6731f4d9d3d3055fa5",
-    "bytes": 3259
+    "bytes": 3259,
+    "stored": false
   },
   {
     "path": "data/sources/55_10.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=55&k=10",
     "retrieved_on": "2026-10-20",
     "sha256": "65fd07237e6b2e2a8df2d9c46afd0e0f32441f6563ff8403e16160a6ea59a79a",
-    "bytes": 4498
+    "bytes": 4498,
+    "stored": false
   },
   {
     "path": "data/sources/55_11.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=55&k=11",
     "retrieved_on": "2026-10-20",
     "sha256": "0ee5818240f23bc70ffaee9477975609cac559faf34fd1894711a1e95f181171",
-    "bytes": 3156
+    "bytes": 3156,
+    "stored": false
   },
   {
     "path": "data/sources/55_12.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=55&k=12",
     "retrieved_on": "2026-10-20",
     "sha256": "7a5b9061d61d9665e301ef90ae40b613a7e545896e3b7d8cf0cdc67b6c94dd63",
-    "bytes": 5205
+    "bytes": 5205,
+    "stored": false
   },
   {
     "path": "data/sources/56_11.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=56&k=11",
     "retrieved_on": "2026-10-20",
     "sha256": "8685d8ba19c3b400d9315ad44dce5e5153d46bb6150076c4417ced3292438381",
-    "bytes": 2994
+    "bytes": 2994,
+    "stored": false
   },
   {
     "path": "data/sources/57_11.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=57&k=11",
     "retrieved_on": "2026-10-20",
     "sha256": "9add534abf289a03dcc5dc4f40ba1e1611be3bfc3445b9c63d88aaeb5c674fca",
-    "bytes": 3217
+    "bytes": 3217,
+    "stored": false
   },
   {
     "path": "data/sources/57_12.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=57&k=12",
     "retrieved_on": "2026-10-20",
     "sha256": "8cb68ab074b24696b61f1caefd0ce31bf518779794ad3c8aa453bd5b8e65a49d",
-    "bytes": 3129
+    "bytes": 3129,
+    "stored": false
   },
   {
     "path": "data/sources/58_12.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=58&k=12",
     "retrieved_on": "2026-10-20",
     "sha256": "bd23184d1f132fa5ada450bc047fb775677b7a4814102b1ceb73307934dd32cc",
-    "bytes": 5297
+    "bytes": 5297,
+    "stored": false
   },
   {
     "path": "data/sources/59_10.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=59&k=10",
     "retrieved_on": "2026-10-20",
     "sha256": "bc32e5c8a63c185e76f74c38c724a657e8ae13635e44e6ca77667b7a532b50a1",
-    "bytes": 2939
+    "bytes": 2939,
+    "stored": false
   },
   {
     "path": "data/sources/60_10.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=60&k=10",
     "retrieved_on": "2026-10-20",
     "sha256": "77d32500852953369b849f0e9cef699ef6583ca7963465c03d77baa34c437b38",
-    "bytes": 3955
+    "bytes": 3955,
+    "stored": false
   },
   {
     "path": "data/sources/61_11.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=61&k=11",
     "retrieved_on": "2026-10-20",
     "sha256": "47bb6a05a300ab6e5dbc7cd5a9468b605af2eb5fe0bacb0665dcd031b3808486",
-    "bytes": 2856
+    "bytes": 2856,
+    "stored": false
   },
   {
     "path": "data/sources/62_10.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=62&k=10",
     "retrieved_on": "2026-10-20",
     "sha256": "4e8e39a605401a4cae245661b2f90fdc84b9a94c6e9c67c95db6b210f6a9e1f6",
-    "bytes": 3069
+    "bytes": 3069,
+    "stored": false
   },
   {
     "path": "data/sources/62_11.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=62&k=11",
     "retrieved_on": "2026-10-20",
     "sha256": "c6728c763affb5f76186cbf661920ed9675a8ac3ddd271ca8a4b792551cdac71",
-    "bytes": 3123
+    "bytes": 3123,
+    "stored": false
   },
   {
     "path": "data/sources/62_12.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=62&k=12",
     "retrieved_on": "2026-10-20",
     "sha256": "e494a3515519db71641cff3ef19e4b6c3058bb5ff2ace55513547174b41f2737",
-    "bytes": 2906
+    "bytes": 2906,
+    "stored": false
   },
   {
     "path": "data/sources/63_10.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=63&k=10",
     "retrieved_on": "2026-10-20",
     "sha256": "7aa13f6ec454698bc0d8d0b60959a612e17637d2df412c9476e0139679bbef06",
-    "bytes": 2883
+    "bytes": 2883,
+    "stored": false
   },
   {
     "path": "data/sources/63_12.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=63&k=12",
     "retrieved_on": "2026-10-20",
     "sha256": "3ffb797fa12dc4384f79121eb250bd9d7d6a11058843397f72e403f601422ce3",
-    "bytes": 3047
+    "bytes": 3047,
+    "stored": false
   },
   {
     "path": "data/sources/64_11.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=64&k=11",
     "retrieved_on": "2026-10-20",
     "sha256": "e655736a3404b8709ee2ed51020794096d9b67d91c6ebb660de3f02c732f0196",
-    "bytes": 3200
+    "bytes": 3200,
+    "stored": false
   },
   {
     "path": "data/sources/64_12.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=64&k=12",
     "retrieved_on": "2026-10-20",
     "sha256": "ee6d88ff8e249ff8ec5bf956a9dda0b857f0d6238b35bc049a732d0ea12f62e3",
-    "bytes": 3070
+    "bytes": 3070,
+    "stored": false
   },
   {
     "path": "data/sources/65_11.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=65&k=11",
     "retrieved_on": "2026-10-20",
     "sha256": "0a837947f44a52da8216d77b85fc40fe6b8149a7770917fe2d148138b6b697a0",
-    "bytes": 3158
+    "bytes": 3158,
+    "stored": false
   },
   {
     "path": "data/sources/65_12.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=65&k=12",
     "retrieved_on": "2026-10-20",
     "sha256": "81d4920c3c1e4122aadaca234e4e2d7ad575dd250b7f07f192cf5e41a5c5a764",
-    "bytes": 3255
+    "bytes": 3255,
+    "stored": false
   },
   {
     "path": "data/sources/65_9.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=65&k=9",
     "retrieved_on": "2026-10-20",
     "sha256": "1ee43c079ee21650b94e41893cfd95052422d80d8368c206d6c42c49f704c448",
-    "bytes": 3372
+    "bytes": 3372,
+    "stored": false
   },
   {
     "path": "data/sources/66_12.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=66&k=12",
     "retrieved_on": "2026-10-20",
     "sha256": "885e07786b9e223ed2be4250987f36a5bc62f3882f8433f01553cc1e5f0003bc",
-    "bytes": 3320
+    "bytes": 3320,
+    "stored": false
   },
   {
     "path": "data/sources/66_9.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=66&k=9",
     "retrieved_on": "2026-10-20",
     "sha256": "77155842a878fb767191bdc6f64a2ad3d75cd01e3dbad0d42452ec5cd4c07452",
-    "bytes": 3151
+    "bytes": 3151,
+    "stored": false
   },
   {
     "path": "data/sources/67_12.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=67&k=12",
     "retrieved_on": "2026-10-20",
     "sha256": "aee927e0cdac1ec8f130aeb92098d2fb00fc3693903842d958fbbd76cf28d041",
-    "bytes": 5529
+    "bytes": 5529,
+    "stored": false
   },
   {
     "path": "data/sources/68_11.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=68&k=11",
     "retrieved_on": "2026-10-20",
     "sha256": "7ed781ad25f01dd7a13e700ede83994f488926e1065b938b0596047258b31d02",
-    "bytes": 3250
+    "bytes": 3250,
+    "stored": false
   },
   {
     "path": "data/sources/69_11.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=69&k=11",
     "retrieved_on": "2026-10-20",
     "sha256": "094ce892f43844d937e2daf662a4887abf0a019bffbca1de2b59c5899fed0393",
-    "bytes": 5533
+    "bytes": 5533,
+    "stored": false
   },
   {
     "path": "data/sources/69_12.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=69&k=12",
     "retrieved_on": "2026-10-20",
     "sha256": "d6826ee7e57333d69102c713492acb41676a4724969d9c4bddbbfe778d6cea06",
-    "bytes": 3298
+    "bytes": 3298,
+    "stored": false
   },
   {
     "path": "data/sources/70_12.html",
     "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=70&k=12",
     "retrieved_on": "2026-10-20",
     "sha256": "a327dcc297aa6c789a811e6a623225214a7092438d2e70bf9962eca79f11c07a",
-    "bytes": 3291
+    "bytes": 3291,
+    "stored": false
   },
   {
     "path": "data/sources/feulner2014.pdf",
@@ -434,7 +492,8 @@
     "url": "https://www.codetables.de/BKLC/Tables.php?q=2&n0=1&n1=256&k0=1&k1=256",
     "retrieved_on": "2026-10-20",
     "sha256": "974ef87f2e00f55053747b191922d4e4b7c20e918e6d997e125fa8b4920a13e6",
-    "bytes": 4716901
+    "bytes": 4716901,
+    "stored": false
   },
   {
     "path": "data/sources/updates.html",
@@ -449,7 +508,8 @@
     "url": "https://arxiv.org/html/2412.15551v1",
     "retrieved_on": "2026-10-20",
     "sha256": "62fe69c8d0b74a8e4f72a73e878ed053bc7d8f2604deedc28b2cf07cc98461ae",
-    "bytes": 370675
+    "bytes": 370675,
+    "stored": false
   },
   {
     "path": "data/sources/zheng2025.html",
