@@ -1,0 +1,132 @@
+[
+  {
+    "project": "codes",
+    "task": "replay",
+    "command": [
+      "python3",
+      "scripts/tasks.py",
+      "replay"
+    ],
+    "returncode": 0,
+    "seconds": 0.13839979202020913,
+    "log": "research/readiness-20261021/first-steps/replay.log",
+    "log_sha256": "b0f4e6badd07bfcc2bcaff720826192f0e7df59b1051f0edf910812bfa8ee5e7"
+  },
+  {
+    "project": "codes",
+    "task": "literature",
+    "command": [
+      "python3",
+      "scripts/tasks.py",
+      "literature"
+    ],
+    "returncode": 0,
+    "seconds": 0.48319229192566127,
+    "log": "research/readiness-20261021/first-steps/literature.log",
+    "log_sha256": "bb0c4d7079e7d5057548c28ed4b2b2642279ca5791f6252a49ca15a7bc451c1d"
+  },
+  {
+    "project": "codes",
+    "task": "goppa",
+    "command": [
+      "python3",
+      "scripts/tasks.py",
+      "goppa"
+    ],
+    "returncode": 0,
+    "seconds": 0.16878195793833584,
+    "log": "research/readiness-20261021/first-steps/goppa.log",
+    "log_sha256": "659a778a3d349977a67997040d1254bfa22985598cdf96fd8458cf1646f5815c"
+  },
+  {
+    "project": "codes",
+    "task": "structured-172-21",
+    "command": [
+      "python3",
+      "scripts/large_verify.py",
+      "research/readiness-20261021/certificates/172_21_66.json"
+    ],
+    "returncode": 0,
+    "seconds": 0.6635263749631122,
+    "log": "research/readiness-20261021/first-steps/structured-172-21.log",
+    "log_sha256": "d9c23fbdebbd2d626ab10f576a7888f48bea4d23d459fae4bbf8726c29ea1132"
+  },
+  {
+    "project": "codes",
+    "task": "structured-173-20",
+    "command": [
+      "python3",
+      "scripts/large_verify.py",
+      "research/readiness-20261021/certificates/173_20_68.json"
+    ],
+    "returncode": 0,
+    "seconds": 0.2799477089429274,
+    "log": "research/readiness-20261021/first-steps/structured-173-20.log",
+    "log_sha256": "a63d6a54435b0ff3e3caac2e203b1d5116ecc5d5693cc8c814e3fc32d7d85e2c"
+  },
+  {
+    "project": "codes",
+    "task": "structured-176-21",
+    "command": [
+      "python3",
+      "scripts/large_verify.py",
+      "research/readiness-20261021/certificates/176_21_68.json"
+    ],
+    "returncode": 0,
+    "seconds": 0.3782196670072153,
+    "log": "research/readiness-20261021/first-steps/structured-176-21.log",
+    "log_sha256": "381a43ed962a250d9d6eedda0bcbcdc903fdf04a03995f3e0afddf3c1b58c41c"
+  },
+  {
+    "project": "codes",
+    "task": "structured-181-21",
+    "command": [
+      "python3",
+      "scripts/large_verify.py",
+      "research/readiness-20261021/certificates/181_21_70.json"
+    ],
+    "returncode": 0,
+    "seconds": 0.5792419998906553,
+    "log": "research/readiness-20261021/first-steps/structured-181-21.log",
+    "log_sha256": "ee2d8ad3b57acbfb8fede610043019f3986ab178aa0752c8b3ed8979a16980bb"
+  },
+  {
+    "project": "codes",
+    "task": "structured-184-21",
+    "command": [
+      "python3",
+      "scripts/large_verify.py",
+      "research/readiness-20261021/certificates/184_21_72.json"
+    ],
+    "returncode": 0,
+    "seconds": 0.3787572920555249,
+    "log": "research/readiness-20261021/first-steps/structured-184-21.log",
+    "log_sha256": "470835f26a70f4f212a8b30647c1e1113ce21ec9aae8bb1c75e0f3a485b29d48"
+  },
+  {
+    "project": "codes",
+    "task": "structured-189-22",
+    "command": [
+      "python3",
+      "scripts/large_verify.py",
+      "research/readiness-20261021/certificates/189_22_72.json"
+    ],
+    "returncode": 0,
+    "seconds": 0.8496264169225469,
+    "log": "research/readiness-20261021/first-steps/structured-189-22.log",
+    "log_sha256": "aea91497e90511ccc7afd570735609e75b786306d45c76518bcaa60bceb9c560"
+  },
+  {
+    "project": "codes",
+    "task": "certification",
+    "command": [
+      "python3",
+      "scripts/tasks.py",
+      "certification"
+    ],
+    "returncode": 0,
+    "seconds": 0.119161874987185,
+    "log": "research/readiness-20261021/first-steps/certification.log",
+    "log_sha256": "94e0da36484bab893d7eb549b8572bc74206616610dde95dc06b24a9a0bcaec0"
+  }
+]

@@ -1,0 +1,2 @@
+PASS deferred Goppa recipes identified: [{"n": 46, "k": 10, "status": "deferred", "reason": "unsupported: GoppaCode with 55 points over GF(64) and polynomial x^9 + 1 where w := GF(64).1"}, {"n": 46, "k": 11, "status": "deferred", "reason": "unsupported: GoppaCode with 55 points over GF(64) and polynomial x^9 + 1 where w := GF(64).1"}]
+

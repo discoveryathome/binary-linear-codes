@@ -1,0 +1,7 @@
+
+Traceback (most recent call last):
+  File "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/scripts/large_verify.py", line 40, in <module>
+    for path in sys.argv[1:]:print(json.dumps(check(path)))
+  File "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/scripts/large_verify.py", line 32, in check
+    for y in right:hist[(x^y).bit_count()]+=1
+AttributeError: 'int' object has no attribute 'bit_count'

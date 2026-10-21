@@ -41,3 +41,7 @@ python3 scripts/information_sets.py
 `results/closure.json` includes all 32,896 table cells, recent reported parents and derivation paths. It is a novelty exclusion baseline, not a list of independently verified constructions. `data/records.csv` is the scoped record table. `results/preaudit/` preserves the superseded preliminary run and is excluded from the final assessment.
 
 Start agent work at [AGENTS.md](AGENTS.md). This remains a staged pilot: **no maintainer has agreed, review capacity is zero, and donor recruitment is paused**. The repository is hosted privately at [discoveryathome/binary-linear-codes](https://github.com/discoveryathome/binary-linear-codes). No hub PR or hub listing has been submitted. A maintainer must agree before opening this to donors. Original code/documentation use MIT; source snapshots retain original rights and attribution.
+
+## Second-cohort preparation (2026-10-21)
+
+See the [prepared contributor portfolio and review package](research/readiness-20261021/README.md). Start new preparation tasks from its inherited witnesses. Historical results remain separately reproducible; independent scientific signoff is pending.

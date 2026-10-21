@@ -1,0 +1,9 @@
+
+Traceback (most recent call last):
+  File "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/scripts/tasks.py", line 21, in <module>
+    t=next(x for x in targets if (x['n'],x['k'])==key);x=codes.check(t['object']);y=independent.check(t['object']);assert x['spectrum']==y['spectrum']
+  File "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/scripts/codes.py", line 82, in check
+    h=spectrum(r,c['n']); d=next(i for i in range(1,len(h)) if h[i])
+  File "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/scripts/codes.py", line 19, in spectrum
+    hist[w.bit_count()]+=1
+AttributeError: 'int' object has no attribute 'bit_count'

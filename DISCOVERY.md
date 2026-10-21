@@ -16,7 +16,7 @@ Coordinate permutations and basis changes cannot improve distance. Puncturing lo
 
 For these cases exact verification is cheap; finding a better matrix is hard. Independent literature checking and reviewer capacity matter as much as candidate generation. The saved warm/cold experiments measure only a modest search budget, not the probability that a general volunteer or another search method will succeed. Cases are not statistically independent: several share parent constructions.
 
-Four tracks total 100: independent verification 25, literature and missing constructions 30, structured search 35, stronger certification 10. Six concrete cards live in discover/catalog.json. Every card has a positive control, bounded first experiment, success gate, and overlap terms. Use executed randomness through scripts/pick.py; the pick does not reserve anything.
+Four tracks total 100: independent verification 25, literature and missing constructions 30, structured search 35, stronger certification 10. The refreshed catalogue includes six larger structured-parent cards; see discover/catalog.json. Every card has a positive control, bounded first experiment, success gate, and overlap terms. Use executed randomness through scripts/pick.py; the pick does not reserve anything.
 
 ## Submission and review
 
@@ -25,3 +25,7 @@ Submit a local directory with the generator JSON, seed, source and parent hashes
 A future consenting maintainer checks provenance and duplicate work, asks an independent contributor to replay the exact certificate, and decides whether the contribution is a replication, derived construction, candidate new parent, or certified upper-bound result. External record acceptance requires the relevant authority; it is not implied by this repository.
 
 Credit original literature authors on every derived code. Credit donor construction/search, software and independent verification contributions separately in a contributor record. No automatic authorship promise. Review capacity, not donated compute, sets the pace; verifier and frontier changes deserve the most care.
+
+## Second-cohort preparation (2026-10-21)
+
+For the refreshed task pool, read [the preparation package](research/readiness-20261021/README.md) and `discover/readiness.json`. These versioned portfolios provide the starting witnesses for the new catalogue cards. They do not retroactively change historical experiments or grant public donor intake.

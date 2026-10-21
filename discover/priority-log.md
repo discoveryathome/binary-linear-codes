@@ -14,3 +14,7 @@ coset/multi-coordinate search. Keep track weights unchanged: this is one local
 agent-assisted trial, not independent donor-yield evidence. The [173,20,68]
 published control is now locally reconstructed and checked by both implementations.
 Public recruitment and review remain paused.
+
+## 2026-10-21 second-cohort preparation
+
+Task-specific coordinator authorization. Refreshed cards inherit the preparation portfolio; original catalogue archived in research/readiness-20261021/catalog-before.json. Historical results are unchanged. Scientific review and public intake remain pending.
