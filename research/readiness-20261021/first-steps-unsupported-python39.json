@@ -1,0 +1,132 @@
+[
+  {
+    "project": "codes",
+    "task": "replay",
+    "command": [
+      "python3",
+      "scripts/tasks.py",
+      "replay"
+    ],
+    "returncode": 1,
+    "seconds": 0.10996712499763817,
+    "log": "research/readiness-20261021/first-steps-python39/replay.log",
+    "log_sha256": "c15637bfc56e044585117209aaed39eec7cd8179226edae72f908b139bafc902"
+  },
+  {
+    "project": "codes",
+    "task": "literature",
+    "command": [
+      "python3",
+      "scripts/tasks.py",
+      "literature"
+    ],
+    "returncode": 0,
+    "seconds": 0.25521766708698124,
+    "log": "research/readiness-20261021/first-steps-python39/literature.log",
+    "log_sha256": "bb0c4d7079e7d5057548c28ed4b2b2642279ca5791f6252a49ca15a7bc451c1d"
+  },
+  {
+    "project": "codes",
+    "task": "goppa",
+    "command": [
+      "python3",
+      "scripts/tasks.py",
+      "goppa"
+    ],
+    "returncode": 0,
+    "seconds": 0.0916984579525888,
+    "log": "research/readiness-20261021/first-steps-python39/goppa.log",
+    "log_sha256": "659a778a3d349977a67997040d1254bfa22985598cdf96fd8458cf1646f5815c"
+  },
+  {
+    "project": "codes",
+    "task": "structured-172-21",
+    "command": [
+      "python3",
+      "scripts/large_verify.py",
+      "research/readiness-20261021/certificates/172_21_66.json"
+    ],
+    "returncode": 1,
+    "seconds": 0.09772895800415426,
+    "log": "research/readiness-20261021/first-steps-python39/structured-172-21.log",
+    "log_sha256": "be8532341ec920bf7eee76bdc44d010625223c164a0292744018fb677efdcf22"
+  },
+  {
+    "project": "codes",
+    "task": "structured-173-20",
+    "command": [
+      "python3",
+      "scripts/large_verify.py",
+      "research/readiness-20261021/certificates/173_20_68.json"
+    ],
+    "returncode": 1,
+    "seconds": 0.07507529202848673,
+    "log": "research/readiness-20261021/first-steps-python39/structured-173-20.log",
+    "log_sha256": "be8532341ec920bf7eee76bdc44d010625223c164a0292744018fb677efdcf22"
+  },
+  {
+    "project": "codes",
+    "task": "structured-176-21",
+    "command": [
+      "python3",
+      "scripts/large_verify.py",
+      "research/readiness-20261021/certificates/176_21_68.json"
+    ],
+    "returncode": 1,
+    "seconds": 0.0776339580770582,
+    "log": "research/readiness-20261021/first-steps-python39/structured-176-21.log",
+    "log_sha256": "be8532341ec920bf7eee76bdc44d010625223c164a0292744018fb677efdcf22"
+  },
+  {
+    "project": "codes",
+    "task": "structured-181-21",
+    "command": [
+      "python3",
+      "scripts/large_verify.py",
+      "research/readiness-20261021/certificates/181_21_70.json"
+    ],
+    "returncode": 1,
+    "seconds": 0.07332033303100616,
+    "log": "research/readiness-20261021/first-steps-python39/structured-181-21.log",
+    "log_sha256": "be8532341ec920bf7eee76bdc44d010625223c164a0292744018fb677efdcf22"
+  },
+  {
+    "project": "codes",
+    "task": "structured-184-21",
+    "command": [
+      "python3",
+      "scripts/large_verify.py",
+      "research/readiness-20261021/certificates/184_21_72.json"
+    ],
+    "returncode": 1,
+    "seconds": 0.07278641709126532,
+    "log": "research/readiness-20261021/first-steps-python39/structured-184-21.log",
+    "log_sha256": "be8532341ec920bf7eee76bdc44d010625223c164a0292744018fb677efdcf22"
+  },
+  {
+    "project": "codes",
+    "task": "structured-189-22",
+    "command": [
+      "python3",
+      "scripts/large_verify.py",
+      "research/readiness-20261021/certificates/189_22_72.json"
+    ],
+    "returncode": 1,
+    "seconds": 0.06764762499369681,
+    "log": "research/readiness-20261021/first-steps-python39/structured-189-22.log",
+    "log_sha256": "be8532341ec920bf7eee76bdc44d010625223c164a0292744018fb677efdcf22"
+  },
+  {
+    "project": "codes",
+    "task": "certification",
+    "command": [
+      "python3",
+      "scripts/tasks.py",
+      "certification"
+    ],
+    "returncode": 1,
+    "seconds": 0.07882974995300174,
+    "log": "research/readiness-20261021/first-steps-python39/certification.log",
+    "log_sha256": "f3dc9801d08ef5bda7909cfc2e7db64047468eb403642d16bae725cb75aab512"
+  }
+]

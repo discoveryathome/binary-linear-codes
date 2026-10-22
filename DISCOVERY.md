@@ -16,7 +16,7 @@ Coordinate permutations and basis changes cannot improve distance. Puncturing lo
 
 For these cases exact verification is cheap; finding a better matrix is hard. Independent literature checking and reviewer capacity matter as much as candidate generation. The saved warm/cold experiments measure only a modest search budget, not the probability that a general volunteer or another search method will succeed. Cases are not statistically independent: several share parent constructions.
 
-Four tracks total 100: independent verification 25, literature and missing constructions 30, structured search 35, stronger certification 10. Six concrete cards live in discover/catalog.json. Every card has a positive control, bounded first experiment, success gate, and overlap terms. Use executed randomness through scripts/pick.py; the pick does not reserve anything.
+Four tracks total 100: independent verification 25, literature and missing constructions 30, structured search 35, stronger certification 10. The refreshed catalogue includes six larger structured-parent cards; see discover/catalog.json. Every card has a positive control, bounded first experiment, success gate, and overlap terms. Use executed randomness through scripts/pick.py; the pick does not reserve anything.
 
 ## Submission and review
 

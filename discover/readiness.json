@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "date": "2026-10-21",
+  "status": "local-preparation; scientific review pending",
+  "package": "research/readiness-20261021/README.md",
+  "portfolio": "research/readiness-20261021/structured.json",
+  "first_step": "python3 scripts/large_verify.py research/readiness-20261021/certificates/189_22_72.json",
+  "external_gates": [
+    "Coding-theorist target review",
+    "Independent record/novelty reconciliation before a record claim",
+    "Fresh independent contributor trials"
+  ],
+  "preparation_status": "complete for scoped external review",
+  "independent_review": "pending",
+  "integrity_check": "python research/readiness-20261021/check_manifest.py"
+}

@@ -1,0 +1,14 @@
+test_bad_sets (test_certification.CertificationTests.test_bad_sets) ... ok
+test_certified_vs_exhaustive (test_certification.CertificationTests.test_certified_vs_exhaustive) ... ok
+test_griesmer (test_certification.CertificationTests.test_griesmer) ... ok
+test_checkers_and_rejections (test_codes.Tests.test_checkers_and_rejections) ... ok
+test_closure (test_codes.Tests.test_closure) ... ok
+test_rank_and_enumeration (test_codes.Tests.test_rank_and_enumeration) ... ok
+test_transformations_against_sets (test_codes.Tests.test_transformations_against_sets) ... ok
+test_original_witnesses_agree (test_large_verify.LargeCheckerTests.test_original_witnesses_agree) ... ok
+test_reject_mutations (test_large_verify.LargeCheckerTests.test_reject_mutations) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 2.097s
+
+OK

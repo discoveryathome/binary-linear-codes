@@ -1,7 +1,7 @@
 {
   "schema": "discover-catalog/v0",
-  "priority_revision": 2,
-  "assessed_on": "2026-10-20",
+  "priority_revision": 3,
+  "assessed_on": "2026-10-21",
   "priority_log": "discover/priority-log.md",
   "status": "Open since 2026-10-21. Cards are invitations, not reservations: claim in the Handoffs thread first. Record acceptance stays with the maintainer.",
   "tracks": [
@@ -145,84 +145,189 @@
       "useful_outcome": "Search near certified constructions",
       "tasks": [
         {
-          "id": "qc",
-          "question": "Can a different QC parent with odd row weight improve the [44,11,16] lower bound and its parity extension at length45?",
+          "id": "structured-172-21",
+          "question": "Can a changed QC core at [172,21] reach distance 67?",
           "starting_points": [
-            "DISCOVERY.md",
-            "docs/literature.md",
-            "data/targets.json",
-            "research/c0202026102018570000000000000001/README.md"
+            "research/readiness-20261021/README.md",
+            "scripts/structured_search.py",
+            "research/readiness-20261021/current-bounds.json"
           ],
           "methods": [
-            "Search [I | circ(a) | circ(b) | circ(c)] with block size11, odd a,b and even c; use exact cyclic message-orbit evaluation. The original fixed [45,14,16] parent cannot help: every 11-dimensional subcode has distance16."
+            "Bounded experiment from inherited witness; retain all results and exact provenance"
           ],
-          "acceptance_gate": "Full-rank [44,11,d>=17] certificate with both exact checkers and refreshed novelty audit; report transformations with their provenance. Secondary spectrum improvements do not pass the distance gate.",
+          "acceptance_gate": "Two exact spectra agree; beat refreshed exclusion closure; provenance/equivalence audit and coding-theorist review before any record claim. Null results and replication credited separately.",
           "first_step": {
             "command": [
               "python3",
-              "research/c0202026102018570000000000000001/family_proof.py"
+              "scripts/large_verify.py",
+              "research/readiness-20261021/certificates/172_21_66.json"
             ],
-            "expected": "Every 11-dimensional subcode of this fixed parent has distance exactly 16.",
-            "scope": "Positive control for the proven obstruction; the replacement search uses a different QC family."
+            "expected": "Positive control passes; independent scientific review remains pending."
           },
-          "first_experiment": "Read qc_family_proof.json and reproduce its bound, then compare 100000 random and hill-climb proposals in the replacement QC family using qc_search.cpp. Record negative results and distinguish known-distance recovery from discovery.",
-          "bottleneck_link": "The timed trial proved the original subspace-only card impossible. A fresh family is required; no volunteer success rate is established.",
-          "allowed_variations": [
-            "Change deterministic seed and fixed evaluation budget; record both.",
-            "Use equivalent generator bases with independent verification."
-          ],
-          "scope_change_triggers": [
-            "Stop record claims if literature or closure dominates the candidate.",
-            "Escalate k>20 certification or a large resource requirement into a separate scoped task."
-          ],
-          "overlap_terms": [
-            "qc",
-            "binary-linear-codes"
-          ],
+          "bottleneck_link": "research/readiness-20261021/REVIEW.md",
           "claim_kind": [
             "exact",
             "measured"
+          ],
+          "first_experiment": "Run python3 scripts/structured_search.py --parent 172 --seed <integer> --trials 16 --output research/<unique-session>. Keep all tested multipliers. This changes the core; do not repeat the proved fixed-matrix obstructions.",
+          "scope_change_triggers": [
+            "k>22 or n>512 exceeds this bounded verifier; create a separately reviewed task.",
+            "Do not count spectrum-only or automatically implied improvements as new parent records."
           ]
         },
         {
-          "id": "columns",
-          "question": "Can coset replacement or changes involving more than two coordinates improve [52,10,21]?",
+          "id": "structured-173-20",
+          "question": "Can a changed QC core at [173,20] reach distance 69?",
           "starting_points": [
-            "DISCOVERY.md",
-            "docs/literature.md",
-            "data/targets.json",
-            "research/c0202026102018570000000000000001/README.md"
+            "research/readiness-20261021/README.md",
+            "scripts/structured_search.py",
+            "research/readiness-20261021/current-bounds.json"
           ],
           "methods": [
-            "Preserve the even-weight dimension9 kernel and search its other coset; alternatively test coordinated changes beyond the certified two-column obstruction."
+            "Bounded experiment from inherited witness; retain all results and exact provenance"
           ],
-          "acceptance_gate": "A certificate and honest negative result after a fixed candidate budget; candidate record requires d>21 and a new literature audit.",
+          "acceptance_gate": "Two exact spectra agree; beat refreshed exclusion closure; provenance/equivalence audit and coding-theorist review before any record claim. Null results and replication credited separately.",
           "first_step": {
             "command": [
               "python3",
-              "scripts/tasks.py",
-              "columns"
+              "scripts/large_verify.py",
+              "research/readiness-20261021/certificates/173_20_68.json"
             ],
-            "expected": "PASS",
-            "scope": "Real local positive control for this card."
+            "expected": "Positive control passes; independent scientific review remains pending."
           },
-          "first_experiment": "Verify all 1326 two-column obstructions for the published baseline, then compare a fixed CPU budget of coset search against ordinary mutation. Do not repeat the ruled-out two-column search.",
-          "bottleneck_link": "Every one- or two-column replacement of the starting matrix is now excluded by checked local proofs. A lack of search improvement still does not prove global optimality.",
-          "allowed_variations": [
-            "Change deterministic seed and fixed evaluation budget; record both.",
-            "Use equivalent generator bases with independent verification."
-          ],
-          "scope_change_triggers": [
-            "Stop record claims if literature or closure dominates the candidate.",
-            "Escalate k>20 certification or a large resource requirement into a separate scoped task."
-          ],
-          "overlap_terms": [
-            "columns",
-            "binary-linear-codes"
-          ],
+          "bottleneck_link": "research/readiness-20261021/REVIEW.md",
           "claim_kind": [
             "exact",
             "measured"
+          ],
+          "first_experiment": "Run python3 scripts/structured_search.py --parent 173 --seed <integer> --trials 16 --output research/<unique-session>. Keep all tested multipliers. This changes the core; do not repeat the proved fixed-matrix obstructions.",
+          "scope_change_triggers": [
+            "k>22 or n>512 exceeds this bounded verifier; create a separately reviewed task.",
+            "Do not count spectrum-only or automatically implied improvements as new parent records."
+          ]
+        },
+        {
+          "id": "structured-176-21",
+          "question": "Can a changed QC core at [176,21] reach distance 69?",
+          "starting_points": [
+            "research/readiness-20261021/README.md",
+            "scripts/structured_search.py",
+            "research/readiness-20261021/current-bounds.json"
+          ],
+          "methods": [
+            "Bounded experiment from inherited witness; retain all results and exact provenance"
+          ],
+          "acceptance_gate": "Two exact spectra agree; beat refreshed exclusion closure; provenance/equivalence audit and coding-theorist review before any record claim. Null results and replication credited separately.",
+          "first_step": {
+            "command": [
+              "python3",
+              "scripts/large_verify.py",
+              "research/readiness-20261021/certificates/176_21_68.json"
+            ],
+            "expected": "Positive control passes; independent scientific review remains pending."
+          },
+          "bottleneck_link": "research/readiness-20261021/REVIEW.md",
+          "claim_kind": [
+            "exact",
+            "measured"
+          ],
+          "first_experiment": "Run python3 scripts/structured_search.py --parent 176 --seed <integer> --trials 16 --output research/<unique-session>. Keep all tested multipliers. This changes the core; do not repeat the proved fixed-matrix obstructions.",
+          "scope_change_triggers": [
+            "k>22 or n>512 exceeds this bounded verifier; create a separately reviewed task.",
+            "Do not count spectrum-only or automatically implied improvements as new parent records."
+          ]
+        },
+        {
+          "id": "structured-181-21",
+          "question": "Can a changed QC core at [181,21] reach distance 71?",
+          "starting_points": [
+            "research/readiness-20261021/README.md",
+            "scripts/structured_search.py",
+            "research/readiness-20261021/current-bounds.json"
+          ],
+          "methods": [
+            "Bounded experiment from inherited witness; retain all results and exact provenance"
+          ],
+          "acceptance_gate": "Two exact spectra agree; beat refreshed exclusion closure; provenance/equivalence audit and coding-theorist review before any record claim. Null results and replication credited separately.",
+          "first_step": {
+            "command": [
+              "python3",
+              "scripts/large_verify.py",
+              "research/readiness-20261021/certificates/181_21_70.json"
+            ],
+            "expected": "Positive control passes; independent scientific review remains pending."
+          },
+          "bottleneck_link": "research/readiness-20261021/REVIEW.md",
+          "claim_kind": [
+            "exact",
+            "measured"
+          ],
+          "first_experiment": "Run python3 scripts/structured_search.py --parent 181 --seed <integer> --trials 16 --output research/<unique-session>. Keep all tested multipliers. This changes the core; do not repeat the proved fixed-matrix obstructions.",
+          "scope_change_triggers": [
+            "k>22 or n>512 exceeds this bounded verifier; create a separately reviewed task.",
+            "Do not count spectrum-only or automatically implied improvements as new parent records."
+          ]
+        },
+        {
+          "id": "structured-184-21",
+          "question": "Can a changed QC core at [184,21] reach distance 73?",
+          "starting_points": [
+            "research/readiness-20261021/README.md",
+            "scripts/structured_search.py",
+            "research/readiness-20261021/current-bounds.json"
+          ],
+          "methods": [
+            "Bounded experiment from inherited witness; retain all results and exact provenance"
+          ],
+          "acceptance_gate": "Two exact spectra agree; beat refreshed exclusion closure; provenance/equivalence audit and coding-theorist review before any record claim. Null results and replication credited separately.",
+          "first_step": {
+            "command": [
+              "python3",
+              "scripts/large_verify.py",
+              "research/readiness-20261021/certificates/184_21_72.json"
+            ],
+            "expected": "Positive control passes; independent scientific review remains pending."
+          },
+          "bottleneck_link": "research/readiness-20261021/REVIEW.md",
+          "claim_kind": [
+            "exact",
+            "measured"
+          ],
+          "first_experiment": "Run python3 scripts/structured_search.py --parent 184 --seed <integer> --trials 16 --output research/<unique-session>. Keep all tested multipliers. This changes the core; do not repeat the proved fixed-matrix obstructions.",
+          "scope_change_triggers": [
+            "k>22 or n>512 exceeds this bounded verifier; create a separately reviewed task.",
+            "Do not count spectrum-only or automatically implied improvements as new parent records."
+          ]
+        },
+        {
+          "id": "structured-189-22",
+          "question": "Can a changed QC core at [189,22] reach distance 73?",
+          "starting_points": [
+            "research/readiness-20261021/README.md",
+            "scripts/structured_search.py",
+            "research/readiness-20261021/current-bounds.json"
+          ],
+          "methods": [
+            "Bounded experiment from inherited witness; retain all results and exact provenance"
+          ],
+          "acceptance_gate": "Two exact spectra agree; beat refreshed exclusion closure; provenance/equivalence audit and coding-theorist review before any record claim. Null results and replication credited separately.",
+          "first_step": {
+            "command": [
+              "python3",
+              "scripts/large_verify.py",
+              "research/readiness-20261021/certificates/189_22_72.json"
+            ],
+            "expected": "Positive control passes; independent scientific review remains pending."
+          },
+          "bottleneck_link": "research/readiness-20261021/REVIEW.md",
+          "claim_kind": [
+            "exact",
+            "measured"
+          ],
+          "first_experiment": "Run python3 scripts/structured_search.py --parent 189 --seed <integer> --trials 16 --output research/<unique-session>. Keep all tested multipliers. This changes the core; do not repeat the proved fixed-matrix obstructions.",
+          "scope_change_triggers": [
+            "k>22 or n>512 exceeds this bounded verifier; create a separately reviewed task.",
+            "Do not count spectrum-only or automatically implied improvements as new parent records."
           ]
         }
       ]

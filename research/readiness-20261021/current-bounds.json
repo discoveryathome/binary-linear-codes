@@ -1,0 +1,106 @@
+{
+  "retrieved_on": "2026-10-21",
+  "source": "https://www.codetables.de/BKLC/Tables.php?q=2&n0=1&n1=256&k0=1&k1=256",
+  "sha256": "974ef87f2e00f55053747b191922d4e4b7c20e918e6d997e125fa8b4920a13e6",
+  "cells": 32896,
+  "changed_cells": 0,
+  "parents": [
+    {
+      "n": 172,
+      "k": 21,
+      "verified_d": 66,
+      "exclusion_lower": 66,
+      "upper": 74,
+      "improvement_threshold": 67,
+      "lower_derivation": {
+        "source": "historical recent-paper exclusion"
+      },
+      "upper_derivation": {
+        "source": "codetables:172:21"
+      },
+      "open_within_sources": true,
+      "status": "source-scoped bound audit; coding-theorist and full literature review pending"
+    },
+    {
+      "n": 173,
+      "k": 20,
+      "verified_d": 68,
+      "exclusion_lower": 68,
+      "upper": 74,
+      "improvement_threshold": 69,
+      "lower_derivation": {
+        "source": "historical recent-paper exclusion"
+      },
+      "upper_derivation": {
+        "source": "codetables:173:20"
+      },
+      "open_within_sources": true,
+      "status": "source-scoped bound audit; coding-theorist and full literature review pending"
+    },
+    {
+      "n": 176,
+      "k": 21,
+      "verified_d": 68,
+      "exclusion_lower": 68,
+      "upper": 76,
+      "improvement_threshold": 69,
+      "lower_derivation": {
+        "source": "historical recent-paper exclusion"
+      },
+      "upper_derivation": {
+        "source": "codetables:176:21"
+      },
+      "open_within_sources": true,
+      "status": "source-scoped bound audit; coding-theorist and full literature review pending"
+    },
+    {
+      "n": 181,
+      "k": 21,
+      "verified_d": 70,
+      "exclusion_lower": 70,
+      "upper": 78,
+      "improvement_threshold": 71,
+      "lower_derivation": {
+        "source": "historical recent-paper exclusion"
+      },
+      "upper_derivation": {
+        "source": "codetables:181:21"
+      },
+      "open_within_sources": true,
+      "status": "source-scoped bound audit; coding-theorist and full literature review pending"
+    },
+    {
+      "n": 184,
+      "k": 21,
+      "verified_d": 72,
+      "exclusion_lower": 72,
+      "upper": 80,
+      "improvement_threshold": 73,
+      "lower_derivation": {
+        "source": "historical recent-paper exclusion"
+      },
+      "upper_derivation": {
+        "source": "codetables:184:21"
+      },
+      "open_within_sources": true,
+      "status": "source-scoped bound audit; coding-theorist and full literature review pending"
+    },
+    {
+      "n": 189,
+      "k": 22,
+      "verified_d": 72,
+      "exclusion_lower": 72,
+      "upper": 81,
+      "improvement_threshold": 73,
+      "lower_derivation": {
+        "source": "historical recent-paper exclusion"
+      },
+      "upper_derivation": {
+        "source": "codetables:189:22"
+      },
+      "open_within_sources": true,
+      "status": "source-scoped bound audit; coding-theorist and full literature review pending"
+    }
+  ],
+  "scope": "Fresh full-table plus retained historical paper exclusions and nonexistence corrections; not an exhaustive current-literature census."
+}

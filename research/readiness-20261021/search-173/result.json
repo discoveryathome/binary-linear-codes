@@ -1,0 +1,498 @@
+{
+  "n": 173,
+  "k": 20,
+  "seed": 20261021,
+  "trials": 16,
+  "initial_d": 68,
+  "final_d": 68,
+  "history": [
+    {
+      "trial": 0,
+      "d": 61,
+      "minimum_words": 136,
+      "multiplier": [
+        [
+          0
+        ],
+        [
+          18,
+          15,
+          12,
+          11,
+          6,
+          3,
+          2
+        ]
+      ],
+      "duplicate": false
+    },
+    {
+      "trial": 1,
+      "d": 62,
+      "minimum_words": 51,
+      "multiplier": [
+        [
+          0
+        ],
+        [
+          12,
+          11,
+          7,
+          6,
+          3,
+          2,
+          0
+        ]
+      ],
+      "duplicate": false
+    },
+    {
+      "trial": 2,
+      "d": 62,
+      "minimum_words": 17,
+      "multiplier": [
+        [
+          0
+        ],
+        [
+          15,
+          11,
+          7,
+          6,
+          3,
+          2,
+          0
+        ]
+      ],
+      "duplicate": false
+    },
+    {
+      "trial": 3,
+      "d": 60,
+      "minimum_words": 51,
+      "multiplier": [
+        [
+          0
+        ],
+        [
+          19,
+          15,
+          11,
+          6,
+          3,
+          2,
+          0
+        ]
+      ],
+      "duplicate": false
+    },
+    {
+      "trial": 4,
+      "d": 60,
+      "minimum_words": 68,
+      "multiplier": [
+        [
+          0
+        ],
+        [
+          15,
+          14,
+          11,
+          6,
+          3,
+          2,
+          0
+        ]
+      ],
+      "duplicate": false
+    },
+    {
+      "trial": 5,
+      "d": 59,
+      "minimum_words": 68,
+      "multiplier": [
+        [
+          0
+        ],
+        [
+          15,
+          11,
+          6,
+          2,
+          0
+        ]
+      ],
+      "duplicate": false
+    },
+    {
+      "trial": 6,
+      "d": 62,
+      "minimum_words": 170,
+      "multiplier": [
+        [
+          0
+        ],
+        [
+          15,
+          11,
+          8,
+          6,
+          5,
+          4,
+          3,
+          2,
+          0
+        ]
+      ],
+      "duplicate": false
+    },
+    {
+      "trial": 7,
+      "d": 62,
+      "minimum_words": 102,
+      "multiplier": [
+        [
+          0
+        ],
+        [
+          15,
+          11,
+          6,
+          3,
+          2,
+          1,
+          0
+        ]
+      ],
+      "duplicate": false
+    },
+    {
+      "trial": 8,
+      "d": 61,
+      "minimum_words": 68,
+      "multiplier": [
+        [
+          0
+        ],
+        [
+          15,
+          11,
+          8,
+          6,
+          5,
+          3,
+          2,
+          1,
+          0
+        ]
+      ],
+      "duplicate": false
+    },
+    {
+      "trial": 9,
+      "d": 61,
+      "minimum_words": 136,
+      "multiplier": [
+        [
+          0
+        ],
+        [
+          18,
+          17,
+          15,
+          11,
+          6,
+          3,
+          2
+        ]
+      ],
+      "duplicate": false
+    },
+    {
+      "trial": 10,
+      "d": 56,
+      "minimum_words": 17,
+      "multiplier": [
+        [
+          0
+        ],
+        [
+          16,
+          15,
+          11,
+          6,
+          2,
+          0
+        ]
+      ],
+      "duplicate": false
+    },
+    {
+      "trial": 11,
+      "d": 63,
+      "minimum_words": 68,
+      "multiplier": [
+        [
+          0
+        ],
+        [
+          15,
+          11,
+          9,
+          6,
+          3,
+          2,
+          0
+        ]
+      ],
+      "duplicate": false
+    },
+    {
+      "trial": 12,
+      "duplicate": true
+    },
+    {
+      "trial": 13,
+      "d": 59,
+      "minimum_words": 68,
+      "multiplier": [
+        [
+          0
+        ],
+        [
+          19,
+          15,
+          12,
+          11,
+          6,
+          2,
+          0
+        ]
+      ],
+      "duplicate": false
+    },
+    {
+      "trial": 14,
+      "d": 59,
+      "minimum_words": 68,
+      "multiplier": [
+        [
+          0
+        ],
+        [
+          15,
+          11,
+          6,
+          3,
+          2
+        ]
+      ],
+      "duplicate": false
+    },
+    {
+      "trial": 15,
+      "d": 34,
+      "minimum_words": 1,
+      "multiplier": [
+        [
+          0
+        ],
+        [
+          17,
+          15,
+          11,
+          8,
+          6,
+          3,
+          2,
+          0
+        ]
+      ],
+      "duplicate": false
+    }
+  ],
+  "seconds": 9.68917554197833,
+  "verified_spectrum": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1156,
+    2720,
+    3607,
+    6122,
+    6256,
+    8568,
+    12274,
+    13396,
+    16014,
+    17544,
+    26962,
+    35972,
+    40885,
+    44472,
+    46716,
+    51952,
+    57528,
+    66232,
+    65790,
+    61948,
+    64617,
+    60928,
+    52020,
+    48008,
+    44336,
+    39032,
+    37604,
+    32640,
+    20944,
+    14552,
+    12444,
+    9520,
+    8500,
+    6120,
+    3571,
+    2250,
+    1499,
+    952,
+    1122,
+    1156,
+    306,
+    0,
+    34,
+    204,
+    102,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "improved_parent": false,
+  "claim": "Candidate record requires fresh closure/literature and external review; matching parent is replication.",
+  "source_sha256": {
+    "scripts/structured_search.py": "4985ad98f98ea56751de540a3e07d2f5bc6797ba78a803825f26dda78a2d30ad",
+    "scripts/prepare_structured.py": "d305a3bf6a4eb5a894b620910ee95bfc55c55c7ac378001e840e846c350d87f0",
+    "scripts/large_verify.py": "b8ec3c6525d9eec3cd452f386c7898f73c15a7932e974c3dd1eef0883e69e620"
+  }
+}

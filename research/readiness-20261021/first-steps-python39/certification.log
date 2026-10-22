@@ -1,0 +1,7 @@
+
+Traceback (most recent call last):
+  File "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/scripts/tasks.py", line 14, in <module>
+    c,r=codes.read_cert('certificates/control_bch_32_16.json');proof=certified(r,c['n']);assert proof['d']==8
+  File "/Users/colkitt/discover-work/incubatedPilots/binary-linear-codes/start-binary-linear-codes/scripts/information_sets.py", line 41, in certified
+    if w.bit_count()<upper:upper=w.bit_count();word=w
+AttributeError: 'int' object has no attribute 'bit_count'
