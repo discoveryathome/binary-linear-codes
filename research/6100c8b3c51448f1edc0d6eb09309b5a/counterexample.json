@@ -1,0 +1,17 @@
+{
+  "format": "binary-generator-v1",
+  "q": 2,
+  "n": 6,
+  "k": 2,
+  "d": 3,
+  "rows": ["100111", "011111"],
+  "provenance": {
+    "kind": "synthetic-failure-control",
+    "credit": "Constructed during the 6100c8b3 certification audit; no record claim",
+    "information_sets_zero_based": [[0, 1], [0, 2]],
+    "naive_depth": 1,
+    "naive_upper": 4,
+    "naive_unenumerated_lower_bound": 4,
+    "missed_minimum_word": "111000"
+  }
+}
