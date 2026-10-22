@@ -1,0 +1,47 @@
+{
+  "python": "3.13.5",
+  "platform": "Linux-6.12.113+deb13-amd64-x86_64-with-glibc2.41",
+  "note": "One sequential run on a shared machine; timings are not benchmark guarantees.",
+  "seconds": {
+    "overlap_counterexample": {
+      "overlap": 0.00007865199586376548,
+      "legacy_disjoint": 0.000027289032004773617,
+      "gray_distance": 0.000005609996151179075,
+      "gray_check": 0.00025195698253810406,
+      "column_parity_check": 0.00012904201867058873,
+      "subset_halves_check": 0.00012524303747341037
+    },
+    "punctured_bch_31_16": {
+      "overlap": 0.0006648030248470604,
+      "legacy_disjoint": 0.007319887983612716,
+      "gray_distance": 0.026919678959529847,
+      "gray_check": 0.014974006975535303,
+      "column_parity_check": 0.19033272500382736,
+      "subset_halves_check": 0.007885043043643236
+    },
+    "extended_bch_32_16": {
+      "overlap": 0.000804371025878936,
+      "legacy_disjoint": 0.0010849690297618508,
+      "gray_distance": 0.013019211997743696,
+      "gray_check": 0.018253960006404668,
+      "column_parity_check": 0.20522826799424365,
+      "subset_halves_check": 0.007853987975977361
+    },
+    "extended_bch_64_16": {
+      "overlap": 0.0172757760155946,
+      "legacy_disjoint": 0.013146496028639376,
+      "gray_distance": 0.027777293988037854,
+      "gray_check": 0.014549771964084357,
+      "column_parity_check": 0.37538916495395824,
+      "subset_halves_check": 0.008594985003583133
+    },
+    "published_173_20": {
+      "overlap": 1.7774517180514522,
+      "legacy_disjoint": 1.657137688016519,
+      "gray_distance": 0.2626245699939318,
+      "gray_check": 0.29288014001213014,
+      "column_parity_check": 15.861585352977272,
+      "subset_halves_check": 0.16727897600503638
+    }
+  }
+}
