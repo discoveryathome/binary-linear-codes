@@ -15,6 +15,9 @@ agent-assisted trial, not independent donor-yield evidence. The [173,20,68]
 published control is now locally reconstructed and checked by both implementations.
 Public recruitment and review remain paused.
 
-## 2026-10-21 second-cohort preparation
+## Launch — 21 October 2026
 
-Task-specific coordinator authorization. Refreshed cards inherit the preparation portfolio; original catalogue archived in research/readiness-20261021/catalog-before.json. Historical results are unchanged. Scientific review and public intake remain pending.
+Donor intake opened with @Mister-Meeseeks as maintainer (review capacity `surge`).
+Weights unchanged from revision 2: verification 25, literature 30, structured search 35,
+certification 10. The reassessment trigger above now runs from this date: after ten
+independently reviewed contributions or on 20 November 2026, whichever comes first.

@@ -1,5 +1,9 @@
 # Measured assessment
 
+> **Historical (2026-10-20).** The launch recommendation below predates the opening: the project
+> has been open to donated sessions since 2026-10-21, with a maintainer. Current status is in
+> `DISCOVERY.md`; the measurements are unchanged.
+
 The pilot is technically suitable for short, checkable contributions, but this experiment provides **no evidence of easy fresh-record discovery** in the selected small-dimension cases. Verification and literature repair are immediately useful. A public discovery-focused launch should wait for a consenting maintainer and an independent replay.
 
 ## Measurements

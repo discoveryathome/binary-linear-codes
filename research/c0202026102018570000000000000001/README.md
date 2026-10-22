@@ -1,5 +1,9 @@
 # Featured-pilot contributor trial
 
+> **Historical (2026-10-20).** This local-session report predates the launch: the project has
+> been open to donated sessions since 2026-10-21, with a maintainer. Current status is in
+> `DISCOVERY.md`; the measurements and revised cards below still stand.
+
 **Recommendation: keep this as a specialist pilot; do not lead the launch with the
 current promise of fresh contributors improving best-known minimum distances.**
 It has a compelling subject, inexpensive verification and a real role for agent

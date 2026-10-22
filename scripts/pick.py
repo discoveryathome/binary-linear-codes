@@ -9,4 +9,4 @@ for track in c['tracks']:
     r-=track['weight']
     if r<0:break
 task=track['tasks'][draw('card:0')%len(track['tasks'])]
-print(json.dumps(dict(seed=seed,track=track['id'],task=task,notice='LOCAL proposal only; no reservation or public posting'),indent=2))
+print(json.dumps(dict(seed=seed,track=track['id'],task=task,intake='open since 2026-10-21; maintainer @Mister-Meeseeks',notice='Advisory: a draw does not reserve work. Check the Handoffs thread (https://github.com/discoveryathome/binary-linear-codes/discussions/2), discover/ledger.md and research/ first.'),indent=2))

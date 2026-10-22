@@ -1,6 +1,6 @@
-# Binary linear code frontier pilot
+# Binary linear codes
 
-For a binary linear code with length n and dimension k, maximize its minimum Hamming distance d. This LOCAL Discovery@Home pilot supplies exact generator matrices, independent rank/distance implementations, literature provenance, transformation closure, 16 audited target cases, and a bounded search experiment.
+For a binary linear code with length n and dimension k, maximize its minimum Hamming distance d. This Discovery@Home project supplies exact generator matrices, independent rank/distance implementations, literature provenance, transformation closure, 16 audited target cases, and a bounded search experiment.
 
 **No new scientific record or optimality proof is claimed.** Every target has a locally verified published lower-bound witness. Table values are checked against newer literature: six initially apparent gaps were already settled. See [record table](docs/record-table.md), [measured assessment](docs/assessment.md), and [literature audit](docs/literature.md).
 

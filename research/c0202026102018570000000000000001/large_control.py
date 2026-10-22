@@ -32,7 +32,7 @@ def run():
         source='https://arxiv.org/html/2609.37056v1#A1',
         authors='Amal Seddas, Vladyslav Shashkov, Maryna Viazovska, Emmanuel Abbe',
         snapshot='data/sources/lincode2026.html',
-        snapshot_sha256=hashlib.sha256((ROOT/'data/sources/lincode2026.html').read_bytes()).hexdigest(),
+        snapshot_sha256=next(x['sha256'] for x in json.loads((ROOT/'data/source-index.json').read_text()) if x['path']=='data/sources/lincode2026.html'),
         construction='Appendix A: block85 index2, h degree20, three five-periodic tail coordinates',
         polynomial_factors=factors,f2=f2,tail=tail,
         credit='Known published construction; already excluded from discovery credit before this trial.'))
