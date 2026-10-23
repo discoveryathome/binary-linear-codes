@@ -33,10 +33,15 @@ for the requested distance 67. The actual obstruction comes from explicit low wo
 - The playbook gives an open matching-track handoff priority. This session took
   [the coupled factor/multiplier handoff](https://github.com/discoveryathome/binary-linear-codes/discussions/2#discussioncomment-19130172).
 - [Claim](https://github.com/discoveryathome/binary-linear-codes/discussions/2#discussioncomment-19139191).
-- The predecessor `aac390866c59afee7d645224e629b13b`, commit
+- @thakrarsagar's predecessor session `aac390866c59afee7d645224e629b13b`, commit
   `6ca968deea2fa6f3e327253b8a210d8cc4726dd2`, exhausted radius-one, -two, and -three
   multiplier edits with the original factors fixed. This package changes the factors
   and covers arbitrary multiplier residues for its specified 16 pairs.
+- The zero-tail quotient and multiplier-rotation strategy has prior use in
+  @thakrarsagar's [fixed-core [184,21] obstruction](https://github.com/discoveryathome/binary-linear-codes/discussions/2#discussioncomment-19130481),
+  session `a981e1a3197e2c924de70ed18d8e8ea8`. This package applies that strategy to
+  changed factor pairs and adds full-code lift witnesses where the subcode alone
+  leaves room. It does not claim the reduction as a new method.
 
 Seddas, Shashkov, Viazovska, and Abbe retain published-construction credit for
 [Evolving Towards Better Codes](https://arxiv.org/html/2609.37056v1). The project
@@ -137,11 +142,13 @@ remaining multiplier choices and each lift is rejected by a full-code low word.
 - The exact minimum of every rejected code, coordinate-equivalence classification,
   and unrestricted [172,21] optimality were not computed.
 - Literature and current code-table bounds were not refreshed for a record claim.
-  No new code record is claimed. The inherited parent records a paper-snapshot hash,
-  but the source HTML is absent from its recorded `data/sources/` path in this base
-  checkout; this session did not validate that snapshot or refetch the paper.
+  No new code record is claimed. Third-party paper HTML is intentionally omitted
+  (`stored: false` in `data/source-index.json`); this session checked the inherited
+  recipe and matrix, but did not match the recorded paper hash to a fresh download.
 - Independent human and coding-theorist review remain open. No frontier acceptance,
   record submission, or upstream merge was performed.
+- Only Python 3.13.5 on the author machine was exercised; other versions and
+  platforms were not run.
 
 ## Open next questions
 

@@ -121,11 +121,17 @@ and multiplier coverage directly.
 Seddas, Shashkov, Viazovska, and Abbe retain credit for the published construction
 in [Evolving Towards Better Codes](https://arxiv.org/html/2609.37056v1). The project
 retains credit for reconstruction and its Gray and subset-halves checkers. The
-predecessor session `aac390866c59afee7d645224e629b13b`, commit
+predecessor session by @thakrarsagar, `aac390866c59afee7d645224e629b13b`, commit
 `6ca968deea2fa6f3e327253b8a210d8cc4726dd2`, exhausted radius-three multiplier
 edits at the original divisor and requested this factor/multiplier follow-up in
 [Handoffs](https://github.com/discoveryathome/binary-linear-codes/discussions/2#discussioncomment-19130172).
 
-This session supplies the changed-divisor exhaustive domain, two-stage coverage
-argument, explicit witnesses, and separate direct replay. Coding-theorist review
-of the conditional proof remains open.
+The zero-tail quotient and multiplier-rotation method was also used in
+@thakrarsagar's earlier [fixed-core [184,21] obstruction](https://github.com/discoveryathome/binary-linear-codes/discussions/2#discussioncomment-19130481),
+session `a981e1a3197e2c924de70ed18d8e8ea8`. The present package applies it to the
+16 changed-divisor families and adds full-code lift witnesses when that restricted
+subcode does not settle the target.
+
+This session supplies the changed-divisor exhaustive domain, full-lift coverage,
+explicit witnesses, and separate direct replay. Coding-theorist review of the
+conditional proof remains open.
