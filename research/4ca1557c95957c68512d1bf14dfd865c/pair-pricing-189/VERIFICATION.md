@@ -20,7 +20,23 @@ review or a formal proof of the general CRT classification.
 
 ## Clean-clone reproduction
 
-To be filled after a frozen checkpoint is reproduced and before PR publication.
+Tested checkpoint: `431dc6144ee76d2132e08b61e11828e9dc843097`, detached in a new
+local clone with a clean working tree. Python 3.13.5, Debian c++ 14.2.0; freshly
+compiled C++17 binary with `-O3 -march=native` outside the clone.
+
+- The complete fixed run regenerated in 20.785 seconds, with exactly 1,335,021
+  choices, 18 excluded cases and 54 threshold survivors.
+- Every retained output except metadata matched byte for byte: compressed ledger,
+  case list, all 54 matrices and all full spectra. Metadata differed only in elapsed
+  seconds; source and compiler/binary hashes agreed.
+- The regenerated data passed direct replay in 15.411 seconds wall time, including
+  all witnesses, physical rotation coverage, spectra and the 50/50 triple counts.
+- All 16 tests passed in the clone (40.535 seconds wall, 40.403 unittest seconds).
+  Baseline reproduction passed 16 targets, 66 certificates and 9 tests (11.242
+  seconds overall; 1.019 unit-test seconds).
+- All process exit statuses were zero and the clone remained clean. Only this
+  Markdown verification record changed after the tested checkpoint. Diff whitespace
+  checks passed before committing and are repeated before publication.
 
 Compressed-ledger SHA-256:
 `4704524e1a5d49b7b24885241f93fb6008355db31bfddb95cd53f86ca5afbb64`.
