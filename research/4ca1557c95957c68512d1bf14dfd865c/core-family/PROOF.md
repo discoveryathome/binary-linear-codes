@@ -124,6 +124,8 @@ and complete multiplier coverage, not on the search-side message reduction.
 
 The standard QC module and CRT decomposition are described by Güneri, Ling, and
 Özkaya in [Quasi-Cyclic Codes, arXiv:2007.16029v2, Sections 2–3](https://arxiv.org/html/2007.16029v2#S3).
+The original finite-field treatment is Ling and Solé,
+[On the algebraic structure of quasi-cyclic codes I](https://doi.org/10.1109/18.959257).
 The dimension and axis argument below is this package's specialization to block
 length 85 and binary dimension 21.
 
