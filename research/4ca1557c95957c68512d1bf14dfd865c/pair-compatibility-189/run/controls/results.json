@@ -1,0 +1,37 @@
+[
+  {
+    "name": "published-parent",
+    "k": 22,
+    "d": 72,
+    "minimum_words": 2394,
+    "sha256": "7e9cfd7ef2e8593fd8d9c26db585bfd55e14ec0468990b095bc7e33cbbf2f22d"
+  },
+  {
+    "name": "pair-B",
+    "k": 16,
+    "d": 66,
+    "minimum_words": 21,
+    "sha256": "a7d4e9777aff096d5867391ea3257be7d68b01c28d0a97fa98fae36705f14858"
+  },
+  {
+    "name": "full-B",
+    "k": 22,
+    "d": 56,
+    "minimum_words": 54,
+    "sha256": "3972e2fbd4003a7babb3c4ba83feb62c45c7708231a136c7e2177a2ae5b4fc82"
+  },
+  {
+    "name": "pair-C",
+    "k": 16,
+    "d": 70,
+    "minimum_words": 63,
+    "sha256": "165680087a9e478ee8b22cb1bcf3b9c11f26b02a473a8da9d996394d96203e32"
+  },
+  {
+    "name": "full-C",
+    "k": 22,
+    "d": 56,
+    "minimum_words": 27,
+    "sha256": "fa70e6962a21da0e394c641bc0e0eedc4661fe7c0f428ba967a7c0285c8a2c9f"
+  }
+]

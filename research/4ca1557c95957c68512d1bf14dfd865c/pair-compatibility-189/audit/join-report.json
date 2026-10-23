@@ -1,0 +1,1695 @@
+{
+  "schema": "allowed-join-counts-v1",
+  "seed": "4ca1557c95957c68512d1bf14dfd865c",
+  "base": "76267c387538b4fb0e802278530b575bab4d1f76",
+  "allowed_join": 499193136,
+  "by_profile": {
+    "B": 354086700,
+    "C": 145106436
+  },
+  "templates": [
+    {
+      "template": 0,
+      "profile": "B",
+      "factors": [
+        67,
+        73,
+        87
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 1,
+      "profile": "B",
+      "factors": [
+        67,
+        73,
+        91
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 2,
+      "profile": "B",
+      "factors": [
+        67,
+        73,
+        97
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 3,
+      "profile": "B",
+      "factors": [
+        67,
+        73,
+        103
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 4,
+      "profile": "B",
+      "factors": [
+        67,
+        73,
+        109
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 5,
+      "profile": "B",
+      "factors": [
+        67,
+        73,
+        115
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 6,
+      "profile": "B",
+      "factors": [
+        67,
+        73,
+        117
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 7,
+      "profile": "B",
+      "factors": [
+        67,
+        87,
+        91
+      ],
+      "allowed_join": 6414192
+    },
+    {
+      "template": 8,
+      "profile": "B",
+      "factors": [
+        67,
+        87,
+        97
+      ],
+      "allowed_join": 8903520
+    },
+    {
+      "template": 9,
+      "profile": "B",
+      "factors": [
+        67,
+        87,
+        103
+      ],
+      "allowed_join": 6396552
+    },
+    {
+      "template": 10,
+      "profile": "B",
+      "factors": [
+        67,
+        87,
+        109
+      ],
+      "allowed_join": 3755880
+    },
+    {
+      "template": 11,
+      "profile": "B",
+      "factors": [
+        67,
+        87,
+        115
+      ],
+      "allowed_join": 3755880
+    },
+    {
+      "template": 12,
+      "profile": "B",
+      "factors": [
+        67,
+        87,
+        117
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 13,
+      "profile": "B",
+      "factors": [
+        67,
+        91,
+        97
+      ],
+      "allowed_join": 11232492
+    },
+    {
+      "template": 14,
+      "profile": "B",
+      "factors": [
+        67,
+        91,
+        103
+      ],
+      "allowed_join": 8066646
+    },
+    {
+      "template": 15,
+      "profile": "B",
+      "factors": [
+        67,
+        91,
+        109
+      ],
+      "allowed_join": 11245260
+    },
+    {
+      "template": 16,
+      "profile": "B",
+      "factors": [
+        67,
+        91,
+        115
+      ],
+      "allowed_join": 8066646
+    },
+    {
+      "template": 17,
+      "profile": "B",
+      "factors": [
+        67,
+        91,
+        117
+      ],
+      "allowed_join": 6396552
+    },
+    {
+      "template": 18,
+      "profile": "B",
+      "factors": [
+        67,
+        97,
+        103
+      ],
+      "allowed_join": 11245260
+    },
+    {
+      "template": 19,
+      "profile": "B",
+      "factors": [
+        67,
+        97,
+        109
+      ],
+      "allowed_join": 11232492
+    },
+    {
+      "template": 20,
+      "profile": "B",
+      "factors": [
+        67,
+        97,
+        115
+      ],
+      "allowed_join": 11245260
+    },
+    {
+      "template": 21,
+      "profile": "B",
+      "factors": [
+        67,
+        97,
+        117
+      ],
+      "allowed_join": 8903520
+    },
+    {
+      "template": 22,
+      "profile": "B",
+      "factors": [
+        67,
+        103,
+        109
+      ],
+      "allowed_join": 8066646
+    },
+    {
+      "template": 23,
+      "profile": "B",
+      "factors": [
+        67,
+        103,
+        115
+      ],
+      "allowed_join": 11232492
+    },
+    {
+      "template": 24,
+      "profile": "B",
+      "factors": [
+        67,
+        103,
+        117
+      ],
+      "allowed_join": 6414192
+    },
+    {
+      "template": 25,
+      "profile": "B",
+      "factors": [
+        67,
+        109,
+        115
+      ],
+      "allowed_join": 1762428
+    },
+    {
+      "template": 26,
+      "profile": "B",
+      "factors": [
+        67,
+        109,
+        117
+      ],
+      "allowed_join": 2412432
+    },
+    {
+      "template": 27,
+      "profile": "B",
+      "factors": [
+        67,
+        115,
+        117
+      ],
+      "allowed_join": 2412432
+    },
+    {
+      "template": 28,
+      "profile": "B",
+      "factors": [
+        73,
+        87,
+        91
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 29,
+      "profile": "B",
+      "factors": [
+        73,
+        87,
+        97
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 30,
+      "profile": "B",
+      "factors": [
+        73,
+        87,
+        103
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 31,
+      "profile": "B",
+      "factors": [
+        73,
+        87,
+        109
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 32,
+      "profile": "B",
+      "factors": [
+        73,
+        87,
+        115
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 33,
+      "profile": "B",
+      "factors": [
+        73,
+        87,
+        117
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 34,
+      "profile": "B",
+      "factors": [
+        73,
+        91,
+        97
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 35,
+      "profile": "B",
+      "factors": [
+        73,
+        91,
+        103
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 36,
+      "profile": "B",
+      "factors": [
+        73,
+        91,
+        109
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 37,
+      "profile": "B",
+      "factors": [
+        73,
+        91,
+        115
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 38,
+      "profile": "B",
+      "factors": [
+        73,
+        91,
+        117
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 39,
+      "profile": "B",
+      "factors": [
+        73,
+        97,
+        103
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 40,
+      "profile": "B",
+      "factors": [
+        73,
+        97,
+        109
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 41,
+      "profile": "B",
+      "factors": [
+        73,
+        97,
+        115
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 42,
+      "profile": "B",
+      "factors": [
+        73,
+        97,
+        117
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 43,
+      "profile": "B",
+      "factors": [
+        73,
+        103,
+        109
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 44,
+      "profile": "B",
+      "factors": [
+        73,
+        103,
+        115
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 45,
+      "profile": "B",
+      "factors": [
+        73,
+        103,
+        117
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 46,
+      "profile": "B",
+      "factors": [
+        73,
+        109,
+        115
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 47,
+      "profile": "B",
+      "factors": [
+        73,
+        109,
+        117
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 48,
+      "profile": "B",
+      "factors": [
+        73,
+        115,
+        117
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 49,
+      "profile": "B",
+      "factors": [
+        87,
+        91,
+        97
+      ],
+      "allowed_join": 2412432
+    },
+    {
+      "template": 50,
+      "profile": "B",
+      "factors": [
+        87,
+        91,
+        103
+      ],
+      "allowed_join": 2412432
+    },
+    {
+      "template": 51,
+      "profile": "B",
+      "factors": [
+        87,
+        91,
+        109
+      ],
+      "allowed_join": 8903520
+    },
+    {
+      "template": 52,
+      "profile": "B",
+      "factors": [
+        87,
+        91,
+        115
+      ],
+      "allowed_join": 6396552
+    },
+    {
+      "template": 53,
+      "profile": "B",
+      "factors": [
+        87,
+        91,
+        117
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 54,
+      "profile": "B",
+      "factors": [
+        87,
+        97,
+        103
+      ],
+      "allowed_join": 2412432
+    },
+    {
+      "template": 55,
+      "profile": "B",
+      "factors": [
+        87,
+        97,
+        109
+      ],
+      "allowed_join": 6396552
+    },
+    {
+      "template": 56,
+      "profile": "B",
+      "factors": [
+        87,
+        97,
+        115
+      ],
+      "allowed_join": 6414192
+    },
+    {
+      "template": 57,
+      "profile": "B",
+      "factors": [
+        87,
+        97,
+        117
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 58,
+      "profile": "B",
+      "factors": [
+        87,
+        103,
+        109
+      ],
+      "allowed_join": 6414192
+    },
+    {
+      "template": 59,
+      "profile": "B",
+      "factors": [
+        87,
+        103,
+        115
+      ],
+      "allowed_join": 8903520
+    },
+    {
+      "template": 60,
+      "profile": "B",
+      "factors": [
+        87,
+        103,
+        117
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 61,
+      "profile": "B",
+      "factors": [
+        87,
+        109,
+        115
+      ],
+      "allowed_join": 3755880
+    },
+    {
+      "template": 62,
+      "profile": "B",
+      "factors": [
+        87,
+        109,
+        117
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 63,
+      "profile": "B",
+      "factors": [
+        87,
+        115,
+        117
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 64,
+      "profile": "B",
+      "factors": [
+        91,
+        97,
+        103
+      ],
+      "allowed_join": 1762428
+    },
+    {
+      "template": 65,
+      "profile": "B",
+      "factors": [
+        91,
+        97,
+        109
+      ],
+      "allowed_join": 11245260
+    },
+    {
+      "template": 66,
+      "profile": "B",
+      "factors": [
+        91,
+        97,
+        115
+      ],
+      "allowed_join": 8066646
+    },
+    {
+      "template": 67,
+      "profile": "B",
+      "factors": [
+        91,
+        97,
+        117
+      ],
+      "allowed_join": 3755880
+    },
+    {
+      "template": 68,
+      "profile": "B",
+      "factors": [
+        91,
+        103,
+        109
+      ],
+      "allowed_join": 11232492
+    },
+    {
+      "template": 69,
+      "profile": "B",
+      "factors": [
+        91,
+        103,
+        115
+      ],
+      "allowed_join": 11245260
+    },
+    {
+      "template": 70,
+      "profile": "B",
+      "factors": [
+        91,
+        103,
+        117
+      ],
+      "allowed_join": 3755880
+    },
+    {
+      "template": 71,
+      "profile": "B",
+      "factors": [
+        91,
+        109,
+        115
+      ],
+      "allowed_join": 11232492
+    },
+    {
+      "template": 72,
+      "profile": "B",
+      "factors": [
+        91,
+        109,
+        117
+      ],
+      "allowed_join": 8903520
+    },
+    {
+      "template": 73,
+      "profile": "B",
+      "factors": [
+        91,
+        115,
+        117
+      ],
+      "allowed_join": 6414192
+    },
+    {
+      "template": 74,
+      "profile": "B",
+      "factors": [
+        97,
+        103,
+        109
+      ],
+      "allowed_join": 8066646
+    },
+    {
+      "template": 75,
+      "profile": "B",
+      "factors": [
+        97,
+        103,
+        115
+      ],
+      "allowed_join": 11232492
+    },
+    {
+      "template": 76,
+      "profile": "B",
+      "factors": [
+        97,
+        103,
+        117
+      ],
+      "allowed_join": 3755880
+    },
+    {
+      "template": 77,
+      "profile": "B",
+      "factors": [
+        97,
+        109,
+        115
+      ],
+      "allowed_join": 8066646
+    },
+    {
+      "template": 78,
+      "profile": "B",
+      "factors": [
+        97,
+        109,
+        117
+      ],
+      "allowed_join": 6414192
+    },
+    {
+      "template": 79,
+      "profile": "B",
+      "factors": [
+        97,
+        115,
+        117
+      ],
+      "allowed_join": 6396552
+    },
+    {
+      "template": 80,
+      "profile": "B",
+      "factors": [
+        103,
+        109,
+        115
+      ],
+      "allowed_join": 11245260
+    },
+    {
+      "template": 81,
+      "profile": "B",
+      "factors": [
+        103,
+        109,
+        117
+      ],
+      "allowed_join": 6396552
+    },
+    {
+      "template": 82,
+      "profile": "B",
+      "factors": [
+        103,
+        115,
+        117
+      ],
+      "allowed_join": 8903520
+    },
+    {
+      "template": 83,
+      "profile": "B",
+      "factors": [
+        109,
+        115,
+        117
+      ],
+      "allowed_join": 2412432
+    },
+    {
+      "template": 84,
+      "profile": "C",
+      "factors": [
+        67,
+        73,
+        87
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 85,
+      "profile": "C",
+      "factors": [
+        67,
+        73,
+        91
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 86,
+      "profile": "C",
+      "factors": [
+        67,
+        73,
+        97
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 87,
+      "profile": "C",
+      "factors": [
+        67,
+        73,
+        103
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 88,
+      "profile": "C",
+      "factors": [
+        67,
+        73,
+        109
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 89,
+      "profile": "C",
+      "factors": [
+        67,
+        73,
+        115
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 90,
+      "profile": "C",
+      "factors": [
+        67,
+        73,
+        117
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 91,
+      "profile": "C",
+      "factors": [
+        67,
+        87,
+        91
+      ],
+      "allowed_join": 3566880
+    },
+    {
+      "template": 92,
+      "profile": "C",
+      "factors": [
+        67,
+        87,
+        97
+      ],
+      "allowed_join": 4260456
+    },
+    {
+      "template": 93,
+      "profile": "C",
+      "factors": [
+        67,
+        87,
+        103
+      ],
+      "allowed_join": 3564216
+    },
+    {
+      "template": 94,
+      "profile": "C",
+      "factors": [
+        67,
+        87,
+        109
+      ],
+      "allowed_join": 2770920
+    },
+    {
+      "template": 95,
+      "profile": "C",
+      "factors": [
+        67,
+        87,
+        115
+      ],
+      "allowed_join": 2770920
+    },
+    {
+      "template": 96,
+      "profile": "C",
+      "factors": [
+        67,
+        87,
+        117
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 97,
+      "profile": "C",
+      "factors": [
+        67,
+        91,
+        97
+      ],
+      "allowed_join": 3396348
+    },
+    {
+      "template": 98,
+      "profile": "C",
+      "factors": [
+        67,
+        91,
+        103
+      ],
+      "allowed_join": 2823552
+    },
+    {
+      "template": 99,
+      "profile": "C",
+      "factors": [
+        67,
+        91,
+        109
+      ],
+      "allowed_join": 3400542
+    },
+    {
+      "template": 100,
+      "profile": "C",
+      "factors": [
+        67,
+        91,
+        115
+      ],
+      "allowed_join": 2823552
+    },
+    {
+      "template": 101,
+      "profile": "C",
+      "factors": [
+        67,
+        91,
+        117
+      ],
+      "allowed_join": 3564216
+    },
+    {
+      "template": 102,
+      "profile": "C",
+      "factors": [
+        67,
+        97,
+        103
+      ],
+      "allowed_join": 3400542
+    },
+    {
+      "template": 103,
+      "profile": "C",
+      "factors": [
+        67,
+        97,
+        109
+      ],
+      "allowed_join": 3396348
+    },
+    {
+      "template": 104,
+      "profile": "C",
+      "factors": [
+        67,
+        97,
+        115
+      ],
+      "allowed_join": 3400542
+    },
+    {
+      "template": 105,
+      "profile": "C",
+      "factors": [
+        67,
+        97,
+        117
+      ],
+      "allowed_join": 4260456
+    },
+    {
+      "template": 106,
+      "profile": "C",
+      "factors": [
+        67,
+        103,
+        109
+      ],
+      "allowed_join": 2823552
+    },
+    {
+      "template": 107,
+      "profile": "C",
+      "factors": [
+        67,
+        103,
+        115
+      ],
+      "allowed_join": 3396348
+    },
+    {
+      "template": 108,
+      "profile": "C",
+      "factors": [
+        67,
+        103,
+        117
+      ],
+      "allowed_join": 3566880
+    },
+    {
+      "template": 109,
+      "profile": "C",
+      "factors": [
+        67,
+        109,
+        115
+      ],
+      "allowed_join": 201912
+    },
+    {
+      "template": 110,
+      "profile": "C",
+      "factors": [
+        67,
+        109,
+        117
+      ],
+      "allowed_join": 334188
+    },
+    {
+      "template": 111,
+      "profile": "C",
+      "factors": [
+        67,
+        115,
+        117
+      ],
+      "allowed_join": 334188
+    },
+    {
+      "template": 112,
+      "profile": "C",
+      "factors": [
+        73,
+        87,
+        91
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 113,
+      "profile": "C",
+      "factors": [
+        73,
+        87,
+        97
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 114,
+      "profile": "C",
+      "factors": [
+        73,
+        87,
+        103
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 115,
+      "profile": "C",
+      "factors": [
+        73,
+        87,
+        109
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 116,
+      "profile": "C",
+      "factors": [
+        73,
+        87,
+        115
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 117,
+      "profile": "C",
+      "factors": [
+        73,
+        87,
+        117
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 118,
+      "profile": "C",
+      "factors": [
+        73,
+        91,
+        97
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 119,
+      "profile": "C",
+      "factors": [
+        73,
+        91,
+        103
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 120,
+      "profile": "C",
+      "factors": [
+        73,
+        91,
+        109
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 121,
+      "profile": "C",
+      "factors": [
+        73,
+        91,
+        115
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 122,
+      "profile": "C",
+      "factors": [
+        73,
+        91,
+        117
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 123,
+      "profile": "C",
+      "factors": [
+        73,
+        97,
+        103
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 124,
+      "profile": "C",
+      "factors": [
+        73,
+        97,
+        109
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 125,
+      "profile": "C",
+      "factors": [
+        73,
+        97,
+        115
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 126,
+      "profile": "C",
+      "factors": [
+        73,
+        97,
+        117
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 127,
+      "profile": "C",
+      "factors": [
+        73,
+        103,
+        109
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 128,
+      "profile": "C",
+      "factors": [
+        73,
+        103,
+        115
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 129,
+      "profile": "C",
+      "factors": [
+        73,
+        103,
+        117
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 130,
+      "profile": "C",
+      "factors": [
+        73,
+        109,
+        115
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 131,
+      "profile": "C",
+      "factors": [
+        73,
+        109,
+        117
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 132,
+      "profile": "C",
+      "factors": [
+        73,
+        115,
+        117
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 133,
+      "profile": "C",
+      "factors": [
+        87,
+        91,
+        97
+      ],
+      "allowed_join": 334188
+    },
+    {
+      "template": 134,
+      "profile": "C",
+      "factors": [
+        87,
+        91,
+        103
+      ],
+      "allowed_join": 334188
+    },
+    {
+      "template": 135,
+      "profile": "C",
+      "factors": [
+        87,
+        91,
+        109
+      ],
+      "allowed_join": 4260456
+    },
+    {
+      "template": 136,
+      "profile": "C",
+      "factors": [
+        87,
+        91,
+        115
+      ],
+      "allowed_join": 3564216
+    },
+    {
+      "template": 137,
+      "profile": "C",
+      "factors": [
+        87,
+        91,
+        117
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 138,
+      "profile": "C",
+      "factors": [
+        87,
+        97,
+        103
+      ],
+      "allowed_join": 334188
+    },
+    {
+      "template": 139,
+      "profile": "C",
+      "factors": [
+        87,
+        97,
+        109
+      ],
+      "allowed_join": 3564216
+    },
+    {
+      "template": 140,
+      "profile": "C",
+      "factors": [
+        87,
+        97,
+        115
+      ],
+      "allowed_join": 3566880
+    },
+    {
+      "template": 141,
+      "profile": "C",
+      "factors": [
+        87,
+        97,
+        117
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 142,
+      "profile": "C",
+      "factors": [
+        87,
+        103,
+        109
+      ],
+      "allowed_join": 3566880
+    },
+    {
+      "template": 143,
+      "profile": "C",
+      "factors": [
+        87,
+        103,
+        115
+      ],
+      "allowed_join": 4260456
+    },
+    {
+      "template": 144,
+      "profile": "C",
+      "factors": [
+        87,
+        103,
+        117
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 145,
+      "profile": "C",
+      "factors": [
+        87,
+        109,
+        115
+      ],
+      "allowed_join": 2770920
+    },
+    {
+      "template": 146,
+      "profile": "C",
+      "factors": [
+        87,
+        109,
+        117
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 147,
+      "profile": "C",
+      "factors": [
+        87,
+        115,
+        117
+      ],
+      "allowed_join": 0
+    },
+    {
+      "template": 148,
+      "profile": "C",
+      "factors": [
+        91,
+        97,
+        103
+      ],
+      "allowed_join": 201912
+    },
+    {
+      "template": 149,
+      "profile": "C",
+      "factors": [
+        91,
+        97,
+        109
+      ],
+      "allowed_join": 3400542
+    },
+    {
+      "template": 150,
+      "profile": "C",
+      "factors": [
+        91,
+        97,
+        115
+      ],
+      "allowed_join": 2823552
+    },
+    {
+      "template": 151,
+      "profile": "C",
+      "factors": [
+        91,
+        97,
+        117
+      ],
+      "allowed_join": 2770920
+    },
+    {
+      "template": 152,
+      "profile": "C",
+      "factors": [
+        91,
+        103,
+        109
+      ],
+      "allowed_join": 3396348
+    },
+    {
+      "template": 153,
+      "profile": "C",
+      "factors": [
+        91,
+        103,
+        115
+      ],
+      "allowed_join": 3400542
+    },
+    {
+      "template": 154,
+      "profile": "C",
+      "factors": [
+        91,
+        103,
+        117
+      ],
+      "allowed_join": 2770920
+    },
+    {
+      "template": 155,
+      "profile": "C",
+      "factors": [
+        91,
+        109,
+        115
+      ],
+      "allowed_join": 3396348
+    },
+    {
+      "template": 156,
+      "profile": "C",
+      "factors": [
+        91,
+        109,
+        117
+      ],
+      "allowed_join": 4260456
+    },
+    {
+      "template": 157,
+      "profile": "C",
+      "factors": [
+        91,
+        115,
+        117
+      ],
+      "allowed_join": 3566880
+    },
+    {
+      "template": 158,
+      "profile": "C",
+      "factors": [
+        97,
+        103,
+        109
+      ],
+      "allowed_join": 2823552
+    },
+    {
+      "template": 159,
+      "profile": "C",
+      "factors": [
+        97,
+        103,
+        115
+      ],
+      "allowed_join": 3396348
+    },
+    {
+      "template": 160,
+      "profile": "C",
+      "factors": [
+        97,
+        103,
+        117
+      ],
+      "allowed_join": 2770920
+    },
+    {
+      "template": 161,
+      "profile": "C",
+      "factors": [
+        97,
+        109,
+        115
+      ],
+      "allowed_join": 2823552
+    },
+    {
+      "template": 162,
+      "profile": "C",
+      "factors": [
+        97,
+        109,
+        117
+      ],
+      "allowed_join": 3566880
+    },
+    {
+      "template": 163,
+      "profile": "C",
+      "factors": [
+        97,
+        115,
+        117
+      ],
+      "allowed_join": 3564216
+    },
+    {
+      "template": 164,
+      "profile": "C",
+      "factors": [
+        103,
+        109,
+        115
+      ],
+      "allowed_join": 3400542
+    },
+    {
+      "template": 165,
+      "profile": "C",
+      "factors": [
+        103,
+        109,
+        117
+      ],
+      "allowed_join": 3564216
+    },
+    {
+      "template": 166,
+      "profile": "C",
+      "factors": [
+        103,
+        115,
+        117
+      ],
+      "allowed_join": 4260456
+    },
+    {
+      "template": 167,
+      "profile": "C",
+      "factors": [
+        109,
+        115,
+        117
+      ],
+      "allowed_join": 334188
+    }
+  ],
+  "full_checked": 2000000,
+  "complete_distance_check": false,
+  "claim": "Exact conservative allowed-join count; untested distances are unknown."
+}
