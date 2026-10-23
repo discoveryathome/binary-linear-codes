@@ -1,0 +1,42 @@
+{
+  "schema": "field-neighborhood-v1",
+  "seed": "4ca1557c95957c68512d1bf14dfd865c",
+  "base": "76267c387538b4fb0e802278530b575bab4d1f76",
+  "degree_three": 13,
+  "factors": [
+    97,
+    109,
+    117
+  ],
+  "parent_scalars": [
+    15,
+    14,
+    8,
+    34,
+    6,
+    60
+  ],
+  "block_rotations": [
+    0,
+    6,
+    5
+  ],
+  "domain_size": 58033,
+  "evaluated": 58033,
+  "target_found": false,
+  "ledger_sha256": "e3ef9ec17e365b9bacf55e25e5559925ebeaed100261836439ba3416edce0640",
+  "compressed_ledger_sha256": "dc9ba78a679498681a8283e65e2cd5782b53b101f4b0ec7de2dd41b07c2220b2",
+  "source_sha256": {
+    "research/4ca1557c95957c68512d1bf14dfd865c/two-generator-189/run_pivot.py": "5aca03e19bd001a025539629f78d1036845c0c924ad9e3017ec3e2eb50aac1dc",
+    "research/4ca1557c95957c68512d1bf14dfd865c/two-generator-189/pivot_model.py": "c1aab7b3ee7affef30efe2810f89d6cdcc81787df1d128c8d89b56762a4e2037",
+    "research/4ca1557c95957c68512d1bf14dfd865c/two-generator-189/pivot-search.cpp": "51123c29db0457c1a48a4a7c18926e56216d5650288e44a0a83a25d832107768",
+    "research/4ca1557c95957c68512d1bf14dfd865c/two-generator-189/model.py": "e2df624ef38537b3d5ce6e07009e03c62106f01ac091f0189bbb66f0e0e73236",
+    "research/4ca1557c95957c68512d1bf14dfd865c/two-generator-189/run_search.py": "6ab6c90e398c59bbe44e496f3bc55db7143dc6cb5acf298305768290b1b9885b",
+    "scripts/codes.py": "2676dec484a9e255996c292c422e2ca71a47ec59dfa05d83b5040fc9e5114f4a",
+    "scripts/large_verify.py": "b8ec3c6525d9eec3cd452f386c7898f73c15a7932e974c3dd1eef0883e69e620",
+    "research/readiness-20261021/certificates/189_22_72.json": "6609e40776c4a1d45a1c042e00ec94f692acaed0e2ed0203b613919a6ad747ab"
+  },
+  "seconds": 9.463721973006614,
+  "evidence_level": "author-checked",
+  "claim": "Complete zero/one/two field-scalar replacement neighborhood only; not unrestricted optimality."
+}

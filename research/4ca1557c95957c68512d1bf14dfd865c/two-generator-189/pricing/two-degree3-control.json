@@ -1,0 +1,21 @@
+{
+  "format": "binary-generator-v1",
+  "q": 2,
+  "n": 21,
+  "k": 6,
+  "d": 8,
+  "rows": [
+    "110000011000001011100",
+    "011000001100000101110",
+    "001100000110000010111",
+    "000110000011001001011",
+    "000011000001101100101",
+    "000001100000111110010"
+  ],
+  "provenance": {
+    "kind": "two-degree-three-constituent-control",
+    "f": 1,
+    "g": 11,
+    "note": "Repeated nine times in length 189; upper bound 72 follows from evenness and Griesmer."
+  }
+}
