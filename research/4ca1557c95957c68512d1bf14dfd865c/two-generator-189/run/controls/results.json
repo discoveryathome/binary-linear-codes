@@ -1,0 +1,58 @@
+[
+  {
+    "name": "published-parent",
+    "k": 22,
+    "d": 72,
+    "minimum_words": 2394,
+    "cpp_seconds": 0.01507739198859781,
+    "matrix_sha256": "014426be2a8af8f713ca56ddd5d34c79ef2fcd7653737d5f0c2f96572603872a"
+  },
+  {
+    "name": "low-B",
+    "k": 4,
+    "d": 84,
+    "minimum_words": 9,
+    "cpp_seconds": 0.003408066986594349,
+    "matrix_sha256": "998df4421112b8efa8e140e65dd882e347b48d12655705f6a378c5b33442092a"
+  },
+  {
+    "name": "one-field-B",
+    "k": 10,
+    "d": 84,
+    "minimum_words": 198,
+    "cpp_seconds": 0.004011459997855127,
+    "matrix_sha256": "8dbad6263cf3a1349aced61cbf1c2d265a2f96cfab0f53b8d7fc5e25f26de687"
+  },
+  {
+    "name": "full-B",
+    "k": 22,
+    "d": 56,
+    "minimum_words": 54,
+    "cpp_seconds": 0.018513732007704675,
+    "matrix_sha256": "3a27f39d7d337f49d1590bf7fd6c62cc55c1828bbc1225ac296371b3f7b5fe82"
+  },
+  {
+    "name": "low-C",
+    "k": 4,
+    "d": 84,
+    "minimum_words": 9,
+    "cpp_seconds": 0.003427101008128375,
+    "matrix_sha256": "e0c715119cb3f23a4e567f5b5b3b09ead73857e1928afcb4076bfa52f4b1090c"
+  },
+  {
+    "name": "one-field-C",
+    "k": 10,
+    "d": 78,
+    "minimum_words": 63,
+    "cpp_seconds": 0.0032764170318841934,
+    "matrix_sha256": "bec0059764db1c988c7b85f504fab337cb62702194cb7a1c59a023c456f8f80c"
+  },
+  {
+    "name": "full-C",
+    "k": 22,
+    "d": 56,
+    "minimum_words": 27,
+    "cpp_seconds": 0.020628909987863153,
+    "matrix_sha256": "c82574de91acd2106ce5c99867675b61972b9fc33c7e46b48bd1bdd8a3a7f60e"
+  }
+]

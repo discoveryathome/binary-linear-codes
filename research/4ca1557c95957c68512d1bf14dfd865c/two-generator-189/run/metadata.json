@@ -1,0 +1,46 @@
+{
+  "schema": "two-generator-search-v1",
+  "seed": "4ca1557c95957c68512d1bf14dfd865c",
+  "seed_payload": "[\"4ca1557c95957c68512d1bf14dfd865c\",\"two-generator-189-round3\"]",
+  "seed64": 4646955593674348274,
+  "base": "76267c387538b4fb0e802278530b575bab4d1f76",
+  "proposal_cap": 199296,
+  "proposals": 199296,
+  "duplicates": 36024,
+  "target": 73,
+  "target_found": false,
+  "certificates": [
+    {
+      "profile": "B",
+      "object": "best-B.json",
+      "d": 70,
+      "minimum_words": 252,
+      "sha256": "2ab29d5919d848cd3c78011bb86a2409867b29c2db0642e1a7a4697ac7e2f4d2"
+    },
+    {
+      "profile": "C",
+      "object": "best-C.json",
+      "d": 70,
+      "minimum_words": 315,
+      "sha256": "3d5f21a5c7568ecbef73b99d6bf4dc510f0ad0ac56b51761ae33f099d1afe79d"
+    }
+  ],
+  "ledger_sha256": "e4ac9db8822ca4304cbc5c2d3daf9c41db87a795b883c338fd9977187c85dcf3",
+  "compressed_ledger_sha256": "bc71a9077d77ff4560522f80c35850be57d41d894c54afad6d67a89bb4c0a20d",
+  "kernel_sha256": "d5fe562deaa6ee1e9a57a32be1381a30bda53c992800d46f2bd333bc80a72056",
+  "compiler_flags": "-O3 -std=c++17 -march=native",
+  "compiler": "c++ (Debian 14.2.0-19) 14.2.0",
+  "source_sha256": {
+    "research/4ca1557c95957c68512d1bf14dfd865c/two-generator-189/run_search.py": "6ab6c90e398c59bbe44e496f3bc55db7143dc6cb5acf298305768290b1b9885b",
+    "research/4ca1557c95957c68512d1bf14dfd865c/two-generator-189/model.py": "e2df624ef38537b3d5ce6e07009e03c62106f01ac091f0189bbb66f0e0e73236",
+    "research/4ca1557c95957c68512d1bf14dfd865c/two-generator-189/search.cpp": "26ce8da4513d651fbe8c2dc0697d613c5a8b2b882b406b30dafd9a1dea1c5e0b",
+    "research/4ca1557c95957c68512d1bf14dfd865c/two-generator-189/price.py": "0229cb7db445b0e0139ea4d4d44c97906a7f7b9cce96607da472cdbcb9ff0c11",
+    "scripts/codes.py": "2676dec484a9e255996c292c422e2ca71a47ec59dfa05d83b5040fc9e5114f4a",
+    "scripts/large_verify.py": "b8ec3c6525d9eec3cd452f386c7898f73c15a7932e974c3dd1eef0883e69e620",
+    "research/readiness-20261021/certificates/189_22_72.json": "6609e40776c4a1d45a1c042e00ec94f692acaed0e2ed0203b613919a6ad747ab"
+  },
+  "python": "3.13.5",
+  "seconds": 179.55907364102313,
+  "evidence_level": "author-checked",
+  "claim": "Bounded tested list only; early rejections are upper bounds, and lower multiplicity is not a distance record."
+}

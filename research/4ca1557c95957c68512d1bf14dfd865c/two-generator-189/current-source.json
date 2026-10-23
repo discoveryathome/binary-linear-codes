@@ -1,0 +1,13 @@
+{
+  "retrieved_on": "2026-10-23",
+  "url": "https://www.codetables.de/BKLC/Tables.php?q=2&n0=189&n1=189&k0=22&k1=22",
+  "sha256": "4d45bc4e4411cc2959470dfaafb694642ba394b14d5593df6072800d2fa3b46a",
+  "n": 189,
+  "k": 22,
+  "table_lower": 71,
+  "table_upper": 81,
+  "displayed_last_change": "30.12.2011",
+  "retained_published_lower": 72,
+  "target": 73,
+  "note": "Extracted parameter facts only; the stronger inherited published witness remains an exclusion. This is not a full literature or freshness audit."
+}
