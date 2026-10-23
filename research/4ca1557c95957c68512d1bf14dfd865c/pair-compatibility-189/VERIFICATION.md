@@ -27,7 +27,32 @@ independent human review. The scientific scope remains explicitly incomplete.
 
 ## Clean-clone reproduction
 
-Pending execution at a frozen checkpoint before the focused PR is published.
+Tested checkpoint: `10c29cbad853573f71dcb0ba203d27e2b865a7a3`, detached in a fresh
+local clone, clean with no custom local hook path. Python 3.13.5, Debian c++ 14.2.0;
+both C++17 binaries were freshly compiled outside the clone with
+`-O3 -std=c++17 -march=native`.
+
+- Full fixed-domain regeneration completed in 572.405 seconds, with all
+  3,143,448 pair choices, 516,240 allowed entries, exactly 2,000,000 full checks,
+  complete=false and no target.
+- Every output except metadata matched byte for byte: both compressed datasets,
+  pair/triple summaries, global summary, all five control matrices and spectra,
+  and control results. Metadata differed only in elapsed seconds. All source,
+  parent/checker and binary hashes agreed.
+- The clean clone's direct replay of the retained data passed in 312.869 seconds,
+  including every pair exclusion, all full prefix assignments/words, cap flags,
+  full control spectra and the complete allowed-join count. Its deterministic
+  report was byte-identical. The newly regenerated datasets are the same bytes;
+  a redundant second replay of those identical bytes was not run.
+- The freshly compiled independent C++ counter reproduced its report byte for byte;
+  every one of 168 counts agreed with the Python report.
+- All 20 tests passed in the clean clone (1.427 seconds wall, 1.267 unittest
+  seconds). Baseline passed 16 targets, 66 certificates and 9 tests (12.562 seconds
+  overall; unit tests 0.970 seconds).
+- All process exit statuses were zero. The clone remained clean. Only this
+  Markdown verification note changed after the tested checkpoint. Full diff
+  whitespace and changed-path checks passed before publication; no accepted or
+  global-verifier files changed.
 
 ## Retained SHA-256 artifacts
 
