@@ -49,7 +49,6 @@ Fitness evaluate(const std::vector<Word>& rows,unsigned cutoff) {
     }
     return best;
 }
-
 using Genome=std::array<unsigned,6>;
 U pack(const Genome& g) { U n=0;for(unsigned i=0;i<6;++i)n|=U(g[i])<<(6*i);return n; }
 std::vector<Word> parent_rows(U three,const std::array<U,3>& factors,const Genome& scalars) {
@@ -121,4 +120,3 @@ int main(int argc,char** argv) {
         return 0;
     }catch(const std::exception& error){std::cerr<<error.what()<<'\n';return 1;}
 }
-

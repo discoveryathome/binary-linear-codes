@@ -24,6 +24,12 @@ review. The structural proof and all claims retain explicit bounded scope.
   survivor, maximum witness 72. Parent normalization has row-space equality after
   rotations [0,6,5], full distance 72 and 2,394 minimum words. Direct replay passed.
 - All 14 corruption/domain/attainment tests passed in 19.191 seconds.
+- A rank-four small-model guard and its failure control were then added, giving
+  the final 15-test set used in clean-clone verification.
+- A whitespace-only pivot-source correction was rebuilt and rerun (9.464 seconds).
+  Its ledger, summary, normalized matrix and spectrum were byte-identical. Only
+  source-hash and timing metadata changed. The earlier source and results remain
+  in checkpoint `7f7369e` for provenance; the retained metadata pins the final source.
 
 ## Clean-clone checks
 

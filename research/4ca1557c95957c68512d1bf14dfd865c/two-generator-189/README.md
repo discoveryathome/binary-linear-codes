@@ -89,7 +89,7 @@ the coordinate-equivalent parent.
 All zero-, one-, and two-scalar replacements by nonzero GF(64) elements were checked:
 `1+6*62+15*62^2=58,033`. Every choice has a saved nonzero word of weight at most 72.
 The parent attains 72, so this finite neighborhood's maximum is exactly 72. No
-target candidate survived. The complete run took 9.217 seconds, including controls
+target candidate survived. The final source-pinned replay took 9.464 seconds, including controls
 and both full parent spectra.
 
 ## Replay and regeneration
