@@ -33,13 +33,48 @@ review. The structural proof and all claims retain explicit bounded scope.
 
 ## Clean-clone checks
 
-The final clean-clone reproduction, tested checkpoint, and artifact hashes are
-recorded below after execution, before publishing the focused PR.
+Tested checkpoint: `33179a730f90e0406b23f4646e63f78b0641d1f4`, checked out
+detached in a new local clone, with a clean working tree and no repository hooks.
+Both C++17 kernels were freshly compiled outside the repository with
+`-O3 -std=c++17 -march=native` (Debian c++ 14.2.0). Python was 3.13.5.
+
+- The complete B/C search regenerated in 184.317 seconds: 199,296 proposals,
+  36,024 duplicates, no target, both best distances 70. Its compressed ledger,
+  summaries, best matrices, spectra, and control matrices were byte-identical.
+- The complete pivot regenerated in 9.959 seconds: all 58,033 choices, no target,
+  maximum 72. Its compressed ledger, summary, normalized parent and spectrum were
+  byte-identical. Both runs' metadata differed only in elapsed seconds.
+- Fresh small-pricing output was byte-identical. The separate checker passed all
+  four finite pricing domains (0.960 seconds including interpreter startup).
+- Direct replay of the regenerated B/C data passed (5.693 seconds wall time),
+  including both attaining full spectra. The regenerated pivot replay passed
+  (2.560 seconds wall time), including parent normalization and attainment.
+- All final 15 failure/domain/attainment tests passed (18.779 seconds). The
+  repository baseline passed: 16 targets, 66 certificates, 9 tests (11.392 seconds
+  overall; unit tests 1.302 seconds). All recorded process exit statuses were zero.
+- The clean clone remained unchanged. `git diff origin/main --check` passed after
+  the whitespace-only correction. Only this Markdown verification record changed
+  after the tested checkpoint before the publication commit.
+
+Retained SHA-256 comparison artifacts:
+
+| Artifact | SHA-256 |
+| --- | --- |
+| B/C `run/ledger.csv.gz` | `bc71a9077d77ff4560522f80c35850be57d41d894c54afad6d67a89bb4c0a20d` |
+| Pivot `pivot/ledger.csv.gz` | `dc9ba78a679498681a8283e65e2cd5782b53b101f4b0ec7de2dd41b07c2220b2` |
+| `pricing/pricing.json` | `002421c26761cf5616af81891ecf4f211d29fb4b6530d55c20fe5cb9c1d0998e` |
+| B best matrix | `2ab29d5919d848cd3c78011bb86a2409867b29c2db0642e1a7a4697ac7e2f4d2` |
+| C best matrix | `3d5f21a5c7568ecbef73b99d6bf4dc510f0ad0ac56b51761ae33f099d1afe79d` |
+
+The source hash maps in both metadata files pin their primary Python/C++ sources,
+the repository's two checkers and the published parent. No compiled binary is
+committed. The intentionally unredistributed paper HTML was not compared to a
+fresh download; its retained provenance remains separate from the live table check.
 
 The verification algorithms do not prove the general CRT deductions automatically;
 the written proof and its exact scope require scientific review. No new record,
 unrestricted optimality or complete prior-art census is claimed.
 
 ```discover
-{"v":0,"kind":"finding","task":"structured-189-22","scope":"Author checks of constituent pricing, all 199296 bounded proposals and the complete 58033-choice parent field neighborhood, with no target candidate","base":"76267c387538b4fb0e802278530b575bab4d1f76","posted_at":"2026-10-23T10:00:29Z","evidence_level":"author-checked","artifact":"research/4ca1557c95957c68512d1bf14dfd865c/two-generator-189/README.md"}
+{"v":0,"kind":"finding","task":"structured-189-22","scope":"Clean-clone regeneration and direct replay of constituent pricing, all 199296 bounded proposals and the complete 58033-choice parent field neighborhood, with no target candidate","base":"76267c387538b4fb0e802278530b575bab4d1f76","posted_at":"2026-10-23T10:33:00Z","evidence_level":"author-checked","artifact":"research/4ca1557c95957c68512d1bf14dfd865c/two-generator-189/README.md"}
 ```
