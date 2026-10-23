@@ -1,0 +1,27 @@
+{
+  "schema": "pair-threshold-pricing-v1",
+  "seed": "4ca1557c95957c68512d1bf14dfd865c",
+  "base": "76267c387538b4fb0e802278530b575bab4d1f76",
+  "threshold": 74,
+  "cases": 72,
+  "maximum_domain": 3143448,
+  "tested": 1335021,
+  "surviving_pairs": 54,
+  "coordinate_controls": 72,
+  "ledger_sha256": "16609242369c991056a87e4fb9e96b6ff4ba8f068c73cb47bfa93f59932ac628",
+  "compressed_ledger_sha256": "4704524e1a5d49b7b24885241f93fb6008355db31bfddb95cd53f86ca5afbb64",
+  "source_sha256": {
+    "research/4ca1557c95957c68512d1bf14dfd865c/pair-pricing-189/run.py": "3ee84bd43ba73f82448a16d8f2369e728f89412dd85b3ddcecb39e4d9f80a9d1",
+    "research/4ca1557c95957c68512d1bf14dfd865c/pair-pricing-189/model.py": "8bed1d210d86b5eb7bffca23ac0592e9c7e2a446d3aa772ebd1bc6845de71698",
+    "research/4ca1557c95957c68512d1bf14dfd865c/pair-pricing-189/threshold.cpp": "a74581e409deb401e98bb72766ad6905deef365d77974dddecb0684e737ce6f6",
+    "scripts/codes.py": "2676dec484a9e255996c292c422e2ca71a47ec59dfa05d83b5040fc9e5114f4a",
+    "scripts/large_verify.py": "b8ec3c6525d9eec3cd452f386c7898f73c15a7932e974c3dd1eef0883e69e620"
+  },
+  "kernel_sha256": "f1dd717a510347eb65976622e945ef0961f5c50284dadb23742cb3ef4be5ea8e",
+  "compiler_flags": "-O3 -std=c++17 -march=native",
+  "compiler": "c++ (Debian 14.2.0-19) 14.2.0",
+  "python": "3.13.5",
+  "seconds": 22.535376910993364,
+  "evidence_level": "author-checked",
+  "claim": "Threshold result for rank-16 subcodes; no full dimension-22 construction or record."
+}
