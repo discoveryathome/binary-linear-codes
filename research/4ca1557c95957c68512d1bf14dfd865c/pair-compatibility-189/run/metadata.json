@@ -1,0 +1,37 @@
+{
+  "schema": "pair-compatibility-v1",
+  "seed": "4ca1557c95957c68512d1bf14dfd865c",
+  "base": "76267c387538b4fb0e802278530b575bab4d1f76",
+  "threshold": 74,
+  "pair_choices": 3143448,
+  "full_cap": 2000000,
+  "coordinate_controls": 240,
+  "spectrum_controls": 5,
+  "source_sha256": {
+    "research/4ca1557c95957c68512d1bf14dfd865c/pair-compatibility-189/run.py": "724ebaab92a42c322531f46ed933214cf72a937e22da7ad5d88aab5e2a45e237",
+    "research/4ca1557c95957c68512d1bf14dfd865c/pair-compatibility-189/model.py": "bf6d4b93d0f266a603f231053a9576c7f2e496dde1f666d3a5bfb551c9169898",
+    "research/4ca1557c95957c68512d1bf14dfd865c/pair-compatibility-189/compatibility.cpp": "d516d3a2941da34351c55923ab45959bd05ac0508caf46a60b93a4ec7ea7d7bd",
+    "scripts/codes.py": "2676dec484a9e255996c292c422e2ca71a47ec59dfa05d83b5040fc9e5114f4a",
+    "scripts/large_verify.py": "b8ec3c6525d9eec3cd452f386c7898f73c15a7932e974c3dd1eef0883e69e620",
+    "research/readiness-20261021/certificates/189_22_72.json": "6609e40776c4a1d45a1c042e00ec94f692acaed0e2ed0203b613919a6ad747ab"
+  },
+  "artifacts": {
+    "pair-witnesses.bin": {
+      "raw_sha256": "5f754614af3dc163691c8191e0c94327e209d34845273a7caa8a90762cfdcc4a",
+      "compressed_sha256": "ee642d6f219fab41e4e889445a22a462f586a6fc4896fa971a0a206899dd37fc",
+      "bytes": 9430344
+    },
+    "full-ledger.csv": {
+      "raw_sha256": "2a0af6c782b7a0fec0864a1fb76d926aa80e22aa5456de9f8405575f51b4e385",
+      "compressed_sha256": "ce9acd8577da1b3931f9f55b8ca5eb95008cd8cd4a1af32a1dd537b87dc2d58b",
+      "bytes": 68838839
+    }
+  },
+  "kernel_sha256": "75acd513a5760200fdf056ea76c39fef4972638a82b9e70d6d30337e55e7632b",
+  "compiler": "c++ (Debian 14.2.0-19) 14.2.0",
+  "compiler_flags": "-O3 -std=c++17 -march=native",
+  "python": "3.13.5",
+  "seconds": 586.1697875100072,
+  "evidence_level": "author-checked",
+  "claim": "Conservative pair constraints; a full B/C exclusion requires a complete negative join."
+}
