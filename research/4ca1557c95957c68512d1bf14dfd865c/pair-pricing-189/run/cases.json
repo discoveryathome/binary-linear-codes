@@ -1,0 +1,1082 @@
+[
+  {
+    "case": 0,
+    "profile": "B",
+    "factors": [
+      67,
+      73
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 35721,
+    "survivor": false
+  },
+  {
+    "case": 1,
+    "profile": "B",
+    "factors": [
+      67,
+      87
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 8023,
+    "survivor": true,
+    "certificate": "certificates/B-43-57.json",
+    "d": 76,
+    "minimum_words": 630,
+    "sha256": "24785e759ad2891d6b98b66ec3188f311762e555a586107d6beedc0ba1373931"
+  },
+  {
+    "case": 2,
+    "profile": "B",
+    "factors": [
+      67,
+      91
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 194,
+    "survivor": true,
+    "certificate": "certificates/B-43-5b.json",
+    "d": 74,
+    "minimum_words": 63,
+    "sha256": "bcba5a0d219e5b142e8e93f26ddfc779d71b3d74ad4db89a476842a61bc2646e"
+  },
+  {
+    "case": 3,
+    "profile": "B",
+    "factors": [
+      67,
+      97
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 6,
+    "survivor": true,
+    "certificate": "certificates/B-43-61.json",
+    "d": 74,
+    "minimum_words": 63,
+    "sha256": "4791e3307883c01e846e78101d41c8f5e4c6221c5566ec36a6b5d96b4e1f3a24"
+  },
+  {
+    "case": 4,
+    "profile": "B",
+    "factors": [
+      67,
+      103
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 196,
+    "survivor": true,
+    "certificate": "certificates/B-43-67.json",
+    "d": 74,
+    "minimum_words": 63,
+    "sha256": "ebe25cb3015d541e60ea3a3d9d68303e07c0ec43f3a477b737134a48409f718d"
+  },
+  {
+    "case": 5,
+    "profile": "B",
+    "factors": [
+      67,
+      109
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 192,
+    "survivor": true,
+    "certificate": "certificates/B-43-6d.json",
+    "d": 76,
+    "minimum_words": 693,
+    "sha256": "1e65a712e01f71a0eb790e541198feb1d5ba02a8a8c1442f9dce70d8eeaa60b1"
+  },
+  {
+    "case": 6,
+    "profile": "B",
+    "factors": [
+      67,
+      115
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 192,
+    "survivor": true,
+    "certificate": "certificates/B-43-73.json",
+    "d": 76,
+    "minimum_words": 630,
+    "sha256": "e2b44550c54a0bddf9ecd60abec070052a5306f003378041fd10c99b65b497ed"
+  },
+  {
+    "case": 7,
+    "profile": "B",
+    "factors": [
+      67,
+      117
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 8023,
+    "survivor": true,
+    "certificate": "certificates/B-43-75.json",
+    "d": 76,
+    "minimum_words": 252,
+    "sha256": "e1306f5caba834e7aa0e395d0aeb2febaad8f866e30ebffdfe642569299de3b6"
+  },
+  {
+    "case": 8,
+    "profile": "B",
+    "factors": [
+      73,
+      87
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 35721,
+    "survivor": false
+  },
+  {
+    "case": 9,
+    "profile": "B",
+    "factors": [
+      73,
+      91
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 35721,
+    "survivor": false
+  },
+  {
+    "case": 10,
+    "profile": "B",
+    "factors": [
+      73,
+      97
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 35721,
+    "survivor": false
+  },
+  {
+    "case": 11,
+    "profile": "B",
+    "factors": [
+      73,
+      103
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 35721,
+    "survivor": false
+  },
+  {
+    "case": 12,
+    "profile": "B",
+    "factors": [
+      73,
+      109
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 35721,
+    "survivor": false
+  },
+  {
+    "case": 13,
+    "profile": "B",
+    "factors": [
+      73,
+      115
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 35721,
+    "survivor": false
+  },
+  {
+    "case": 14,
+    "profile": "B",
+    "factors": [
+      73,
+      117
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 35721,
+    "survivor": false
+  },
+  {
+    "case": 15,
+    "profile": "B",
+    "factors": [
+      87,
+      91
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 383,
+    "survivor": true,
+    "certificate": "certificates/B-57-5b.json",
+    "d": 76,
+    "minimum_words": 126,
+    "sha256": "1ca31f58facb261a32297d44734cca217a3b8107f723be5d935c3de1eb5f8441"
+  },
+  {
+    "case": 16,
+    "profile": "B",
+    "factors": [
+      87,
+      97
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 383,
+    "survivor": true,
+    "certificate": "certificates/B-57-61.json",
+    "d": 76,
+    "minimum_words": 126,
+    "sha256": "9a19413e6a0835c982211903e781a9dccb71756c91ca8334dfe87384503c83ae"
+  },
+  {
+    "case": 17,
+    "profile": "B",
+    "factors": [
+      87,
+      103
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 383,
+    "survivor": true,
+    "certificate": "certificates/B-57-67.json",
+    "d": 76,
+    "minimum_words": 126,
+    "sha256": "c01ec76a8e02421bf7d10b9e17d3b176f400e4c80152221bbf5f313b5e5c758f"
+  },
+  {
+    "case": 18,
+    "profile": "B",
+    "factors": [
+      87,
+      109
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 383,
+    "survivor": true,
+    "certificate": "certificates/B-57-6d.json",
+    "d": 76,
+    "minimum_words": 630,
+    "sha256": "7ce37fb07503e3e7fda9a841fd0cef81f643023d2a67362d21201413ff2ec7a5"
+  },
+  {
+    "case": 19,
+    "profile": "B",
+    "factors": [
+      87,
+      115
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 383,
+    "survivor": true,
+    "certificate": "certificates/B-57-73.json",
+    "d": 76,
+    "minimum_words": 630,
+    "sha256": "5229f2caa4f765625ececf82d92f3fcc35d3005621b49ff22271e63ede5fbf61"
+  },
+  {
+    "case": 20,
+    "profile": "B",
+    "factors": [
+      87,
+      117
+    ],
+    "orbit_representatives": 567,
+    "domain": 321489,
+    "tested": 321489,
+    "survivor": false
+  },
+  {
+    "case": 21,
+    "profile": "B",
+    "factors": [
+      91,
+      97
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 192,
+    "survivor": true,
+    "certificate": "certificates/B-5b-61.json",
+    "d": 76,
+    "minimum_words": 504,
+    "sha256": "b16ece16c7fd0e926ff92001c588600eb41ddad39309c453e291398962e3062d"
+  },
+  {
+    "case": 22,
+    "profile": "B",
+    "factors": [
+      91,
+      103
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 192,
+    "survivor": true,
+    "certificate": "certificates/B-5b-67.json",
+    "d": 76,
+    "minimum_words": 504,
+    "sha256": "1eb81e04c9a538763c5f1b6ba3948258231d2d41a9873c91b2e8570b57329720"
+  },
+  {
+    "case": 23,
+    "profile": "B",
+    "factors": [
+      91,
+      109
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 2,
+    "survivor": true,
+    "certificate": "certificates/B-5b-6d.json",
+    "d": 74,
+    "minimum_words": 126,
+    "sha256": "4c1e48848803f8a56173b24c081d1441b611c46d1c90d658b0ee93449591371b"
+  },
+  {
+    "case": 24,
+    "profile": "B",
+    "factors": [
+      91,
+      115
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 195,
+    "survivor": true,
+    "certificate": "certificates/B-5b-73.json",
+    "d": 74,
+    "minimum_words": 63,
+    "sha256": "f12e7ada2e8509b5dbc4c9061ef2929807bf781e5e376112dd91fb0a9d7be35f"
+  },
+  {
+    "case": 25,
+    "profile": "B",
+    "factors": [
+      91,
+      117
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 8023,
+    "survivor": true,
+    "certificate": "certificates/B-5b-75.json",
+    "d": 76,
+    "minimum_words": 315,
+    "sha256": "88faf0731a31ca94ad6763044ca7f648fb7662a758da75c5c3a0da633a8b08dd"
+  },
+  {
+    "case": 26,
+    "profile": "B",
+    "factors": [
+      97,
+      103
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 192,
+    "survivor": true,
+    "certificate": "certificates/B-61-67.json",
+    "d": 76,
+    "minimum_words": 630,
+    "sha256": "be24cc6c58ff0ee4b14ce5d6a29ba2d9542b87a4552aab07f3469619b2a4655f"
+  },
+  {
+    "case": 27,
+    "profile": "B",
+    "factors": [
+      97,
+      109
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 195,
+    "survivor": true,
+    "certificate": "certificates/B-61-6d.json",
+    "d": 74,
+    "minimum_words": 126,
+    "sha256": "b09eebcbfac0e46a49035835045ea912e84d1373cce3c910f0649d9cbea10f2a"
+  },
+  {
+    "case": 28,
+    "profile": "B",
+    "factors": [
+      97,
+      115
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 194,
+    "survivor": true,
+    "certificate": "certificates/B-61-73.json",
+    "d": 76,
+    "minimum_words": 252,
+    "sha256": "0394f000f651aae2f25199e3cea7c75e1d4b531fde899e8bdd26721cc36da4b6"
+  },
+  {
+    "case": 29,
+    "profile": "B",
+    "factors": [
+      97,
+      117
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 8023,
+    "survivor": true,
+    "certificate": "certificates/B-61-75.json",
+    "d": 76,
+    "minimum_words": 315,
+    "sha256": "f90460280e366bdaad81f13e039318cf797212d9a729270f3a6ae6e7d04e8361"
+  },
+  {
+    "case": 30,
+    "profile": "B",
+    "factors": [
+      103,
+      109
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 193,
+    "survivor": true,
+    "certificate": "certificates/B-67-6d.json",
+    "d": 76,
+    "minimum_words": 315,
+    "sha256": "d096a2209b0780f9924b16a5825bd1cd1446ca621efd84e08c8eb328b7a4ede0"
+  },
+  {
+    "case": 31,
+    "profile": "B",
+    "factors": [
+      103,
+      115
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 8,
+    "survivor": true,
+    "certificate": "certificates/B-67-73.json",
+    "d": 74,
+    "minimum_words": 252,
+    "sha256": "29e15265e20e430b9fb053a962228def8877484e06811c8d02bcf86a15ec95c7"
+  },
+  {
+    "case": 32,
+    "profile": "B",
+    "factors": [
+      103,
+      117
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 8023,
+    "survivor": true,
+    "certificate": "certificates/B-67-75.json",
+    "d": 76,
+    "minimum_words": 315,
+    "sha256": "7c6bfb8bf2e518e8e6a51fa8efcf3e132ced7949176fe920eaf402ade610e088"
+  },
+  {
+    "case": 33,
+    "profile": "B",
+    "factors": [
+      109,
+      115
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 192,
+    "survivor": true,
+    "certificate": "certificates/B-6d-73.json",
+    "d": 76,
+    "minimum_words": 504,
+    "sha256": "d486ee39df3000e486013d63fb17808d902a93535dcc7f251c1404dc64b1156f"
+  },
+  {
+    "case": 34,
+    "profile": "B",
+    "factors": [
+      109,
+      117
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 8023,
+    "survivor": true,
+    "certificate": "certificates/B-6d-75.json",
+    "d": 76,
+    "minimum_words": 252,
+    "sha256": "e159efd6b6877691934b4e7023e05a1acf1507857bd348029d84f0359b1f422c"
+  },
+  {
+    "case": 35,
+    "profile": "B",
+    "factors": [
+      115,
+      117
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 8023,
+    "survivor": true,
+    "certificate": "certificates/B-73-75.json",
+    "d": 76,
+    "minimum_words": 252,
+    "sha256": "adb3f34601a2377380977a07061eb3431d85edb884ed38312a383cf76ec343d2"
+  },
+  {
+    "case": 36,
+    "profile": "C",
+    "factors": [
+      67,
+      73
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 35721,
+    "survivor": false
+  },
+  {
+    "case": 37,
+    "profile": "C",
+    "factors": [
+      67,
+      87
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 8023,
+    "survivor": true,
+    "certificate": "certificates/C-43-57.json",
+    "d": 76,
+    "minimum_words": 189,
+    "sha256": "4e2d7d8f5c043024b7fbeec40ca5de5a99a1abb15d403b1c4b387145a3c0f461"
+  },
+  {
+    "case": 38,
+    "profile": "C",
+    "factors": [
+      67,
+      91
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 58,
+    "survivor": true,
+    "certificate": "certificates/C-43-5b.json",
+    "d": 74,
+    "minimum_words": 63,
+    "sha256": "038e27bf33d542de7a565a97e6439cc5c4a10510c9252a47f500165adde4c82e"
+  },
+  {
+    "case": 39,
+    "profile": "C",
+    "factors": [
+      67,
+      97
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 192,
+    "survivor": true,
+    "certificate": "certificates/C-43-61.json",
+    "d": 76,
+    "minimum_words": 252,
+    "sha256": "5852f4be6b1090b4ceae977d7160a9e4d74d7582d969c1e3f3f0a3c8c3e9f2f3"
+  },
+  {
+    "case": 40,
+    "profile": "C",
+    "factors": [
+      67,
+      103
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 58,
+    "survivor": true,
+    "certificate": "certificates/C-43-67.json",
+    "d": 74,
+    "minimum_words": 63,
+    "sha256": "7b19a17b3c04b04454864421d30763bf07c3679e3fdd0a722928d1b8bed88bf5"
+  },
+  {
+    "case": 41,
+    "profile": "C",
+    "factors": [
+      67,
+      109
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 192,
+    "survivor": true,
+    "certificate": "certificates/C-43-6d.json",
+    "d": 76,
+    "minimum_words": 693,
+    "sha256": "7b34d3c73d49e40a99376fec0f6e2209db5ba736bb5f355ffa08485f5d8c94e7"
+  },
+  {
+    "case": 42,
+    "profile": "C",
+    "factors": [
+      67,
+      115
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 192,
+    "survivor": true,
+    "certificate": "certificates/C-43-73.json",
+    "d": 76,
+    "minimum_words": 567,
+    "sha256": "21b742d630bdeadef8d358543430cbfeab6e925153ee66707bbe76c6b688c891"
+  },
+  {
+    "case": 43,
+    "profile": "C",
+    "factors": [
+      67,
+      117
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 8023,
+    "survivor": true,
+    "certificate": "certificates/C-43-75.json",
+    "d": 76,
+    "minimum_words": 315,
+    "sha256": "90484f752b1cccd6a9cc4a4407eec625940a9aa3634348460a20ec69bcdcc029"
+  },
+  {
+    "case": 44,
+    "profile": "C",
+    "factors": [
+      73,
+      87
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 35721,
+    "survivor": false
+  },
+  {
+    "case": 45,
+    "profile": "C",
+    "factors": [
+      73,
+      91
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 35721,
+    "survivor": false
+  },
+  {
+    "case": 46,
+    "profile": "C",
+    "factors": [
+      73,
+      97
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 35721,
+    "survivor": false
+  },
+  {
+    "case": 47,
+    "profile": "C",
+    "factors": [
+      73,
+      103
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 35721,
+    "survivor": false
+  },
+  {
+    "case": 48,
+    "profile": "C",
+    "factors": [
+      73,
+      109
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 35721,
+    "survivor": false
+  },
+  {
+    "case": 49,
+    "profile": "C",
+    "factors": [
+      73,
+      115
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 35721,
+    "survivor": false
+  },
+  {
+    "case": 50,
+    "profile": "C",
+    "factors": [
+      73,
+      117
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 35721,
+    "survivor": false
+  },
+  {
+    "case": 51,
+    "profile": "C",
+    "factors": [
+      87,
+      91
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 385,
+    "survivor": true,
+    "certificate": "certificates/C-57-5b.json",
+    "d": 76,
+    "minimum_words": 378,
+    "sha256": "22abbae0916ab008134d7112ac08a5f236dd15b730d2683446eb3fb392af14e4"
+  },
+  {
+    "case": 52,
+    "profile": "C",
+    "factors": [
+      87,
+      97
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 385,
+    "survivor": true,
+    "certificate": "certificates/C-57-61.json",
+    "d": 76,
+    "minimum_words": 378,
+    "sha256": "3d3bd26817b574ec1767d03da0b0347e569c6254f61d86a498b5acc42389ef97"
+  },
+  {
+    "case": 53,
+    "profile": "C",
+    "factors": [
+      87,
+      103
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 385,
+    "survivor": true,
+    "certificate": "certificates/C-57-67.json",
+    "d": 76,
+    "minimum_words": 378,
+    "sha256": "c1389df7511f2478025566959ad886a697ad74129349d8c1dfc69d8f306b7330"
+  },
+  {
+    "case": 54,
+    "profile": "C",
+    "factors": [
+      87,
+      109
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 383,
+    "survivor": true,
+    "certificate": "certificates/C-57-6d.json",
+    "d": 76,
+    "minimum_words": 189,
+    "sha256": "a1be0304fbd24f5e3e2e8241609e393324ea7f0e48fd4596551790409b92a856"
+  },
+  {
+    "case": 55,
+    "profile": "C",
+    "factors": [
+      87,
+      115
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 383,
+    "survivor": true,
+    "certificate": "certificates/C-57-73.json",
+    "d": 76,
+    "minimum_words": 189,
+    "sha256": "ea6e717b7f78af6b0a29f9eea902eaaa4608651bb3117e63e52ddc8da810cae8"
+  },
+  {
+    "case": 56,
+    "profile": "C",
+    "factors": [
+      87,
+      117
+    ],
+    "orbit_representatives": 567,
+    "domain": 321489,
+    "tested": 321489,
+    "survivor": false
+  },
+  {
+    "case": 57,
+    "profile": "C",
+    "factors": [
+      91,
+      97
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 192,
+    "survivor": true,
+    "certificate": "certificates/C-5b-61.json",
+    "d": 76,
+    "minimum_words": 567,
+    "sha256": "e710340d07c27963a1fca4618ad3da125813a23fec9d78a3ae0f47d30b8456a5"
+  },
+  {
+    "case": 58,
+    "profile": "C",
+    "factors": [
+      91,
+      103
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 192,
+    "survivor": true,
+    "certificate": "certificates/C-5b-67.json",
+    "d": 76,
+    "minimum_words": 504,
+    "sha256": "aa4b9dfd06eaf80440655474a52811849b0e8d3f2c89fccb7510149ff98115e0"
+  },
+  {
+    "case": 59,
+    "profile": "C",
+    "factors": [
+      91,
+      109
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 192,
+    "survivor": true,
+    "certificate": "certificates/C-5b-6d.json",
+    "d": 76,
+    "minimum_words": 189,
+    "sha256": "57d78bada60505ce01df006d47e7b9c94d9cde0f0ca4a817d9f9917ba47466f2"
+  },
+  {
+    "case": 60,
+    "profile": "C",
+    "factors": [
+      91,
+      115
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 14,
+    "survivor": true,
+    "certificate": "certificates/C-5b-73.json",
+    "d": 74,
+    "minimum_words": 63,
+    "sha256": "30a0743a6ef604858f41e3e4db957b8bdff33ff6af12d170247e2017876bec99"
+  },
+  {
+    "case": 61,
+    "profile": "C",
+    "factors": [
+      91,
+      117
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 8023,
+    "survivor": true,
+    "certificate": "certificates/C-5b-75.json",
+    "d": 76,
+    "minimum_words": 504,
+    "sha256": "443bb7034269874005e9701717e4321aea5f26a68287089e90aab55f1817e7ad"
+  },
+  {
+    "case": 62,
+    "profile": "C",
+    "factors": [
+      97,
+      103
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 192,
+    "survivor": true,
+    "certificate": "certificates/C-61-67.json",
+    "d": 76,
+    "minimum_words": 567,
+    "sha256": "7d10252c4f104c6807ffe475d44d3e23c6728ab996c22031fede283393a1c4ed"
+  },
+  {
+    "case": 63,
+    "profile": "C",
+    "factors": [
+      97,
+      109
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 56,
+    "survivor": true,
+    "certificate": "certificates/C-61-6d.json",
+    "d": 74,
+    "minimum_words": 63,
+    "sha256": "cba1c84b0c25a2dd26a1ae179705c1e3053af542e8fe847ee2b7c9616c2f9642"
+  },
+  {
+    "case": 64,
+    "profile": "C",
+    "factors": [
+      97,
+      115
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 56,
+    "survivor": true,
+    "certificate": "certificates/C-61-73.json",
+    "d": 74,
+    "minimum_words": 63,
+    "sha256": "c966e0c84eba49eb0f77b1bb938723289054366bcb590bd5926a363aa32a7331"
+  },
+  {
+    "case": 65,
+    "profile": "C",
+    "factors": [
+      97,
+      117
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 8023,
+    "survivor": true,
+    "certificate": "certificates/C-61-75.json",
+    "d": 76,
+    "minimum_words": 504,
+    "sha256": "4284ba77d7bf4799e95bb7eee4a8fc3374b1b707feef6f14ffc76f8cd304ee7d"
+  },
+  {
+    "case": 66,
+    "profile": "C",
+    "factors": [
+      103,
+      109
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 44,
+    "survivor": true,
+    "certificate": "certificates/C-67-6d.json",
+    "d": 74,
+    "minimum_words": 63,
+    "sha256": "80fc0890dde710b29dae7b5ec43d41c8afc78e21ec39b469e65905d28f46d72c"
+  },
+  {
+    "case": 67,
+    "profile": "C",
+    "factors": [
+      103,
+      115
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 192,
+    "survivor": true,
+    "certificate": "certificates/C-67-73.json",
+    "d": 76,
+    "minimum_words": 252,
+    "sha256": "da1c03d4d043e665608ebee1f789e063cdb522a1bc405b576c73ea3aa114692d"
+  },
+  {
+    "case": 68,
+    "profile": "C",
+    "factors": [
+      103,
+      117
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 8023,
+    "survivor": true,
+    "certificate": "certificates/C-67-75.json",
+    "d": 76,
+    "minimum_words": 504,
+    "sha256": "19622714f913423b299794a502a98acc6562ae55fc8bb801758d311fab0d993c"
+  },
+  {
+    "case": 69,
+    "profile": "C",
+    "factors": [
+      109,
+      115
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 192,
+    "survivor": true,
+    "certificate": "certificates/C-6d-73.json",
+    "d": 76,
+    "minimum_words": 504,
+    "sha256": "a2e1c6b4529dc9b237fb85cd3e6f5ea6b39381c3c70004d69b352870f44cc075"
+  },
+  {
+    "case": 70,
+    "profile": "C",
+    "factors": [
+      109,
+      117
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 8023,
+    "survivor": true,
+    "certificate": "certificates/C-6d-75.json",
+    "d": 76,
+    "minimum_words": 315,
+    "sha256": "8291f38002d401024d49181e92b51deb4794c1001b04b3f34febaeacf7e67e8c"
+  },
+  {
+    "case": 71,
+    "profile": "C",
+    "factors": [
+      115,
+      117
+    ],
+    "orbit_representatives": 189,
+    "domain": 35721,
+    "tested": 8023,
+    "survivor": true,
+    "certificate": "certificates/C-73-75.json",
+    "d": 76,
+    "minimum_words": 315,
+    "sha256": "9c51e5198e42a0643839e4b9881173b4e92c202f353beb81d81b7ddba25db494"
+  }
+]
